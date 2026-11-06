@@ -1,0 +1,165 @@
+{
+ "protocol": "TU4-JU",
+ "session": "S13",
+ "label": "test științific în curs; nu este sfat de joc",
+ "positive_claims_allowed": false,
+ "game": "joker",
+ "target_date": "2026-11-05",
+ "status": "DECONTAT",
+ "reason": "înregistrarea regulată unică",
+ "decided_utc": "2026-11-05T18:31:11.993932Z",
+ "test_mode": false,
+ "emission": {
+  "file": "emisii/joker/2026-11-05.json",
+  "sha256": "82c7518054cce87a04c18e6c6ef45f608c22b35b58a1d62b7227ae54d397e2cf",
+  "lant_i": 8,
+  "chain_index": 2,
+  "emitted_utc": "2026-11-03T12:23:42.754677Z",
+  "cutoff_utc": "2026-11-05T14:00:00.000000Z",
+  "draw_utc": "2026-11-05T16:30:00.000000Z"
+ },
+ "admissibility": {
+  "A1_cronologie": true,
+  "A2_calendar": true,
+  "A3_metadate": true,
+  "A4_cod": true,
+  "A5_arhiva_anterioara": true,
+  "A6_blocuri": true
+ },
+ "n_regular_records": 1,
+ "archive": {
+  "version_dir": "versiuni/1d19f498cd45",
+  "database_sha256": "1d19f498cd45100716884516dadf10be1c2e3c514076b832e6c738f7ca76421e",
+  "current_live_sha256": "d4c4475346b20af6039dc5cbf806d47d972d237413b280f0d8abc4c4cf852782",
+  "manifest_sha256": "de4b447a8e5f4a5573334674dfe2053a3c115dbaad653a0171410b7e4802084d",
+  "file": "tu3/date/live/versiuni/1d19f498cd45/extrageri_joker.jsonl",
+  "sha256": "05d3bb7e50e7ab3b7468f4a25146188aad318d1e814707d0f4eef677cb0fa48a",
+  "records": 2205
+ },
+ "record": {
+  "draw_key": "joker:2026-11-05:7-30-34-39-44:J13",
+  "canonical": {
+   "game": "joker",
+   "draw_date": "2026-11-05",
+   "draw_kind": "regular",
+   "numbers": [
+    7,
+    30,
+    34,
+    39,
+    44
+   ],
+   "joker": 13
+  },
+  "has_source_disagreement": false,
+  "verification": "official_and_secondary"
+ },
+ "draw": {
+  "numbers": [
+   7,
+   30,
+   34,
+   39,
+   44
+  ],
+  "joker": 13
+ },
+ "models": {
+  "H1": {
+   "bet_active_main": true,
+   "bet_active_ball": false,
+   "ln_e_main": -0.03523908136357612,
+   "ln_e_ball": 0.0,
+   "ln_e": -0.03523908136357612,
+   "counted": true
+  },
+  "H3": {
+   "bet_active_main": true,
+   "bet_active_ball": true,
+   "ln_e_main": -0.045678266567867,
+   "ln_e_ball": -0.05066295189870118,
+   "ln_e": -0.09634121846656818,
+   "counted": true
+  }
+ },
+ "streams_before": {
+  "H1_joker": {
+   "state": "EXPLORARE",
+   "lnE": 0.015161912950189205,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  },
+  "H3_joker": {
+   "state": "EXPLORARE",
+   "lnE": -0.06635517806745383,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  }
+ },
+ "streams_after": {
+  "H1_joker": {
+   "state": "EXPLORARE",
+   "lnE": -0.020077168413386914,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  },
+  "H3_joker": {
+   "state": "EXPLORARE",
+   "lnE": -0.16269639653402201,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  }
+ },
+ "thresholds": {
+  "explore_ln": 6.396929655216146,
+  "confirm_ln": 2.995732273553991,
+  "retire_ln": -10.0,
+  "M": 6
+ },
+ "gpu_mirror": {
+  "device": "cuda",
+  "compile_status": {
+   "49_6": "compiled:max-autotune-no-cudagraphs:fullgraph",
+   "45_5": "compiled:max-autotune-no-cudagraphs:fullgraph",
+   "20_1": "compiled:max-autotune-no-cudagraphs:fullgraph"
+  },
+  "per_block": {
+   "H1_main": {
+    "ln_e_gpu": -0.03523908136357612,
+    "abs_diff": 0.0,
+    "pass": true
+   },
+   "H1_ball": {
+    "ln_e_gpu": 0.0,
+    "abs_diff": 0.0,
+    "pass": true
+   },
+   "H3_main": {
+    "ln_e_gpu": -0.045678266567867,
+    "abs_diff": 0.0,
+    "pass": true
+   },
+   "H3_ball": {
+    "ln_e_gpu": -0.05066295189870118,
+    "abs_diff": 0.0,
+    "pass": true
+   }
+  },
+  "pass": true,
+  "seconds": 3.489
+ },
+ "corroboration": {
+  "ssd_journal_mirrored_utc": "2026-11-03T12:23:42.758450Z",
+  "observed_by_judge_before_draw": true
+ },
+ "code": {
+  "judecator_sha256": "8117e8a37c1ee82dbc0a10f8ba0b2506a2d62641cff9216297108e2882df868b",
+  "ju_protocol_sha256": "85dad3122a7dc93facfd28967593cb4eb3d1a594f1d917f5d228a684aa551e99",
+  "ju_seal_sha256": "5dcc0a4252acf9d504b5bbc11e13816595638839628d53349fd9c08082533093",
+  "ju_code_seal_sha256": "d6773b7208628a3d6e71b6ad8325434dd0d441d84be8cbe2f276b6d80141ba6a"
+ }
+}

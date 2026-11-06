@@ -1,0 +1,17 @@
+{
+  "protocol": "xi/PROTOCOL_XI_C1.md",
+  "protocol_sha256": "63813dcdb8a871ac4fc7d30033f0f74ea807179dd5d3e9c8163a8d11f7c82112",
+  "plan": "xi/PLAN_V11_QL_XI.md",
+  "plan_sha256": "2fb304f4169074f1fba032e90fa9561fc7b72e8561b9b14d1ba5ae4c522bfc88",
+  "c4_simulator_sha256": "c8ff356aebc1af15011427991c27226d1251e1c4fff6743ec6c5c67992df89f4",
+  "c4_protocol_sha256": "e139bc188c972c6020a13f6363b1a08fc39b87d72dd527d1a7c9c1d14cdcd1c4",
+  "c4_amendament_sha256": "378856677adcf2078324171d2c4b1da9d976118078ac41c5c48d4c1ce8b4b038",
+  "ceiling_sha256": "29f6451950ef9bae83e705340d1dce883fd2bf855881dfd084ca03fab74ca2c9",
+  "sealed_utc": "2026-10-29T23:00:12Z",
+  "code_files_present": [],
+  "code_files_planned": [
+    "xi/c1/*"
+  ],
+  "note": "sigilat inainte de codul C1",
+  "positive_claims_allowed": false
+}

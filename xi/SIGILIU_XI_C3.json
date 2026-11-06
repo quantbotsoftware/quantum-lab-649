@@ -1,0 +1,10 @@
+{
+  "protocol": "xi/PROTOCOL_XI_C3.md",
+  "sha256": "7cfa9680d5dbb1fb99f24aa086b9af18c69a7436b8128474be676c717e0399e0",
+  "sealed_utc": "2026-10-31T11:53:09Z",
+  "database_sha256": "9942abfc25282a715cba70e4f6d17a885a467eaf5fe0440838dc28114003c078",
+  "code_files_present": [],
+  "code_files_planned": ["xi/c3/portofoliu.py"],
+  "note": "sigilat inainte de codul C3 si de orice calcul C3",
+  "positive_claims_allowed": false
+}

@@ -1,0 +1,62 @@
+{
+  "protocol": "HSV4-UI",
+  "file": "PROTOCOL_HSV4_UI.md",
+  "sha256": "dc0ae3e70273d478d450a5e86f41e096f1caf5a681b860d819c39cfba1bee4a3",
+  "bytes": 8004,
+  "parent_seal": {
+    "file": "hs_v4/SIGILIU_PROTOCOL_HSV4.json",
+    "sha256": "bdaef56ea4695f23faf2444cdbdde7839053cd227d0884001d95ba5639c754c9"
+  },
+  "replacement_mechanism": "inlocuiri_tu3/v1",
+  "replaceable": {
+    "tu3/ui_tu3.py": "e702b243988c36109d016c3d99187270a90afb086c2dfabc3e1dfedeaeac1946",
+    "tests/test_scor_real.py": "d4f7821cffdb1a8796d8a884d2121ea747c1ca360d7979a9ff0e4bc40ba552fa"
+  },
+  "replacement_record_prefix": "INLOCUIRE_HSV4_UI_",
+  "insertions": {
+    "P1": "tu3/ui_tu3.py în sidebar_selector(): hsv4_on = hsv4_sidebar_switch()",
+    "P2": "tu3/ui_tu3.py în sidebar_selector() după if tu4_on și înainte de if plv3_on: if hsv4_on: hsv4_on_mode_and_render(mode); st.stop()",
+    "P3": "tu3/ui_tu3.py înainte de blocul # TU4-UI (S14;): blocul de delegare # HSV4-UI",
+    "P4": "tests/test_scor_real.py în test_W11_seal_frozen_imports: valid_r += înregistrările hs_v4/SIGILIU_HSV4_UI.json"
+  },
+  "code_files_present": [],
+  "results_present": false,
+  "positive_claims_allowed": false,
+  "sealed_utc": "2026-11-02T03:31:50Z",
+  "frozen_hashes": {
+    "app.py": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47",
+    "engine.py": "1da9be4e05bcefe401c299b6e6cd0ca7e4d6057939756057822cb43c951cb2ae",
+    "parser.py": "219e5d2085a72e960583830a6acd009e376f01079381ad0e09824fd200ee8968",
+    "validare.py": "01085209db81b14e9c0ef2bc9b7120752cd34b890330e3741e20beede2a89a97",
+    "tu3/parser_multi.py": "4c4b0f34cdac96e8b590649113d8db4331a1c6cdfa6169bb8b3017bdb92aef2a",
+    "tu3/motor_n.py": "28e8eede1de49070da90291c3734c64a8389551167b0649f396e68bbd98add17",
+    "tu3/motor_joker.py": "95960c26897b9dbbb7468469e1081e3f55683c99964af949b477b2c0c524fedb",
+    "tu3/matrice_init.py": "e657024205e31fadcaeba5959e3634d87852b16862820d9fd0307dfc6ec727fc",
+    "tu3/inlocuiri_tu3.py": "6badda1707339e51cff46ebbab21371686eb454bb8fb578e7879bc49f9ac1167",
+    "pl_v3/__init__.py": "6086eec5f3b12b6687c437ef44ae3d215d81ea4982efe651b7044ab30e12b2a7",
+    "pl_v3/PROTOCOL_PLV3.md": "3ce6aa2738fc38dd41aa9f48a9112613ee59d8ae20662c9d159a9ef9d367d84b",
+    "pl_v3/SIGILIU_PROTOCOL_PLV3.json": "51115ecfccaf424bf69a44a333aa3b7ad2604aa6a6c585e28e317008a2705dfe",
+    "pl_v3/PROTOCOL_PLV3_UI.md": "95d329518b018023aa44d0cdf12c505791e61a488434972d9eb1712920b52e65",
+    "pl_v3/SIGILIU_PLV3_UI.json": "049dfef5d6c808861f5f8453bf52b088934e7ecb1795eb07689b119076c8d4a5",
+    "pl_v3/core.py": "3d6132b4795b324fbf15a9ba0f2728099e2c013531925160255ac9a40ce1915d",
+    "pl_v3/verify_q.py": "551df9f205d12e362eee31104c84620ec2bdf3eca8e3fd55172bf5c22cd924ca",
+    "pl_v3/walkforward.py": "5b94c264650815c3ecd919306482f6977dbf43021cd1d3e1ecbfd35d729b7043",
+    "pl_v3/ui_pl_v3.py": "fe83b6886827684c9a8ea454bd7cdeae7f391389249339bb26a4edb0f3a3e821",
+    "hs_v4/__init__.py": "8aba85e1c316f30f8b412d944ddf04f0e2cf556bdeaa2aed5ab1e6edb927ba92",
+    "hs_v4/PROTOCOL_HSV4.md": "0cd13393b3b8e43ef203800b9670d1786420c49416881261e0457602f963820b",
+    "hs_v4/SIGILIU_PROTOCOL_HSV4.json": "bdaef56ea4695f23faf2444cdbdde7839053cd227d0884001d95ba5639c754c9",
+    "hs_v4/date_meteo/PROVENIENTA_METEO.json": "c263eb1195506eb39c935e9d02462d761393729a33574cd4758b12005f3a903f",
+    "hs_v4/date_meteo/bucuresti_era5_18h.jsonl": "5c1f5196814e3074e599566dd5a94afe42f3696a974cae5a0a7ff614f595befe",
+    "hs_v4/core.py": "9bc0977ffbc21fe54c3d17b6a067bbe1291faffc4fad239dba5406c0066744d7",
+    "hs_v4/meteo_ro.py": "a7629558f12a8e0c8b87005575cfcf45d4cfd4bd46677781f0b03f48460d8577",
+    "hs_v4/verify_q.py": "2c503d39be2e04f01223a48cf2674b7ba2d599509c19ea3b7a38ff112f8411b9",
+    "hs_v4/walkforward.py": "66f5a278b3fe6fb0541cea6b189bfd61fbd0c983a58a1cf4f2d727f318b1af3c",
+    "hs_v4/international.py": "502c504a3fd03837753113a2a6f360f0ace7229e0eb701bcf5e92fba45fc909d",
+    "hs_v4/rezultate/CALIFICARE_Q.json": "8ae98b8f457160d31cdb4f280975a55725d47c40fdb2c2401e928dfdcf5ecd24",
+    "hs_v4/rezultate/WALKFORWARD_RO.json": "b87f93ecbe98ad946530b7337c55dff220878a4fbdcaa53ea75107e9209c82b0",
+    "hs_v4/rezultate/ABLATIE_RO.json": "bd17ed873cf76ef6a31b7e892538c502b0af2f5567bfde4c889e6b4bfb747f70",
+    "hs_v4/rezultate/INTERNATIONAL_RNG_EVAL.json": "8b62dac5d8fb5e7d827d5cba0e3f21d6ef7499d46522a91f7ff5a2f3670412e5",
+    "hs_v4/rezultate/RAPORT_SESIUNEA2.md": "9e882708a620f2d8f12eda0c30d3aa8ce176ec0c78bc561f2a683acbd943d81f",
+    "hs_v4/date_intl/PROVENIENTA_INTL.json": "a136164dd0d0278f040c8a11dd335b2ecc7cb7fa196591725e73283dd74860f4"
+  }
+}

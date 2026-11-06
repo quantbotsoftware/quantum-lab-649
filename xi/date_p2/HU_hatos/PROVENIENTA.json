@@ -1,0 +1,38 @@
+{
+  "joc": "HU_hatos",
+  "utc_start": "2026-10-31T20:33:05Z",
+  "fisiere": [
+    {
+      "url": "https://bet.szerencsejatek.hu/cmsfiles/hatos.csv",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:05Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://bet.szerencsejatek.hu/cmsfiles/hatos.csv",
+      "utc": "2026-10-31T20:33:05Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:05 GMT",
+        "Last-Modified": "Fri, 30 Oct 2026 23:10:10 GMT",
+        "ETag": "\"6ae523d3-2d4c4:dtagent10343260715123811T3G6\"",
+        "Content-Length": "185540",
+        "Content-Type": "application/octet-stream"
+      },
+      "fisier": "date_p2/HU_hatos/sigilat/00_hatos.csv",
+      "octeti": 185540,
+      "sha256": "d07dacfb4ac4bb8b6844e638c40344d256c2adbdcb648c38fbb93a997b3216d1",
+      "structura": {
+        "nume": "00_hatos.csv",
+        "octeti": 185540,
+        "sha256": "d07dacfb4ac4bb8b6844e638c40344d256c2adbdcb648c38fbb93a997b3216d1",
+        "linii_nevide": 1860,
+        "forma_prima": "ï»¿9999;99;CsÃ¼tÃ¶rtÃ¶k;9999.99.99.;9;9 Ft;9;9;99;999 999 Ft;9999;9 999 Ft;99999;9 999 Ft;9;9;99;99;99;99",
+        "forma_a_doua": "9999;99;VasÃ¡rnap;9999.99.99.;9;9 Ft;9;9;99;9 999 999 Ft;9999;99 999 Ft;99999;9 999 Ft;9;99;99;99;99;99",
+        "forma_ultima": "9999;99;Szombat;;9;9 Ft;9;9 Ft;9;9 Ft;9;9 Ft;9;9 Ft;9;99;99;99;99;99;99"
+      }
+    }
+  ],
+  "utc_sfarsit": "2026-10-31T20:33:05Z"
+}

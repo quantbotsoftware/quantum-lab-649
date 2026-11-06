@@ -1,0 +1,10 @@
+{
+  "protocol": "tu4/PROTOCOL_QUANTUM_S34.md",
+  "protocol_sha256": "483035ae7a47fe96d9b2b2c111368569733601e4150881a28ab45bf0733340aa",
+  "plan": "xi/PLAN_V11_QL_XI.md",
+  "plan_sha256": "2fb304f4169074f1fba032e90fa9561fc7b72e8561b9b14d1ba5ae4c522bfc88",
+  "incident_xi_00_sha256": "efbdc22c5daadabda9c0066ebee14973c5bb48bca21522530638d9e917a5f80c",
+  "sealed_utc": "2026-10-29T22:27:23Z",
+  "note": "sigilat inainte de codul S34",
+  "positive_claims_allowed": false
+}

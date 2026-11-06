@@ -1,0 +1,14 @@
+{
+  "protocol": "QL649-P1",
+  "file": "PREINREGISTRARE_QL649.md",
+  "sha256": "66597963ed14a3ae0ceda113635056f5a263be8d66b65ed40bab2cc24ccce430",
+  "bytes": 9330,
+  "sealed_at_utc": "2026-10-25T17:40:06.366431+00:00",
+  "sealed_before": [
+    "engine.py",
+    "validare.py",
+    "orice calcul de operator pe extrageri_649.jsonl"
+  ],
+  "dl_track_frozen_revision": "20261025T165403Z",
+  "positive_claims_allowed": false
+}

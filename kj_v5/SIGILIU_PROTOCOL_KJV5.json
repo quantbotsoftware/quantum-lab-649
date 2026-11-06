@@ -1,0 +1,22 @@
+{
+  "protocol_id": "KJV5-RCV2-P1",
+  "sealed_at_utc": "2026-11-03T16:01:27Z",
+  "protocol_file": "next_candidate/quantum_lab_649/kj_v5/PROTOCOL_KJV5_RUST_V2.md",
+  "protocol_sha256": "1ba5e6ce38e87eeba2542edb85df9f511fbfb3a5e32d9d0efbfc66aa94749201",
+  "protocol_mode_octal": "0o444",
+  "rust_core_v2_exists": false,
+  "code_files_present": [],
+  "results_present": false,
+  "positive_claims_allowed": false,
+  "frozen_hashes": {
+    "rust_core/Cargo.toml": "2e46e6abe7121f076738d247efda7e4c19972615404cae5d71130f4052a367de",
+    "rust_core/src/lib.rs": "8cbcdc1a6cb23cf234b5377d640fd2fded0a9a510dab5cad59ef76ae8aab6e07",
+    "rust_core/src/main.rs": "5e171617ce5b4c6bec35228c2a8715f1e136a4d9e75d357631579c99bc06981e",
+    "rust_core/src/bridge.rs": "65b975c718720c1eefde90160303318d2d301dab830fcb3503fa5f4409d7da75",
+    "rust_core/target/release/rust-singularity-core": "c20fdcd2f7f237578d1f0ea85c05f9bf6b32a888d228e4443b6756dd1d43fd9e",
+    "next_candidate/quantum_lab_649/porneste_rust_core.sh": "4e54add1c4f6aea4fdd29335330fbd7eb7e2e859cfbc2e4bdbb356e1a0d3c9db",
+    "next_candidate/quantum_lab_649/tu4/s27/sonda_s27.py": "697e1e4c37d1c022ae7870f6993bf6f421f53db947b588de52c13a4a97c8f151",
+    "next_candidate/quantum_lab_649/hs_v4/PROTOCOL_HSV4.md": "0cd13393b3b8e43ef203800b9670d1786420c49416881261e0457602f963820b",
+    "next_candidate/quantum_lab_649/hs_v4/PROTOCOL_HSV4_UI.md": "dc0ae3e70273d478d450a5e86f41e096f1caf5a681b860d819c39cfba1bee4a3"
+  }
+}

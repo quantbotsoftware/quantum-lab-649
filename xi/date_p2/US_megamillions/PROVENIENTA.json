@@ -1,0 +1,38 @@
+{
+  "joc": "US_megamillions",
+  "utc_start": "2026-10-31T20:33:09Z",
+  "fisiere": [
+    {
+      "url": "https://data.ny.gov/api/views/5xaw-6ayf/rows.csv?accessType=DOWNLOAD",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:10Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://data.ny.gov/api/views/5xaw-6ayf/rows.csv?accessType=DOWNLOAD",
+      "utc": "2026-10-31T20:33:10Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:09 GMT",
+        "Last-Modified": "Sat, 31 Oct 2026 07:33:17 GMT",
+        "ETag": "W/\"Zm94dHJvdC42MDg2XzM3NV8yMDQ4eDVSeG9Ta0ZBS1kzMFJEbTJLVEFRTDZTbS1V---gzip4lb_JGuuHlyBumcCMNrf-7qz-e8--gzip--gzip\"",
+        "Content-Type": "text/csv; charset=utf-8",
+        "Content-Disposition": "attachment; filename=Lottery_Mega_Millions_Winning_Numbers__Beginning_2002.csv"
+      },
+      "fisier": "date_p2/US_megamillions/sigilat/00_US_megamillions_rows.csv",
+      "octeti": 78003,
+      "sha256": "99d1e83824e2f652065f5238b1f7e69c45768e28412c96f960f9d42487fa9568",
+      "structura": {
+        "nume": "00_US_megamillions_rows.csv",
+        "octeti": 78003,
+        "sha256": "99d1e83824e2f652065f5238b1f7e69c45768e28412c96f960f9d42487fa9568",
+        "linii_nevide": 2554,
+        "forma_prima": "Draw Date,Winning Numbers,Mega Ball,Multiplier",
+        "forma_a_doua": "99/99/9999,99 99 99 99 99,99,",
+        "forma_ultima": "99/99/9999,99 99 99 99 99,99,"
+      }
+    }
+  ],
+  "utc_sfarsit": "2026-10-31T20:33:10Z"
+}

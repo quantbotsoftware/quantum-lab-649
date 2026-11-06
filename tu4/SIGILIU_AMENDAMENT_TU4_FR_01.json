@@ -1,0 +1,26 @@
+{
+ "amendment": "TU4-FR-01",
+ "session": "S11",
+ "file": "tu4/AMENDAMENT_TU4_FR_01.md",
+ "sha256": "a886e8f477fe1c17af74cd25a4b0597981c5a460d45eae3addb04c36dfb459f8",
+ "bytes": 4217,
+ "protocol_seal": {
+  "file": "tu4/SIGILIU_TU4_FR.json",
+  "sha256": "c1b3a195414db4dae387489a73217b716d47849800d81f12298e108a760627b5"
+ },
+ "previous_amendment_seal": {
+  "file": "tu4/SIGILIU_AMENDAMENT_TU4_FR_V01.json",
+  "sha256": "d743992e56b85d679abfb04e8c9128774aa2a4a8b394690bef7f7ca24e00bde7"
+ },
+ "inputs": {
+  "tu4/rezultate/FR/FR_REZULTATE.json": "04f1e730a018960cb612e545a742df37df9f5564bc7734885ce98d718a24aae9",
+  "tu4/rezultate/FR/RAPORT_FR.md": "67fde761d874ed64e7d8d3b856203d604b56246011611c8638722f17f46290bc",
+  "tu4/PLAN_SESIUNI_TU4_v2_20261027.md": "32533d53c9390172b9a4cea81ae0640a3d19b0d786388a1e7d04c15ac5ac4734"
+ },
+ "rule": "N_cald = min N>=1 : N*D_max - (df/2)*ln(1+N/T) >= ln(300); FEZABIL<=520, LENT<=2080",
+ "user_decision": "Mesajul 54 (2026-10-27T17:01:52-04:00)",
+ "code_written_before_seal": false,
+ "reclassification_computed_before_seal": false,
+ "sealed_utc": "2026-10-27T21:11:31Z",
+ "positive_claims_allowed": false
+}

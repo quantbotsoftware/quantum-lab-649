@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-11-05T18:31:01Z",
+  "run_id": "20261105T203016967826",
+  "database_sha256": "1d19f498cd45100716884516dadf10be1c2e3c514076b832e6c738f7ca76421e",
+  "archive_changed_by_collector": true,
+  "note": "Arhivă LIVE (produs). Cercetarea sigilată folosește exporturile înghețate, nu acest director.",
+  "games": {
+    "649": {
+      "name": "Loto 6/49",
+      "file": "extrageri_649.jsonl",
+      "sha256": "7304a2ed1c7cd9fd9185bcf838fc5a9379e9cf6bc77d66e6e71bf1f932edcf59",
+      "records": 2600,
+      "excluded": [],
+      "first_date": "1993-08-08",
+      "last_date": "2026-11-05",
+      "last_key": "649:2026-11-05:2-18-22-29-33-38",
+      "draw_size": 6,
+      "ticket": 6,
+      "source_disagreements": 2
+    },
+    "540": {
+      "name": "Loto 5/40",
+      "file": "extrageri_540.jsonl",
+      "sha256": "5d2de7c2d358f51904c1962af2fc91c55b7a619589b9d599f746e8e518f7ff1f",
+      "records": 2493,
+      "excluded": [],
+      "first_date": "1995-01-12",
+      "last_date": "2026-11-05",
+      "last_key": "540:2026-11-05:4-5-9-17-30-21",
+      "draw_size": 6,
+      "ticket": 5,
+      "source_disagreements": 8
+    },
+    "joker": {
+      "name": "Joker",
+      "file": "extrageri_joker.jsonl",
+      "sha256": "05d3bb7e50e7ab3b7468f4a25146188aad318d1e814707d0f4eef677cb0fa48a",
+      "records": 2205,
+      "excluded": [],
+      "first_date": "2000-09-14",
+      "last_date": "2026-11-05",
+      "last_key": "joker:2026-11-05:7-30-34-39-44:J13",
+      "draw_size": 5,
+      "ticket": "5+1",
+      "source_disagreements": 15
+    }
+  }
+}

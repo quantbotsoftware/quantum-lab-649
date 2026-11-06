@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-26T15:55:25Z",
+  "source": {
+    "run_id": "20261026T173008672174",
+    "database_sha256": "2a0b94233538592f9d3723540e7e9cb9e086e79a4381af4462e8cb015efc2415",
+    "frozen_copy": "date/sursa/candidat_20261026T173008672174.sqlite",
+    "collector_official_urls": [
+      "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/540_si_super_noroc/rezultate_extrageri.html",
+      "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/649_si_noroc/rezultate_extragere.html",
+      "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/joker_si_noroc_plus/rezultate_extrageri.html"
+    ]
+  },
+  "canonical_snapshot": {
+    "snapshot": "5843ccc6da9a0d285fd3bae3f5461c9b32dd1a71e1e7d94b8c4ec3b9e14df20b",
+    "database_sha256": "87ec292eb73b09a3ec70a3e73a87fefaff3370d4f5f2a4bd02e8b9219e8a8e05"
+  },
+  "games_read": [
+    "540",
+    "joker"
+  ],
+  "game_649_read": false,
+  "note": "Inventar, nu experiment de selecție. 5/40: extragerea are 6 numere, biletul 5.",
+  "games": {
+    "540": {
+      "name": "Loto 5/40",
+      "file": "extrageri_540.jsonl",
+      "sha256": "e1591b8727c09f2350854540b7437eb271c3f850707502c17ff172b95fe62c5c",
+      "records": 2490,
+      "excluded": [],
+      "first_date": "1995-01-12",
+      "last_date": "2026-10-25",
+      "draw_size": 6,
+      "number_range": [
+        1,
+        40
+      ],
+      "joker_range": null,
+      "ticket": 5,
+      "source_disagreements": 8,
+      "vs_canonical": {
+        "canonical_records": 2489,
+        "common_keys": 2489,
+        "rows_differing_on_common_keys": [],
+        "only_in_new": [
+          "540:2026-10-25:1-8-12-21-22-16"
+        ],
+        "only_in_canonical": []
+      }
+    },
+    "joker": {
+      "name": "Joker",
+      "file": "extrageri_joker.jsonl",
+      "sha256": "45713aa2146efb725336ca6d40a92690341133ec98b26046bf7cefdf8cfe22bf",
+      "records": 2202,
+      "excluded": [],
+      "first_date": "2000-09-14",
+      "last_date": "2026-10-25",
+      "draw_size": 5,
+      "number_range": [
+        1,
+        45
+      ],
+      "joker_range": [
+        1,
+        20
+      ],
+      "ticket": "5+1",
+      "source_disagreements": 15,
+      "vs_canonical": {
+        "canonical_records": 2201,
+        "common_keys": 2201,
+        "rows_differing_on_common_keys": [],
+        "only_in_new": [
+          "joker:2026-10-25:1-10-16-20-39:J8"
+        ],
+        "only_in_canonical": []
+      }
+    }
+  }
+}

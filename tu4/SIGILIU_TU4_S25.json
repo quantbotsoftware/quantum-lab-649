@@ -1,0 +1,240 @@
+{
+  "protocol": "TU4-S25 (amendamentul preventiv A-S25-01: drift structural LANT.jsonl, scutul prefixului; V0L/Q7L noi)",
+  "session": "S25",
+  "user_request": "Mesajul 76 (2026-10-28T11:22:35Z)",
+  "sealed_utc": "2026-10-28T11:28:41Z",
+  "documents": {
+    "tu4/PROTOCOL_QUANTUM_S25.md": {
+      "sha256": "4db157b210926f59b5a45d514e00ecf2c3388e8b7408c7a45a89b926815a9272",
+      "bytes": 12692
+    }
+  },
+  "code_files_present": [],
+  "source_modification_allowed": [],
+  "old_verifiers_rewritten": false,
+  "baseline_B0": {
+    "log": "tu4/rezultate/S24/primul_pas_S25_20261028T112305Z.log",
+    "log_sha256": "e3cc175b46ec35aa01f1e405b74d9635c50715a863f66eafa31ac44b556c985e",
+    "q7": "tu4/rezultate/S24/Q7_VERIFICARE_20261028T112553Z.json",
+    "q7_sha256": "8b37b677f51344a41e3935d961a8c154e949ce9d7ae596dbfdd92759acd7992b",
+    "v0": "tu4/rezultate/S23/V0_VERIFICARE_20261028T112553Z.json",
+    "v0_sha256": "a8ab6c2e296d6b7d8aeb2844b328e6df8e50b405e633f53c1486c2db1eff938d",
+    "v0_result": "27/28, singurul FAIL incidente"
+  },
+  "frozen_hashes": {
+    "rust_core/.cargo/config.toml": "b48f77c0bf45a4c7f08bd878b089abb1a0556bf233659a794696f9b48d209867",
+    "rust_core/.gitignore": "298172e50e4d08ed0476a23df466241bb04d8251941699e65e94547fa03fc86a",
+    "rust_core/Cargo.lock": "537db9ad838974fcdd7df2b025843e9de21606b714e2715b67cb7c8fd71436b2",
+    "rust_core/Cargo.toml": "2e46e6abe7121f076738d247efda7e4c19972615404cae5d71130f4052a367de",
+    "rust_core/build.rs": "c7329fb2194a8300d397f117a1cf98dfe1ad2eaa5a58403e186c9983b7b8a3f8",
+    "rust_core/capabilities/default.json": "fa087285344730bf90b139415fabdab4881f2a53c6e019eed039d7b443faac88",
+    "rust_core/icons/icon.png": "bf493afd9038ba623b903cd380e2b274c68046c0b60ea9ea1aec42e424ead102",
+    "rust_core/rustfmt.toml": "93ed1668bb2ca659e88711456b72320bf2f53369ecf278c4a61af0cb63cc3a1e",
+    "rust_core/src/bridge.rs": "65b975c718720c1eefde90160303318d2d301dab830fcb3503fa5f4409d7da75",
+    "rust_core/src/integrity.rs": "6f32a146d3bb269622f4d11271130a183f832022d0c99fb1cf1c00b0fef13ba2",
+    "rust_core/src/lib.rs": "8cbcdc1a6cb23cf234b5377d640fd2fded0a9a510dab5cad59ef76ae8aab6e07",
+    "rust_core/src/main.rs": "5e171617ce5b4c6bec35228c2a8715f1e136a4d9e75d357631579c99bc06981e",
+    "rust_core/src/models/fisher.rs": "5b27204535fcd3ad2be5bd32b5d4b5310985f5da3077374ac02c6a4e0f181d0e",
+    "rust_core/src/models/h1_mass.rs": "33dc95f57263c5bff560a0c8a05a9194206112404902626d7adad535ec7a7069",
+    "rust_core/src/models/h3_aero.rs": "666f7103ceda0ea57193d4bf3ef93bef4ba973d634bd7c45a4c75deeb1a3004b",
+    "rust_core/src/models/mod.rs": "f23558806a5da31325de09ae365eddb9c53dfca54c63c1c805cbee50b5dcd0ae",
+    "rust_core/src/models/parity.rs": "bf98c64bf5b0a157b2abb63f5ec5aa47a05c501089653254e471740c5485f0d9",
+    "rust_core/src/models/spectral/admissible.rs": "7ea0c544a00dc0c93b60bd79276a62b92b5315069fafcda05996f0b0bfc7ae4c",
+    "rust_core/src/models/spectral/frft.rs": "3cd6bbc2718a50729ed4cb47e64924b4f82315267cc64de1902ceba4cbcd6c80",
+    "rust_core/src/models/spectral.rs": "0e247e8b02739c1f64951e1087ba35348b4cfe8ae6fa8ba0eb54578577febf13",
+    "rust_core/src/parser.rs": "918889930bcd509239f2d4512de70d3c41f873079a9838394dad9c9aed392a33",
+    "rust_core/src/resources.rs": "eb6bd62791318c6c48584e2be6e01116c81f35cdce866f86bb2cdaf8a17e66ef",
+    "rust_core/src/telemetry.rs": "782950805183f8d2517e921d65ddcfb43ab0ec73e15d4f69e7cb8573f652ea9d",
+    "rust_core/tauri.conf.json": "a21045dfcb6ff4ebc1fbac3344215fab2cd7ee4a6a8fdf145a900bdfeb5b150d",
+    "rust_core/ui/app.js": "e2c1a49661deb1f0ca6d542617b62fe394b24f912f7e0b61f31d35fc2d95f312",
+    "rust_core/ui/index.html": "66771e0ca6f6c468b6e0188ae261f0973190df6e02fb23e146994ce4b0eaf89d",
+    "rust_core/ui/style.css": "8cee84438d4078a30f6c0b46ab908ab4960a5042b43479def29f06f3c5b467ef",
+    "tu4/SIGILIU_TU4_FR.json": "c1b3a195414db4dae387489a73217b716d47849800d81f12298e108a760627b5",
+    "tu4/SIGILIU_TU4_IP.json": "a725f6f023e904e6c08f9d1702f413e31279c8971d8847c4694c29a09735eafb",
+    "tu4/SIGILIU_TU4_EM.json": "82459f48458ef2ee248784929ea2c4c18ae60469b0084e4a7345910a7b5c53c7",
+    "tu4/SIGILIU_TU4_EM_COD.json": "6e4ebf9b2693807dd1926e5862d251cd27bef0e2b1d0d4d041def6628e322a15",
+    "tu4/SIGILIU_TU4_JU.json": "5dcc0a4252acf9d504b5bbc11e13816595638839628d53349fd9c08082533093",
+    "tu4/SIGILIU_TU4_JU_COD.json": "d6773b7208628a3d6e71b6ad8325434dd0d441d84be8cbe2f276b6d80141ba6a",
+    "tu4/SIGILIU_TU4_UI.json": "1df67cd8193b0fc1e677c910a10c3b9ff63463f4568963e69d4512a7054288d8",
+    "tu4/SIGILIU_TU4_S16.json": "2a0100e3c3fff0307483c61b8279a31b96570a582ccce958aef7c26cc1817d6e",
+    "tu4/SIGILIU_TU4_S17.json": "8bcef3c7c9e9db5a03d69a16fe9399e23f061b97ab55c23f088907974ab81ae4",
+    "tu4/SIGILIU_TU4_S18.json": "a9159fc31d450b9ba8d4bf3b5fdd0712633b1ddf969a2a461a62c48b9472e889",
+    "tu4/SIGILIU_TU4_S19.json": "15feee4cc71d1cda9261f40e0a0a73a0bd77ebebbbcfde170e6ebf3cf7def0e8",
+    "tu4/SIGILIU_TU4_S20.json": "1b95737e5030a5ea618ccb9b014ae9ecb643209b177ce7af736202178ca91306",
+    "tu4/SIGILIU_TU4_S21.json": "781d70e8ba216feb93062cd0c1a4eb0c83dd3cf86cb49df8eda635ad2365d726",
+    "tu4/SIGILIU_TU4_S22.json": "98f505f5c19248ae024537940f58533955ea1bb5a52928604b7a24a9a947daa4",
+    "tu4/SIGILIU_TU4_S23.json": "71d4514fbebbf39ef4b53f4644a0fa3bb911f7ac88d5cd3c1315d48fd0386b11",
+    "tu4/SIGILIU_TU4_S24.json": "c3b5ebb39bf775c20d854c74f046976315a606218fbccb8586de1fd5daa3770c",
+    "tu4/PROTOCOL_QUANTUM_S24.md": "11ffc59c29404d2d946015a97992f91f89b7d66c377dc3c847d4e37f56a2a64f",
+    "tu4/PROTOCOL_QUANTUM_S23.md": "776da38b1645ba09f6af710a26dd400c09fd41d322a0004e5b2a4463c48e314c",
+    "tu4/rezultate/S23/verifica_s23.py": "4be4704e0ef4d63d8609c56e8bbbaecbff1c2e6ec973315d3309a150cc08799c",
+    "tu4/s24/verifica_s24.py": "bf4b7a9b1e6a334458ea563f117950773b7bbdc539c50c7cf1d42ab4cecea0a0",
+    "tu4/s24/raport_decontare_s24.py": "a9391fcc34f174a503e61da17922e5fdde1682004c1a0c004ef5e2464a173d7d",
+    "tu4/s24/b5_s24.sh": "b3691f35701050e308caeea2cd956847f7ce7ab6c66adfda167f26a3ea2abf8a",
+    "tu4/s24/asteapta_ssd.sh": "756755164bfd660a87cb6dbc967f43d04d0dba1c840e75092cd28f4de274bfba",
+    "tu4/s24/revino_s24.sh": "d2fd259cfa6139bb18307f9591f00d3040bcaafca758d1cddfd0b1d4910e3bb1",
+    "tu4/rezultate/S22/primul_pas_S23.sh": "819591b25722cfa2037bc1b45f59a8af86d9277c6432c0e240cbb38b80530f73",
+    "tu4/rezultate/S23/primul_pas_S24.sh": "fe7d2be3681c57a25a0ee680d72c81df6778cb0cd0275c7da2e04fa61b083a0b",
+    "tu4/rezultate/S24/primul_pas_S25.sh": "1e7f883c1af9ec7794de2cba214cc128425977f152cd2ea1ab24aa89e7ae83aa",
+    "tu4/rezultate/S20/verifica_s20.py": "8e9439701b87eb99fcb3da7f6c22436710a45f6ccebbe2269d0d99e454d284bb",
+    "tu4/emite.py": "3c43f0f2da4f59a32b9903fa39b147701dbd18fcff97b76c63e37d5c3200ce69",
+    "tu4/judecator.py": "8117e8a37c1ee82dbc0a10f8ba0b2506a2d62641cff9216297108e2882df868b",
+    "tu4/porneste_emitere.sh": "bb6bb64c44d102ba660780c1600010f7753201861c621c6b50dfd91fba30d1fb",
+    "tu4/porneste_judecator.sh": "c01603ad782d9b7b821e3d4a6bc0028c1c8830de8ce2bd1a1e221e2cea9584df",
+    "porneste_aplicatia_tu3.sh": "40710a292fc3068c2d01fa6bc5f49fdbfe023dee39166b1b77e5134348a9170a",
+    "porneste_aplicatia.sh": "d8df19ced370c9cae8a74dd2bee5cb227f04f88bf4e6a8aa66d8e464f0c193e0",
+    "run_app_tu3.sh": "e5f6c2c705c394e9dda144e2f33a74c204616f22c20d9355a14ec76b5fa6fc99",
+    "run_app.sh": "a8f38cea330a803e55ecaa3fb74fe2886e502bd420575f3a7a72f41b4e1037e5",
+    "porneste_rust_core.sh": "4e54add1c4f6aea4fdd29335330fbd7eb7e2e859cfbc2e4bdbb356e1a0d3c9db",
+    "app.py": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47",
+    "predari/genereaza_predare.py": "8273c198a24dc31e5cea098914aa2b12103970da53fb54ccdefff4a9a3f8a4f8",
+    "tu4/systemd/ql649-tu3-8649.service": "b6836780aaa543f144b8126feb1bc925e8f5bd309d2fe08e3cad9248f309be37",
+    "/etc/fstab": "e503cbc0bb989c1cc765deac696601f9d341f6e68cbc3ba7f635bfc15a0f0037",
+    "$HOME/.config/systemd/user/loto-actualizare.service": "dcf5d31dad7a0d62d7fd373d0d54c8fe897e040825bc0fc8b36d2ceef44b0985",
+    "$HOME/.config/systemd/user/loto-actualizare.service.d/20-nextgen-resources.conf": "d38ff52d1b7dafd7cf69e69bb1a6765f90ca6621bcfb8c47a81ea6f6bf26fbf7",
+    "$HOME/.config/systemd/user/loto-actualizare.service.d/30-loto-2.1.conf": "d75926eee054d47f6feb1ad01fe65268a15065af2c1f6c499074fd69bfa81b35",
+    "$HOME/.config/systemd/user/loto-actualizare.service.d/tu3-arhiva-live.conf": "774485cb6478c525ced3e003adb2fd5d786f88fe033894496630cb4c713c7d15",
+    "$HOME/.config/systemd/user/loto-actualizare.service.d/tu3-dedup-live.conf": "e8a6d3a1d935f6defe7beb5a8c03b092b92aed1c6b23493f5100320f67fefd25",
+    "$HOME/.config/systemd/user/loto-actualizare.service.d/tu4-judecator.conf": "6129403fcf66d67e6994fc31df5a4caa66750456e2f7f5c616f2766a575dde1b",
+    "$HOME/.config/systemd/user/loto-actualizare.timer": "1a8cc6c94eaf2cde52f2f025b69cb6bac9991742e0d8fd955f3cf0ddf5823425",
+    "$HOME/.config/systemd/user/ql649-tu3-8649.service": "b6836780aaa543f144b8126feb1bc925e8f5bd309d2fe08e3cad9248f309be37",
+    "$HOME/.config/systemd/user/ql649-tu4-emitere.service": "7fc03956fe1957454105333082ef7b5d5ac9cabd065c7e4cacaeed53211f6932",
+    "$HOME/.config/systemd/user/ql649-tu4-emitere.timer": "b3f0f9bf1746bc3ea9b2080a83605e48ef16e2a35bafd4babe7e3f7377bc8a6e",
+    "$HOME/.config/systemd/user/ql649-tu4-judecator.service": "95cbff1f8b6fa98f542f3950135310ef216bc68eac657c6937295e90146301dd"
+  },
+  "rust_sources_mode": "0444 (27/27)",
+  "lant": {
+    "file": "tu4/tribunal/LANT.jsonl",
+    "LANT_PREFIX_S20": {
+      "lines": 3,
+      "bytes": 913,
+      "sha256": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916"
+    },
+    "s16_s19_frozen": {
+      "tu4/SIGILIU_TU4_S16.json": {
+        "sha256": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916",
+        "prefix_lines": 3
+      },
+      "tu4/SIGILIU_TU4_S17.json": {
+        "sha256": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916",
+        "prefix_lines": 3
+      },
+      "tu4/SIGILIU_TU4_S18.json": {
+        "sha256": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916",
+        "prefix_lines": 3
+      },
+      "tu4/SIGILIU_TU4_S19.json": {
+        "sha256": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916",
+        "prefix_lines": 3
+      }
+    },
+    "snapshot_S25": {
+      "lines": 3,
+      "bytes": 913,
+      "sha256": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916"
+    },
+    "first_prev_line_sha256": "82459f48458ef2ee248784929ea2c4c18ae60469b0084e4a7345910a7b5c53c7",
+    "keys": [
+      "emitted_utc",
+      "file",
+      "game",
+      "i",
+      "prev_line_sha256",
+      "sha256",
+      "target_date"
+    ],
+    "games": [
+      "649",
+      "540",
+      "joker"
+    ],
+    "serialization": "json.dumps(obj, ensure_ascii=False, sort_keys=True)",
+    "mode": "0444"
+  },
+  "suite14_order": [
+    "tu4/SIGILIU_TU4_FR.json",
+    "tu4/SIGILIU_TU4_IP.json",
+    "tu4/SIGILIU_TU4_EM.json",
+    "tu4/SIGILIU_TU4_EM_COD.json",
+    "tu4/SIGILIU_TU4_JU.json",
+    "tu4/SIGILIU_TU4_JU_COD.json",
+    "tu4/SIGILIU_TU4_UI.json",
+    "tu4/SIGILIU_TU4_S16.json",
+    "tu4/SIGILIU_TU4_S17.json",
+    "tu4/SIGILIU_TU4_S18.json",
+    "tu4/SIGILIU_TU4_S19.json",
+    "tu4/SIGILIU_TU4_S20.json",
+    "tu4/SIGILIU_TU4_S21.json",
+    "tu4/SIGILIU_TU4_S22.json"
+  ],
+  "drift_allowed_on": [
+    "tu4/SIGILIU_TU4_S16.json",
+    "tu4/SIGILIU_TU4_S17.json",
+    "tu4/SIGILIU_TU4_S18.json",
+    "tu4/SIGILIU_TU4_S19.json"
+  ],
+  "append_only_prefix": {
+    "tu4/tribunal/RULARI.jsonl": {
+      "bytes": 4777,
+      "sha256": "87b2290f24eebd7c412176d1fbeb8909426c27cd8729aeb95a68c0067d0da313"
+    },
+    "tu4/tribunal/JUDECATOR_RULARI.jsonl": {
+      "bytes": 31209,
+      "sha256": "a8e79bae8830cd81bad4fea832089369574cd54710858fbdea98d8d7490a498e"
+    }
+  },
+  "incidents_before": [
+    "EM_01",
+    "FR_01",
+    "S19_01",
+    "S20_01",
+    "S23_01",
+    "S23_02",
+    "S23_03",
+    "S24_01",
+    "SM1_01"
+  ],
+  "new_files_allowed": [
+    "tu4/s25/verifica_s25.py",
+    "tu4/rezultate/S25/*",
+    "tu4/incidente/S25_*/"
+  ],
+  "expected": {
+    "parity": "587/587",
+    "rust_tests": 61,
+    "release_binary_sha256": "c20fdcd2f7f237578d1f0ea85c05f9bf6b32a888d228e4443b6756dd1d43fd9e",
+    "v0l": "28/29 (FAIL numai incidente)",
+    "q7l_checks": 11,
+    "a1_cases": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15"
+    ]
+  },
+  "criteria": [
+    "A0",
+    "A1",
+    "V0L",
+    "Q7L",
+    "C1 (după emisia 2026-11-01)"
+  ],
+  "verdicts": [
+    "S25_PASS",
+    "S25_PARTIAL",
+    "S25_FAIL"
+  ],
+  "sudo": "niciunul",
+  "positive_claims_allowed": false
+}

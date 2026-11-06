@@ -1,0 +1,18 @@
+{
+  "faza": "HR",
+  "protocol_sha256": "985c89bf980fcfcee5a07c3bbc1499f96f987cf8a2322e9988064bb1781d0769",
+  "sigiliu_protocol_sha256": "40fd9c0049c4185b9dd9477bc1069e132da4c64cb9ab1a8e850bda43eaf427bb",
+  "cod": {
+    "pages/2_Registru.py": "3fefab8aa1db8fe40ed1374f7d56217de1e6574a9743ae371a7ad8074cbeb217",
+    "xi/hr/teste_hr.py": "9451226c77100509ba8c29bdb1ff9c6b89364c8d0254998f926f4cf5b5622735",
+    "xi/hr/verifica_hr.py": "dd97053c18342acb45369515c8ddb9d618479d7be1d34ba7f1580ea78164f36e"
+  },
+  "teste_calificare": {
+    "xi/rezultate/HR/teste/TESTE_HR_20261031T213712Z.log": "4750520c2ade71aeca8ff44cd5a237578e8e34c13e253292d2b49de64e775f81",
+    "xi/rezultate/HR/teste/TESTE_HR_20261031T213725Z.log": "baa19350365872f662a921914f8d40286c2a156ab26c4026f7252ae334e9b74d"
+  },
+  "calificare": "PASS 11/11 (TESTE_HR_20261031T213725Z.log); prima rulare 10/11 pastrata (T5_static: docstring-ul paginii mentiona un nume de modul interzis; corectat docstring-ul, nu testul, inainte de sigiliu)",
+  "sealed_utc": "2026-10-31T21:38:32Z",
+  "verificare_reala_prezenta": false,
+  "positive_claims_allowed": false
+}

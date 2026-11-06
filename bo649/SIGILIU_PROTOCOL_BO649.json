@@ -1,0 +1,11 @@
+{
+  "protocol": "BO649-P1",
+  "file": "PREINREGISTRARE_BO649.md",
+  "sha256": "983707bdcb8bb68c44e56c9caa23854b3f3a230676a6a20ac98fca40b154ca85",
+  "bytes": 9738,
+  "sealed_at_utc": "2026-10-25T19:21:57.111799+00:00",
+  "statement": "Sigilat înainte de orice cod BO649 și de orice calcul BO649 pe extrageri_649.jsonl; director bo649/ conține doar protocolul.",
+  "dir_listing_at_seal": [
+    "PREINREGISTRARE_BO649.md"
+  ]
+}

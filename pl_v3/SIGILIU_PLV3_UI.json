@@ -1,0 +1,48 @@
+{
+  "protocol": "PLV3-UI",
+  "file": "PROTOCOL_PLV3_UI.md",
+  "sha256": "95d329518b018023aa44d0cdf12c505791e61a488434972d9eb1712920b52e65",
+  "bytes": 7202,
+  "parent_seal": {
+    "file": "pl_v3/SIGILIU_PROTOCOL_PLV3.json",
+    "sha256": "51115ecfccaf424bf69a44a333aa3b7ad2604aa6a6c585e28e317008a2705dfe"
+  },
+  "replacement_mechanism": "inlocuiri_tu3/v1",
+  "replaceable": {
+    "tu3/ui_tu3.py": "5212c6270754f2460c38690a7b08e80a50b080db75da67a223f1dd4786ab458b",
+    "tests/test_scor_real.py": "a136a25e987915cea0c4f949e3cc06b417625e601a08dc5e9da5b88e50f83659"
+  },
+  "replacement_record_prefix": "INLOCUIRE_PLV3_UI_",
+  "insertions": {
+    "P1": "tu3/ui_tu3.py în sidebar_selector(): plv3_on = plv3_sidebar_switch()",
+    "P2": "tu3/ui_tu3.py în sidebar_selector() înainte de return mode: if plv3_on: plv3_on_mode_and_render(mode); st.stop()",
+    "P3": "tu3/ui_tu3.py înainte de blocul # TU4-UI (S14;): blocul de delegare # PLV3-UI",
+    "P4": "tests/test_scor_real.py în test_W11_seal_frozen_imports: valid_r += înregistrările pl_v3/SIGILIU_PLV3_UI.json"
+  },
+  "code_files_present": [],
+  "results_present": false,
+  "positive_claims_allowed": false,
+  "sealed_utc": "2026-11-01T22:08:07Z",
+  "frozen_hashes": {
+    "app.py": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47",
+    "engine.py": "1da9be4e05bcefe401c299b6e6cd0ca7e4d6057939756057822cb43c951cb2ae",
+    "parser.py": "219e5d2085a72e960583830a6acd009e376f01079381ad0e09824fd200ee8968",
+    "validare.py": "01085209db81b14e9c0ef2bc9b7120752cd34b890330e3741e20beede2a89a97",
+    "tu3/parser_multi.py": "4c4b0f34cdac96e8b590649113d8db4331a1c6cdfa6169bb8b3017bdb92aef2a",
+    "tu3/motor_n.py": "28e8eede1de49070da90291c3734c64a8389551167b0649f396e68bbd98add17",
+    "tu3/motor_joker.py": "95960c26897b9dbbb7468469e1081e3f55683c99964af949b477b2c0c524fedb",
+    "tu3/matrice_init.py": "e657024205e31fadcaeba5959e3634d87852b16862820d9fd0307dfc6ec727fc",
+    "tu3/inlocuiri_tu3.py": "6badda1707339e51cff46ebbab21371686eb454bb8fb578e7879bc49f9ac1167",
+    "pl_v3/__init__.py": "6086eec5f3b12b6687c437ef44ae3d215d81ea4982efe651b7044ab30e12b2a7",
+    "pl_v3/PROTOCOL_PLV3.md": "3ce6aa2738fc38dd41aa9f48a9112613ee59d8ae20662c9d159a9ef9d367d84b",
+    "pl_v3/SIGILIU_PROTOCOL_PLV3.json": "51115ecfccaf424bf69a44a333aa3b7ad2604aa6a6c585e28e317008a2705dfe",
+    "pl_v3/core.py": "3d6132b4795b324fbf15a9ba0f2728099e2c013531925160255ac9a40ce1915d",
+    "pl_v3/verify_q.py": "551df9f205d12e362eee31104c84620ec2bdf3eca8e3fd55172bf5c22cd924ca",
+    "pl_v3/walkforward.py": "5b94c264650815c3ecd919306482f6977dbf43021cd1d3e1ecbfd35d729b7043",
+    "pl_v3/rezultate/CALIFICARE_Q.json": "23b62fb4e942ce4dadfb284be1507e575e9484b900870d948b90c2909f48e48d",
+    "pl_v3/rezultate/649_walkforward.json": "9e0a2e5aa1da4743354c1e7de71087809b3a159d133ae2760eaeb28e618ba860",
+    "pl_v3/rezultate/540_walkforward.json": "35bd4822f96d5c256b75834d4ad02fee8e63db6a4260c088d0db11e351d0c38e",
+    "pl_v3/rezultate/joker_walkforward.json": "d01214ea00980e4aa907665ce44795506f620fae27150d9c49d254c7315f1e66",
+    "pl_v3/rezultate/REGRESIE_INCREMENTALA.json": "10cd927127c888a9fc406243c2702473365403a241cab94f7a929a8059b0f6a7"
+  }
+}

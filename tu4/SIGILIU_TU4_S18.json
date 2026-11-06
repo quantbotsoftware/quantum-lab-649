@@ -1,0 +1,69 @@
+{
+ "protocol": "TU4-S18-RUST-INCEPTION",
+ "session": "S18",
+ "user_decision": "Mesajul 62",
+ "sealed_utc": "2026-10-28T00:42:50Z",
+ "documents": {
+  "tu4/PROTOCOL_RUST_INCEPTION.md": {
+   "sha256": "7c98f9257e6951187e351cfe1b69ad9bbbe253c51374257ebf0d7e443fb44bd4",
+   "bytes": 8906
+  }
+ },
+ "code_files_present": [],
+ "rust_core_exists": false,
+ "frozen_hashes": {
+  "tu4/ip_core.py": "ab3e1de93d8e5ae537a8c80599905aaa19cc103602f9b18f4b7f7f6f8a48c302",
+  "tu4/judecator.py": "8117e8a37c1ee82dbc0a10f8ba0b2506a2d62641cff9216297108e2882df868b",
+  "tu4/emite.py": "3c43f0f2da4f59a32b9903fa39b147701dbd18fcff97b76c63e37d5c3200ce69",
+  "tu4/verifica_em.py": "1bada90e6e852fed2569cef12caa6b53ca38c98809b09551fe2f6b962426dc52",
+  "tu4/verifica_em_v01.py": "825dd62cb7f62471b3bd799c615e98a12136f4e478ccd070f10c3aea4c9f09f7",
+  "tu4/verifica_ju.py": "242163945ceb2a46b009b6c3ee16e95aad0e9a856af60d25276d62fa631bd513",
+  "tu4/tribunal/emisii/649/2026-10-29.json": "e2fe385ecad12ac85cb870f9301ee64eee4ac1f78696656c32dd4278ddcb1947",
+  "tu4/tribunal/emisii/540/2026-10-29.json": "a15dc8fdbad6c165cf45ce5290790120ecdd0a2e752a370bcbf45869e2e06098",
+  "tu4/tribunal/emisii/joker/2026-10-29.json": "092e3f5c610a7b000e47467d572558d8b6bb45cf94b6b6315333312e64990a74",
+  "tu4/tribunal/LANT.jsonl": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916",
+  "tu4/SIGILIU_TU4_FR.json": "c1b3a195414db4dae387489a73217b716d47849800d81f12298e108a760627b5",
+  "tu4/SIGILIU_TU4_IP.json": "a725f6f023e904e6c08f9d1702f413e31279c8971d8847c4694c29a09735eafb",
+  "tu4/SIGILIU_TU4_EM.json": "82459f48458ef2ee248784929ea2c4c18ae60469b0084e4a7345910a7b5c53c7",
+  "tu4/SIGILIU_TU4_EM_COD.json": "6e4ebf9b2693807dd1926e5862d251cd27bef0e2b1d0d4d041def6628e322a15",
+  "tu4/SIGILIU_TU4_JU.json": "5dcc0a4252acf9d504b5bbc11e13816595638839628d53349fd9c08082533093",
+  "tu4/SIGILIU_TU4_JU_COD.json": "d6773b7208628a3d6e71b6ad8325434dd0d441d84be8cbe2f276b6d80141ba6a",
+  "tu4/SIGILIU_TU4_UI.json": "1df67cd8193b0fc1e677c910a10c3b9ff63463f4568963e69d4512a7054288d8",
+  "tu4/RAPORT_TU4.md": "58bd3e44ee58b049aed40a46acc51a9bb1473ecd78ca96f2d3a98a6b8b0f2616",
+  "tu3/ui_tu3.py": "5212c6270754f2460c38690a7b08e80a50b080db75da67a223f1dd4786ab458b",
+  "app.py": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47",
+  "tu4/PROTOCOL_TU4_S16.md": "ae7b11458a7de0060b60dc863c831fbd8f3a4176b5f3bf896159409fd3f87494",
+  "tu4/SIGILIU_TU4_S16.json": "2a0100e3c3fff0307483c61b8279a31b96570a582ccce958aef7c26cc1817d6e",
+  "tu4/s16_martori.py": "298d3ec69af61361664b760a05af95c065d20a1248272fb1ea640c9ef5ce9df8",
+  "tu4/tests/test_s16.py": "5d2b45cf94f54b40d2f877e35ad94927bfbba6f688f5dd408ce9e5ca546031a0",
+  "tu4/rezultate/S16/MARTORI_S16_20261027T235553Z.json": "118ad7b7e01364e030723abb5acdc569e9e88558481beb76e06a8b97dc455496",
+  "tu4/rezultate/S16/RAPORT_S16.md": "ed395ae6d6e418d62d26c57d3048a844a5c95275e563f24592ddd22364407eb6",
+  "tu3/inlocuiri_tu3.py": "6badda1707339e51cff46ebbab21371686eb454bb8fb578e7879bc49f9ac1167",
+  "tu4/rezultate/UI/verifica_ui_s14.py": "008edaff72d1fac9b6b681192561155e80654227546e0f03f4166e9cb6ab916a",
+  "predari/genereaza_predare.py": "8273c198a24dc31e5cea098914aa2b12103970da53fb54ccdefff4a9a3f8a4f8",
+  "tu4/PROTOCOL_TU4_S17.md": "6603b36239444e45b614eeeb5d5a33c39b114728ec6f8ed46c438f618a8b1a6f",
+  "tu4/SIGILIU_TU4_S17.json": "8bcef3c7c9e9db5a03d69a16fe9399e23f061b97ab55c23f088907974ab81ae4",
+  "tu4/s17_admisibil.py": "6cff4ddbe56cec59528c075110bb2cef215ea6d357e226657b33e8f1f42299a5",
+  "tu4/tests/test_s17.py": "72fa4bec61f62fbd4e35f4c1224b92a2e1e3440bdff916251e88968077181b16",
+  "tu4/rezultate/S17/BILETE_ADMISIBILE_20261028T001924Z.json": "6e9afe943dd93a4cfb53cdefaf28ceec22def7be8b6b876cf2d3c969614b2ad0",
+  "tu4/rezultate/S17/RAPORT_S17.md": "1eca51e34f9544a93b5c78bfd7e31748e05a5ba6e2c05064d9fd5c34c677178d"
+ },
+ "decisions": {
+  "R1_workspace": "MANIFEST_VERBATIM_PLUS_WORKSPACE_TABLE",
+  "R2_tauri": "DEPENDENTA_FARA_GUI_S18",
+  "R3_io": "TOKIO_FS_PLUS_MMAP_IN_SPAWN_BLOCKING",
+  "R4_ssd": "COPIE_NOUA_HASH_VERIFICATA_RUST_CORE_S18",
+  "R5_extraction": "COPY_FIX_FARA_HEAP",
+  "R6_complex64": "ROTUNJIRE_MARGINITA_MASURATA_NU_ELIMINATA_FARA_GPU",
+  "R7_modele": "PORT_STRUCTURAL_H1_H3_NUMAI_FIXTURI_SINTETICE",
+  "R8_build": "CHECK_TEST_BUILD_RELEASE"
+ },
+ "acceptance": [
+  "A1_cargo_check",
+  "A2_cargo_test",
+  "A3_cargo_build_release",
+  "A4_inventar_live_si_ssd",
+  "A5_zero_drift"
+ ],
+ "positive_claims_allowed": false
+}

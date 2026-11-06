@@ -1,0 +1,11 @@
+{
+  "code": "xi/c2/backtest_c2.py",
+  "sha256": "fae4f0d26146b1d15ec21bccee9cd98723840e9eb59baeb342a921ccd104d7ab",
+  "protocol_sha256": "85bf9fef2bf960a8f4643c0303abb0e8e9cb9dc30cafb8fc366feeec49503fbc",
+  "teste_K2_K4": "xi/rezultate/C2/teste/TESTE_K2_K4_20261030T161517Z.json",
+  "test_uscat": "xi/rezultate/C2_uscat/ (3 tinte/joc, B=3, GATES_PASS=False asteptat: incomplet)",
+  "modele_649_jsonl_sha256": "0a191972c96d92345e10bb271ce620e754e6638322be0ebf9d11602772ca0586",
+  "sealed_utc": "2026-10-30T16:15:33Z",
+  "note": "cod sigilat inainte de productia unica etapa1/etapa2",
+  "positive_claims_allowed": false
+}

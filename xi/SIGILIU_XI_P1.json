@@ -1,0 +1,16 @@
+{
+  "plan": "xi/PLAN_V12_PREDICTIE.md",
+  "plan_sha256": "a675289e736f6754e3ca14593e89f4c58be3297f0a3f27b05af927124d302bd1",
+  "protocol": "xi/PROTOCOL_XI_P1.md",
+  "protocol_sha256": "731b6839ecd0d65df003c11466c568e812ddd24e7b7ada6079f921c02407cdd0",
+  "sealed_utc": "2026-10-31T19:18:07Z",
+  "database_sha256": "9942abfc25282a715cba70e4f6d17a885a467eaf5fe0440838dc28114003c078",
+  "code_files_present": [],
+  "results_present": [],
+  "code_files_planned": [
+    "xi/p1/banca.py",
+    "xi/p1/verifica_p1.py"
+  ],
+  "note": "sigilat inainte de orice cod P1, descarcare sau calcul V12; extragerile reale necitite statistic",
+  "positive_claims_allowed": false
+}

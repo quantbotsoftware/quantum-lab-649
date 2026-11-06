@@ -1,0 +1,33 @@
+{
+  "record": "INLOCUIRE_T7C",
+  "mechanism": "inlocuiri_tu3/v1",
+  "seal": "tu3/SIGILIU_TU3_T7C.json",
+  "seal_sha256": "fdb1b336537c8b894af750e3b65cc6fc1ae422efb96ec4b38e4b6d581b4824e9",
+  "protocol": "tu3/PROTOCOL_TU3_T7C.md",
+  "protocol_sha256": "8481de248aa7e08ed1d5bf61163114b8d06ba6ccbc4bb7807a3d9faee99ca569",
+  "written_utc": "2026-10-27T15:17:46Z",
+  "replacements": {
+    "tu3/ui_tu3.py": {
+      "from": "c5a94a449f7d13250e51e9d891911f80583d753413882faf99320598f8efe260",
+      "to": "9920b9ddf76cfffcbee10154444ed65a4bf7a5ecd13056116a99859baff75f31"
+    },
+    "tests/test_app_tu3.py": {
+      "from": "28156da401e0ed09df20297c3a0ae3fc588d625ce3cbd60d6be5a1b97286da6f",
+      "to": "c9a7f98dccfd687b3e47b1bf1f21a8f09c9984bbe47a3066a084eda2a3dc419f"
+    },
+    "tu3/porturi_712.py": {
+      "from": "3dea1aaa85c2580ae277208edb74ca48c5d5f2084c3a1031d4d7f4900ba2bf17",
+      "to": "1647bf0a6b3f4f64e42767f2375cbd24f5e55acf02347517b7d7cac95155b52c"
+    },
+    "tests/test_porturi_712.py": {
+      "from": "2c83417aafc9455e5004a21435b1c24139cb2ae5e6e7bd079300e891c9301d4c",
+      "to": "55dd0b79e2bea6cb80b3a637252e7d28cdbb82333f8285c3ba6aa050722d1051"
+    },
+    "tests/test_porturi_t7b.py": {
+      "from": "7e85184d7c288b04d9c31352a575f847c6b8c719b4b1ea6c862f56eee355c661",
+      "to": "6b02ddf14672246eca34b2ac0024df43a37e56806dd9ded89b0c2630affb795f"
+    }
+  },
+  "note": "Înlocuire sigilată (PROTOCOL_TU3_L649 §4). Fișierele vechi rămân în sigiliile lor; această înregistrare fixează sha-urile noi. positive_claims_allowed=false.",
+  "positive_claims_allowed": false
+}

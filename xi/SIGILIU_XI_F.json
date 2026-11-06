@@ -1,0 +1,18 @@
+{
+  "faza": "F",
+  "protocol": "xi/PROTOCOL_XI_F.md",
+  "protocol_sha256": "ba74568f40fa62303bef59bbd7c23d46b527ec53e00297c59f71670a0b7d3220",
+  "plan_v11_sha256": "2fb304f4169074f1fba032e90fa9561fc7b72e8561b9b14d1ba5ae4c522bfc88",
+  "surse": {
+    "xi/rezultate/C1/designuri/SG324Q.json": "b830503075cb52209497352a40bbd21b4680efcd41a2e27a8454e8aa4f4f86c5",
+    "xi/rezultate/C1/designuri/JS135Q.json": "add35bb780f3983a73623010b6f22d353cb731d521621ac8c13c73cd8feb96fd",
+    "xi/rezultate/C1/C1_EVALUARE.json": "5eb6440188d16788e7e7410c44a21512f5830f324324822672eabc5d6803b2e8",
+    "xi/rezultate/C3/C3_REZULTATE.json": "01331654bb23b56295e5c23c2b0cf8a72f2ec84f755df2fcefbfcede23c9f9ca"
+  },
+  "sealed_utc": "2026-10-31T21:01:21Z",
+  "cod_f_prezent": [],
+  "tinta_1": "2026-11-01",
+  "cutoff_tinta_1_utc": "2026-11-01T14:00:00Z",
+  "note": "sigilat inainte de orice cod F sau inregistrare",
+  "positive_claims_allowed": false
+}

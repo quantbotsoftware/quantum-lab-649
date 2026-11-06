@@ -1,0 +1,91 @@
+{
+  "utc": "2026-10-25T19:29:46.125050+00:00",
+  "note": "Sigiliu local, fără atestare externă",
+  "files": [
+    {
+      "path": "PREINREGISTRARE_BO649.md",
+      "sha256": "983707bdcb8bb68c44e56c9caa23854b3f3a230676a6a20ac98fca40b154ca85",
+      "bytes": 9738
+    },
+    {
+      "path": "RAPORT_BO649.md",
+      "sha256": "680b82db8633c908b016871ec80e6651478f1574d56979881307c3c08e31ab84",
+      "bytes": 6419
+    },
+    {
+      "path": "SIGILIU_PROTOCOL_BO649.json",
+      "sha256": "11a1e9a489601700549a1fe47a6a952fa5c5526206da7d3e495ab69bdf1e1e70",
+      "bytes": 428
+    },
+    {
+      "path": "bo649.py",
+      "sha256": "6c82533048d8e3387dc07665f2752cb0fd515b1b239ceefba3f3bed7e180b2eb",
+      "bytes": 27870
+    },
+    {
+      "path": "jurnal/null64.log",
+      "sha256": "8936dd6889abd63466af21411dd5f6d0e64de3d5f925f93ed343bca122f5d709",
+      "bytes": 14320
+    },
+    {
+      "path": "jurnal/sens.log",
+      "sha256": "f5639faf134ad637e20c967f7f3b538013143aed23eebe2fbfb09ea8351d9f4f",
+      "bytes": 2105
+    },
+    {
+      "path": "raport_bo649.py",
+      "sha256": "98ad0c95fde895fabd5c2328f281dafe514ebdbcea3584f9ca872cc6a0c7b947",
+      "bytes": 7400
+    },
+    {
+      "path": "rezultate/CALIFICARE.json",
+      "sha256": "07bb51ee6cf60e7814e29d0512373f3187ed247c33e5dbdabee147ec8d7bfb22",
+      "bytes": 17678
+    },
+    {
+      "path": "rezultate/SENSIBILITATE.json",
+      "sha256": "3b47a1d115e378dd1c748ec380737956b5b48b1f93af535f2f4bf3be112d2111",
+      "bytes": 2953
+    },
+    {
+      "path": "rezultate/backtest_unic/PREDICTII.npz",
+      "sha256": "19277671320e56eab1474d3b7233885f625639f3dc9a8c55e407a43896addc3a",
+      "bytes": 3284806
+    },
+    {
+      "path": "rezultate/backtest_unic/PREDICTII_SIGILIU.json",
+      "sha256": "dd2d1a1ba50ff88ab39730855063b65d960ae90013173ef3745bdaa5af63cdaa",
+      "bytes": 155
+    },
+    {
+      "path": "rezultate/backtest_unic/REZULTATE.json",
+      "sha256": "642252ccac9c71e618959a841592197305589dd94c7701edbc0a4a4c604aedf5",
+      "bytes": 122361
+    },
+    {
+      "path": "rezultate/backtest_unic/START.json",
+      "sha256": "3ee79682ed3a09ca87d9fdede8b25f4613205321df4f36f998f9d91291e4236a",
+      "bytes": 798
+    },
+    {
+      "path": "rezultate/backtest_unic/VERIFICARE_INDEPENDENTA.json",
+      "sha256": "93b150c4e6ec07c55e766f906c61d93f47248423243b58960e0267e662ba983b",
+      "bytes": 8824
+    },
+    {
+      "path": "rezultate/nule/SUMAR.json",
+      "sha256": "019089692faf1521efd1fe2cd66c3054845be0e0690cc379150c1059d0704dde",
+      "bytes": 18288
+    },
+    {
+      "path": "tests/test_bo649.py",
+      "sha256": "12fa7bfaaf0c26c39c6a2f7ab3631fbf0408ac66f52a6e17fc301c783a12c69b",
+      "bytes": 2832
+    },
+    {
+      "path": "verify_bo649.py",
+      "sha256": "bc4df7c0c1bd60c56535a5b5ba54669c54e1f6d59a505aa96a89776253443d72",
+      "bytes": 10091
+    }
+  ]
+}

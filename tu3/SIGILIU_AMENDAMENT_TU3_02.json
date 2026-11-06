@@ -1,0 +1,10 @@
+{
+  "amendment": "TU3-02",
+  "file": "AMENDAMENT_TU3_02.md",
+  "sha256": "b363dfa18b24ca254aa96245d46876562c971e2b0eab5962c474842d213b8c53",
+  "bytes": 889,
+  "protocol_sha256": "694d35455ca7a7a2517cbe6e26a442628ca3b602c81664127f4ade4a0e9b6b04",
+  "amendment_01_sha256": "6bc5b2db4935211fa8b3274c42a09ff9f978157ca390a459fc9d98ff08906c56",
+  "sealed_utc": "2026-10-26T15:45:34Z",
+  "code_files_present": []
+}

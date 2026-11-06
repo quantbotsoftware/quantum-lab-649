@@ -1,0 +1,32 @@
+{
+  "versiune": 2,
+  "utc": "2026-10-31T20:36:36Z",
+  "inlocuieste_sha256": "b18e8e6d122440b2eec379c6b6a1b4095fe6b2e1928320646bb7c33a8ef40b90",
+  "motiv": "AMENDAMENT_XI_P2_01 (citire), INCIDENT_P2_01",
+  "files": {
+    "xi/p2/citire.py": "a7bc4f3ec1e07ab8a1764e1b987f4d33921abe0b1f656ee290789c6bc08052c4",
+    "xi/p2/descarca.py": "793c5ccd8db9c10e04b1546e61d0b663b127743c0f6ebf7ac741240d4551a53f",
+    "xi/p2/p2.py": "a1d1ab551f820e2b3d7105a082c4a8c754a8c3aeb650233323a86600b8064076",
+    "xi/p2/verifica_p2.py": "b5c098c1a4566f2f54e4434df6ec128d158a0230c2592d801dc500a84ede23dc"
+  },
+  "calificare": "xi/rezultate/P2/calificare/CALIFICARE_P2_20261031T202258Z.json",
+  "calificare_sha256": "6ab2f3a39b2b4dbb309760578a07ee5469eb5bd9cd375378cf5420c46996d058",
+  "calificare_amendament": "xi/rezultate/P2/calificare/Q4_AMENDAMENT_P2_01_20261031T203555Z.json",
+  "calificare_amendament_sha256": "ab840ea2af68188b6defb1d686184c4fc6eb5d53bdcfd9a32c5cfea8eea9df33",
+  "amendament_md_sha256": "c4215f1c4617c55fe11d211c0783deaec6b93f29b721b196a0bd314efa883cac",
+  "amendament_citire_sha256": "9ec708316a6418e4610ce7779d2de4fd0669a64fdb0a58aee4b2380e1a8ab25d",
+  "q4_amendament_script_sha256": "c66b5687ecf5a71351a7ffbbc88f3bb7820791ac3dc12d2f205a24f07271d7de",
+  "structura_xlsx_sha256": "30993b670ffa3fdccd6486f380e8a58eaab7d46e5fed9377b0454e9a5ecafe22",
+  "incident_sha256": "b59f776d68229aa0f6e84edc87af551c99a7559b0a465bbc1fb94f03fb446d7d",
+  "protocol_A_sha256": "01ff623543ca73b11cd5b66f5b4ed2ae920e38fba66198ff7348452e49957707",
+  "sigiliu_B_sha256": "af7444af68e9500640b113f6e59468f5c8203df1e98c3584693d6f16088347bd",
+  "banca_sha256": "d7d1cbb48553bc61b26285771d7456c53bc554f77ace26fe889756be624a6770",
+  "verifica_p1_sha256": "d39f914f6c4bc454a064b0878ab8b48a98d7af50978a549ba3b99cb83af6ef93",
+  "separate_inainte": [
+    "FR_loto",
+    "US_powerball",
+    "US_megamillions(EXCLUS)"
+  ],
+  "analiza_facuta_inainte": false,
+  "positive_claims_allowed": false
+}

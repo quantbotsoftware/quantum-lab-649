@@ -1,0 +1,113 @@
+{
+  "generated_from_artifacts": true,
+  "files": {
+    "PREINREGISTRARE_CS649.md": {
+      "sha256": "d9c453e4228e9ea49f2430f79c76ec31d52ab66d2bf48bc950bd96a066be1fcf",
+      "bytes": 26894
+    },
+    "SIGILIU_PROTOCOL_CS649.json": {
+      "sha256": "fd0309eb38f365c1e32da0840a22d5067581593114b1b0a34ba9dac48b9869e0",
+      "bytes": 671
+    },
+    "cs649.py": {
+      "sha256": "b66c064ac5d0a60f5994604518776bc18893c4b9f51de809ae8bb3ef2f0e150f",
+      "bytes": 42246
+    },
+    "verify_cs649.py": {
+      "sha256": "3190f6e7fca75ad8a5e266f9f9b0dd6c07c611408b95023b501c6af9ad9778dc",
+      "bytes": 14629
+    },
+    "raport_cs649.py": {
+      "sha256": "c5739c565dd7a84c127327dfeb90818a56811e1f58d9d88c8a19cacfe321c2f8",
+      "bytes": 16500
+    },
+    "tests/test_cs649.py": {
+      "sha256": "a9e187749506cbc083bea045c9eeca9d753c8fba647de4ff3dabea24cb5ab536",
+      "bytes": 2017
+    },
+    "rezultate/cod_calificare/cs649.py": {
+      "sha256": "b66c064ac5d0a60f5994604518776bc18893c4b9f51de809ae8bb3ef2f0e150f",
+      "bytes": 42246
+    },
+    "rezultate/CALIFICARE.json": {
+      "sha256": "0f72faa67ae1f285b6303d3339a25f75c32650b693b240f7c7d9d7e8b331bb0a",
+      "bytes": 5486
+    },
+    "rezultate/backtest_unic/START.json": {
+      "sha256": "476226fa7e583030cf784fff0e30ee641a01d10c711abe33fcebb3ef97e5685c",
+      "bytes": 965
+    },
+    "rezultate/backtest_unic/PREDICTII.npz": {
+      "sha256": "87155567db84087c9954d508fd5d00e3b7cf2d4088b8a213043ecfb45ddaae39",
+      "bytes": 3283268
+    },
+    "rezultate/backtest_unic/PREDICTII_EXACTE.json.gz": {
+      "sha256": "cee7ae7ebac771a8a35ed8db5bfd382ba8a4e0e980adac76907eeb5c42c3d958",
+      "bytes": 4336597
+    },
+    "rezultate/backtest_unic/PREDICTII_SIGILIU.json": {
+      "sha256": "44ab1f72ec460af0f4f763081b0ce7145b26fd93202b6c603b7f112479de4deb",
+      "bytes": 334
+    },
+    "rezultate/backtest_unic/REZULTATE.json": {
+      "sha256": "a1cfaed57d131f15c1071a45f5fa7e57edea446a2d5e3a450f5c9d0fb189303c",
+      "bytes": 127406
+    },
+    "rezultate/backtest_unic/VERIFICARE_INDEPENDENTA.json": {
+      "sha256": "934d767ada4a05830f257591049c7396fc0069354fdd6d80e73142aed61ab561",
+      "bytes": 3890
+    },
+    "rezultate/nule/SUMAR.json": {
+      "sha256": "370c6f627a31f50ed30424d7e9265696ae4b7657aa75f163b448ff0c0f0d8b6c",
+      "bytes": 20994
+    },
+    "rezultate/putere/SUMAR.json": {
+      "sha256": "c93fdada2b58b6c3f4c79609b5c666d4925fd4df9dd59847db6437f2b4897f1e",
+      "bytes": 15041
+    },
+    "rezultate/SENSIBILITATE.json": {
+      "sha256": "0f1efcb3a87945f9381e78189a47acca1e7fe8ba916708cfa52956bac925bd04",
+      "bytes": 1274
+    },
+    "jurnal/calificare.log": {
+      "sha256": "cfae2df34e05d833351b21656b578586010c0c13a6c8a9c2a626f1b916da908f",
+      "bytes": 2766
+    },
+    "jurnal/calificare_stdout.log": {
+      "sha256": "03826b61658297b0eeca8071ce01b24d5aaa036c4ca7629f711b222e037c8e75",
+      "bytes": 3697
+    },
+    "jurnal/backtest_unic.log": {
+      "sha256": "8eb9d75223a617608d19dba06629b06b9f213fa3ff401495280f4f3e570444bb",
+      "bytes": 776
+    },
+    "jurnal/sens.log": {
+      "sha256": "c0b6280075ca3b747935de8373c0568eb4fbe9a3bdb5b54c17508b758db4fa7e",
+      "bytes": 751
+    },
+    "jurnal/null32.log": {
+      "sha256": "657a73ff7c57dc9c38220c57cd8e5e0510d85f489e161a9bb0345e12bc712edc",
+      "bytes": 15552
+    },
+    "jurnal/power24.log": {
+      "sha256": "09d935d60f33e2aa7549984a97a058ad45c0e27c4eccedf3bd2168f5bb0e6620",
+      "bytes": 11037
+    },
+    "jurnal/teste_unitare_precalificare.log": {
+      "sha256": "f9e270a1148f8079728fc97df1841a3afa34d3e9b6eb4dd211e305897b916afd",
+      "bytes": 98
+    },
+    "jurnal/preprotocol/NOTA.md": {
+      "sha256": "d607ea51b2af774b738446383d8051149927a5970bc7937977fd1117493c14e0",
+      "bytes": 907
+    },
+    "jurnal/preprotocol/putere_mana_cs649.py": {
+      "sha256": "be138a41ce4cb5abb07a2efe5588c3cd3233727abd7e5cc48e9cf6d943a43a31",
+      "bytes": 2802
+    },
+    "RAPORT_CS649.md": {
+      "sha256": "be891b098a2584db0bd6dec57ad8ba7195699eff8caeb57b9cc6c84f202d8903",
+      "bytes": 14826
+    }
+  }
+}

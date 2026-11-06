@@ -1,0 +1,155 @@
+{
+  "joc": "FR_loto",
+  "utc_start": "2026-10-31T20:33:05Z",
+  "fisiere": [
+    {
+      "url": "https://media.fdj.fr/static-draws/csv/loto/loto_200810.zip",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:05Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_200810.zip",
+      "utc": "2026-10-31T20:33:05Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:05 GMT",
+        "Last-Modified": "Mon, 06 Mar 2017 19:11:24 GMT",
+        "ETag": "\"58bdb45c-11378\"",
+        "Content-Length": "70520",
+        "Content-Type": "application/zip"
+      },
+      "fisier": "date_p2/FR_loto/sigilat/00_loto_200810.zip",
+      "octeti": 70520,
+      "sha256": "e9cc1397e3b744acba894f51e804aa4404f900066ad1be07a50d53464422f946",
+      "structura": {
+        "nume": "00_loto_200810.zip",
+        "octeti": 70520,
+        "sha256": "e9cc1397e3b744acba894f51e804aa4404f900066ad1be07a50d53464422f946",
+        "membri": [
+          {
+            "nume": "nouveau_loto.csv",
+            "marime": 186875,
+            "linii_nevide": 1318,
+            "forma_prima": "annee_numero_de_tirage;jour_de_tirage;date_de_tirage;date_de_forclusion;boule_9;boule_9;boule_9;boule_9;boule_9;numero_chance;combinaison_gagnante_en_ordre_croissant;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;no",
+            "forma_a_doua": "9999999;SAMEDI  ;99/99/9999;99/99/9999;99;99;99;99;9;9;9-99-99-99-99+9;9;9;9;999999,9;999;9999,9;99999;99,9;999999;9,9;999999;9;9 999 999;eur;",
+            "forma_ultima": "9999999;LUNDI   ;99/99/9999;99/99/9999;99;99;99;99;99;9;99-99-99-99-99+9;9;9;9;9;999;9999,9;99999;99,9;999999;9,9;999999;9;9 999 999;eur;"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://media.fdj.fr/static-draws/csv/loto/loto_201703.zip",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:06Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_201703.zip",
+      "utc": "2026-10-31T20:33:06Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:06 GMT",
+        "Last-Modified": "Wed, 27 Feb 2019 12:11:12 GMT",
+        "ETag": "\"5c767e60-9a5e\"",
+        "Content-Length": "39518",
+        "Content-Type": "application/zip"
+      },
+      "fisier": "date_p2/FR_loto/sigilat/01_loto_201703.zip",
+      "octeti": 39518,
+      "sha256": "9d6003e642952d4cea4fe97d722db4fddd1d2626d7f9ae22671d1e089ed48b14",
+      "structura": {
+        "nume": "01_loto_201703.zip",
+        "octeti": 39518,
+        "sha256": "9d6003e642952d4cea4fe97d722db4fddd1d2626d7f9ae22671d1e089ed48b14",
+        "membri": [
+          {
+            "nume": "loto2017.csv",
+            "marime": 92569,
+            "linii_nevide": 311,
+            "forma_prima": "annee_numero_de_tirage;jour_de_tirage;date_de_tirage;date_de_forclusion;boule_9;boule_9;boule_9;boule_9;boule_9;numero_chance;combinaison_gagnante_en_ordre_croissant;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;no",
+            "forma_a_doua": "9999999;LUNDI   ;99/99/9999;99/99/9999;9;99;99;99;99;9;9-99-99-99-99+9;9;9999999;9;999999;99;9999;999;999;9999;99;9999;99;99999;99;999999;9;999999;9,9;99;99999;R 9999 9999,J 9999 9999,A 9999 9999,P 9999 9999,W 9999 9999,R 9999 9999,S 9999 9999,O 9999 9999,Q 9999 9999,Q 9999 9999;9 999 999;eur;",
+            "forma_ultima": "9999999;LUNDI   ;99/99/9999;99/99/9999;99;99;9;99;9;9;9-9-99-99-99+9;9;9999999;9;999999;99;9999;999;999;9999;99;99999;99;99999;99;999999;9;999999;9,9;99;99999;P 9999 9999,C 9999 9999,N 9999 9999,E 9999 9999,C 9999 9999,T 9999 9999,P 9999 9999,P 9999 9999,P 9999 9999,E 9999 9999;9 999 999;eur;"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://media.fdj.fr/static-draws/csv/loto/loto_201902.zip",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:06Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_201902.zip",
+      "utc": "2026-10-31T20:33:06Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:06 GMT",
+        "Last-Modified": "Sat, 02 Nov 2019 19:49:20 GMT",
+        "ETag": "\"5dbdddc0-37ca\"",
+        "Content-Length": "14282",
+        "Content-Type": "application/zip"
+      },
+      "fisier": "date_p2/FR_loto/sigilat/02_loto_201902.zip",
+      "octeti": 14282,
+      "sha256": "a839dac587e3237db8b854ee273d1f280689bbf99ecf4bae50d0c4c0732ff4b0",
+      "structura": {
+        "nume": "02_loto_201902.zip",
+        "octeti": 14282,
+        "sha256": "a839dac587e3237db8b854ee273d1f280689bbf99ecf4bae50d0c4c0732ff4b0",
+        "membri": [
+          {
+            "nume": "loto_201902.csv",
+            "marime": 32396,
+            "linii_nevide": 108,
+            "forma_prima": "annee_numero_de_tirage;jour_de_tirage;date_de_tirage;date_de_forclusion;boule_9;boule_9;boule_9;boule_9;boule_9;numero_chance;combinaison_gagnante_en_ordre_croissant;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;no",
+            "forma_a_doua": "9999999;SAMEDI  ;99/99/9999;99/99/9999;99;9;99;99;99;9;9-99-99-99-99+9;9;99999999;9;999999;999;9999;999;999;9999;99;99999;99;99999;99;999999;9;999999;9,9;99;99999;S 9999 9999,L 9999 9999,F 9999 9999,E 9999 9999,C 9999 9999,U 9999 9999,Q 9999 9999,C 9999 9999,W 9999 9999,D 9999 9999;9 999 999;eur;",
+            "forma_ultima": "9999999;MERCREDI;99/99/9999;99/99/9999;99;9;99;99;9;9;9-9-99-99-99+9;9;9999999;9;999999;99;9999;999;999;9999;99;99999;99;99999;99;999999;9;999999;9,9;99;99999;B 9999 9999,D 9999 9999,L 9999 9999,Q 9999 9999,I 9999 9999,A 9999 9999,H 9999 9999,J 9999 9999,Q 9999 9999,N 9999 9999;9 999 999;eur;"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://media.fdj.fr/static-draws/csv/loto/loto_201911.zip",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:06Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_201911.zip",
+      "utc": "2026-10-31T20:33:06Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:06 GMT",
+        "Last-Modified": "Wed, 24 Jul 2024 18:42:13 GMT",
+        "ETag": "\"66a14b05-1e728\"",
+        "Content-Length": "124712",
+        "Content-Type": "application/zip"
+      },
+      "fisier": "date_p2/FR_loto/sigilat/03_loto_201911.zip",
+      "octeti": 124712,
+      "sha256": "5ea424675d1bcea9050186eeaa496019c53393a2356eb8336ec446f544ea9140",
+      "structura": {
+        "nume": "03_loto_201911.zip",
+        "octeti": 124712,
+        "sha256": "5ea424675d1bcea9050186eeaa496019c53393a2356eb8336ec446f544ea9140",
+        "membri": [
+          {
+            "nume": "loto_201911.csv",
+            "marime": 279560,
+            "linii_nevide": 741,
+            "forma_prima": "annee_numero_de_tirage;jour_de_tirage;date_de_tirage;date_de_forclusion;boule_9;boule_9;boule_9;boule_9;boule_9;numero_chance;combinaison_gagnante_en_ordre_croissant;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;nombre_de_gagnant_au_rang9;rapport_du_rang9;no",
+            "forma_a_doua": "99999999;MERCREDI;99/99/9999;99/99/9999;99;99;99;9;99;9;9-99-99-99-99+9;9;99999999;9;99999,9;99;9999;999;999,9;9999;99,9;99999;99,9;99999;99,9;999999;9,9;999999;9,9;99;99999;D 9999 9999,K 9999 9999,T 9999 9999,D 9999 9999,A 9999 9999,T 9999 9999,P 9999 9999,N 9999 9999,R 9999 9999,J 9999 9999;99;99;",
+            "forma_ultima": "99999999;LUNDI   ;99/99/9999;99/99/9999;99;9;99;9;99;9;9-9-99-99-99+9;9;99999999;9;999999,9;99;9999,9;999;999;9999;99,9;99999;99,9;99999;9;999999;9,9;999999;9,9;99;99999;H 9999 9999,P 9999 9999,C 9999 9999,K 9999 9999,P 9999 9999,U 9999 9999,B 9999 9999,C 9999 9999,R 9999 9999,U 9999 9999;9;99;99;99"
+          }
+        ]
+      }
+    }
+  ],
+  "utc_sfarsit": "2026-10-31T20:33:06Z"
+}
