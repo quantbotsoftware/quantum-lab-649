@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-26T15:55:35Z",
+  "method": "căutare web independentă de colector (rezumat de motor de căutare; surse citate: digi24.ro, ziare.com)",
+  "draw_date": "2026-10-25",
+  "web": {"joker": {"numbers": [10, 39, 20, 16, 1], "joker": 8}, "540": {"numbers": [8, 22, 12, 21, 1, 16]}},
+  "export": {"joker": "joker:2026-10-25:1-10-16-20-39:J8", "540": "540:2026-10-25:1-8-12-21-22-16"},
+  "match": true,
+  "note": "Sursă de presă secundară, nu oficială; colectorul a descărcat oficial de pe loto.ro (dovezi HTTP în sursa/colectare_*.json)."
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": "TU3-EJ",
+  "file": "PROTOCOL_TU3_EJ.md",
+  "sha256": "75e1ff2251faf53033c873f93b3683ebba0e6217d625ba5e0847f7d6ec27b41e",
+  "bytes": 12588,
+  "parent_protocol_sha256": "694d35455ca7a7a2517cbe6e26a442628ca3b602c81664127f4ade4a0e9b6b04",
+  "p_protocol_sha256": "ddede39e4a1570e9612a34b2d95e18472ab7b80ff9fd000d83e21d56012f1b4d",
+  "e40_protocol_sha256": "a979d875dd802625032d71a9f19d58a7be4d5a29a00db4e054e3148b23f97a5b",
+  "engine_sha256": "1da9be4e05bcefe401c299b6e6cd0ca7e4d6057939756057822cb43c951cb2ae",
+  "parser_sha256": "219e5d2085a72e960583830a6acd009e376f01079381ad0e09824fd200ee8968",
+  "parser_multi_sha256": "4c4b0f34cdac96e8b590649113d8db4331a1c6cdfa6169bb8b3017bdb92aef2a",
+  "motor_n_sha256": "28e8eede1de49070da90291c3734c64a8389551167b0649f396e68bbd98add17",
+  "joker_entanglement_sha256": "52feb5b575f4c507289091b7504efbe480e49f810de109c3f05b0a8d5b99933e",
+  "e40_power_sha256": "dbc778862cf3036267a71f74a0e44dfb45780b02f4817f82680162f93db7bc2f",
+  "sealed_utc": "2026-10-26T17:11:53Z",
+  "code_files_present": [],
+  "results_present": false
+}

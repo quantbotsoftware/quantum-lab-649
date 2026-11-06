@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1a0b3d"/>
+      <stop offset="100%" stop-color="#04010b"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#b6ff00"/>
+      <stop offset="100%" stop-color="#b6ff00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)" stroke="#00f5ff" stroke-width="4"/>
+  <g filter="url(#glow)" fill="none" stroke-width="5">
+    <ellipse cx="128" cy="112" rx="88" ry="30" stroke="#00f5ff"/>
+    <ellipse cx="128" cy="112" rx="88" ry="30" stroke="#ff2bd6" transform="rotate(60 128 112)"/>
+    <ellipse cx="128" cy="112" rx="88" ry="30" stroke="#8f5bff" transform="rotate(-60 128 112)"/>
+  </g>
+  <circle cx="128" cy="112" r="26" fill="url(#core)"/>
+  <circle cx="128" cy="112" r="9" fill="#ffffff"/>
+  <circle cx="216" cy="112" r="7" fill="#00f5ff" filter="url(#glow)"/>
+  <circle cx="84" cy="36" r="7" fill="#ff2bd6" filter="url(#glow)"/>
+  <circle cx="84" cy="188" r="7" fill="#8f5bff" filter="url(#glow)"/>
+  <text x="128" y="226" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="40"
+        font-weight="bold" fill="#d7fbff" filter="url(#glow)">649</text>
+</svg>

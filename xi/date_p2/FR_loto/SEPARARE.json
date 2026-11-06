@@ -1,0 +1,46 @@
+{
+  "joc": "FR_loto",
+  "utc": "2026-10-31T20:33:26Z",
+  "surse_sha256": "b770466f3e87f36830c21e40e1ca6bae2d2740efcc72b004f0dd01e257f9538f",
+  "amendament_citire_sha256": null,
+  "brut_sha256": [
+    "e9cc1397e3b744acba894f51e804aa4404f900066ad1be07a50d53464422f946",
+    "9d6003e642952d4cea4fe97d722db4fddd1d2626d7f9ae22671d1e089ed48b14",
+    "a839dac587e3237db8b854ee273d1f280689bbf99ecf4bae50d0c4c0732ff4b0",
+    "5ea424675d1bcea9050186eeaa496019c53393a2356eb8336ec446f544ea9140"
+  ],
+  "statistici_citire": {
+    "fisiere": [
+      {
+        "nume": "00_loto_200810.zip:nouveau_loto.csv",
+        "randuri_date": 1317
+      },
+      {
+        "nume": "01_loto_201703.zip:loto2017.csv",
+        "randuri_date": 310
+      },
+      {
+        "nume": "02_loto_201902.zip:loto_201902.csv",
+        "randuri_date": 107
+      },
+      {
+        "nume": "03_loto_201911.zip:loto_201911.csv",
+        "randuri_date": 740
+      }
+    ],
+    "randuri_antet": 4,
+    "randuri_inainte_start": 0,
+    "randuri_dupa_sfarsit": 0,
+    "randuri_alta_zi": 0,
+    "duplicate_exacte": 0
+  },
+  "T": 2474,
+  "R": 494,
+  "T_dev": 1980,
+  "dev_sha256": "eec4e4d3751804a029f89e92ee108047776c724dc5b9592ba0f0d9eefeb9e636",
+  "rezerva_sha256": "b8aa19bc5026bafcc8085edb2e90daa95ec31b84d2ac62e26923d6a90298fedd",
+  "dev_prima_data": "2008-10-06",
+  "dev_ultima_data": "2021-05-29",
+  "rez_prima_data": "2021-05-31",
+  "rez_ultima_data": "2024-07-24"
+}

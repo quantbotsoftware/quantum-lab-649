@@ -1,0 +1,27 @@
+{
+  "joc": "US_megamillions",
+  "utc": "2026-10-31T20:33:26Z",
+  "surse_sha256": "b770466f3e87f36830c21e40e1ca6bae2d2740efcc72b004f0dd01e257f9538f",
+  "amendament_citire_sha256": null,
+  "brut_sha256": [
+    "99d1e83824e2f652065f5238b1f7e69c45768e28412c96f960f9d42487fa9568"
+  ],
+  "statistici_citire": {
+    "fisiere": [
+      {
+        "nume": "00_US_megamillions_rows.csv",
+        "randuri_date": 2553
+      }
+    ],
+    "randuri_antet": 1,
+    "randuri_inainte_start": 1613,
+    "randuri_dupa_sfarsit": 164,
+    "randuri_alta_zi": 0,
+    "duplicate_exacte": 0
+  },
+  "T": 776,
+  "R": 155,
+  "T_dev": 621,
+  "exclus": true,
+  "motiv": "T = 776 < 1000 în perioada stabilă"
+}

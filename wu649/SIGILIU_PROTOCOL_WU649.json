@@ -1,0 +1,11 @@
+{
+  "protocol": "WU649-P1",
+  "file": "PREINREGISTRARE_WU649.md",
+  "sha256": "e46db3cf550ab912580b87d37b24bb883ea29f37caabcc5019e17fd7f851f961",
+  "bytes": 16325,
+  "sealed_at_utc": "2026-10-25T21:18:33.356842+00:00",
+  "statement": "Sigilat înainte de orice cod WU649 și de orice calcul WU649 (real, sintetic sau construit); directorul wu649/ conține doar protocolul.",
+  "dir_listing_at_seal": [
+    "PREINREGISTRARE_WU649.md"
+  ]
+}

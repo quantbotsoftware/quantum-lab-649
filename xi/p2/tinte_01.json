@@ -1,0 +1,10 @@
+[
+ {"joc":"HU_otos","tip":"HEAD","url":"https://bet.szerencsejatek.hu/cmsfiles/otos.csv"},
+ {"joc":"HU_hatos","tip":"HEAD","url":"https://bet.szerencsejatek.hu/cmsfiles/hatos.csv"},
+ {"joc":"FR_loto","tip":"HTML","url":"https://www.fdj.fr/jeux-de-tirage/loto/historique"},
+ {"joc":"US_powerball","tip":"HEAD","url":"https://data.ny.gov/api/views/d6yy-54nr/rows.csv?accessType=DOWNLOAD"},
+ {"joc":"US_megamillions","tip":"HEAD","url":"https://data.ny.gov/api/views/5xaw-6ayf/rows.csv?accessType=DOWNLOAD"},
+ {"joc":"UK_lotto","tip":"HEAD","url":"https://www.national-lottery.co.uk/results/lotto/draw-history/csv"},
+ {"joc":"UK_thunderball","tip":"HEAD","url":"https://www.national-lottery.co.uk/results/thunderball/draw-history/csv"},
+ {"joc":"CA_649","tip":"HEAD","url":"https://www.playnow.com/resources/documents/downloadable-numbers/649.zip"}
+]

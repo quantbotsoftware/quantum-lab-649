@@ -1,0 +1,83 @@
+{
+  "versiune": "B1",
+  "protocol_sha256": "01ff623543ca73b11cd5b66f5b4ed2ae920e38fba66198ff7348452e49957707",
+  "inventar": "xi/p2/INVENTAR_P2.json",
+  "nota": "regulile de citire pot fi corectate numai prin amendament de citire (protocol A §3); jocul, URL-urile, perioada, subjocurile, analiza si pragurile nu se schimba",
+  "incluse": [
+    {
+      "joc": "HU_otos", "nume": "Ötöslottó (Ungaria)", "operator": "Szerencsejáték Zrt. (operator de stat)",
+      "urls": ["https://bet.szerencsejatek.hu/cmsfiles/otos.csv"],
+      "subjocuri": [["princ", 90, 5]],
+      "start": "1957-01-01", "sfarsit": null,
+      "format": {"tip": "csv", "encoding": "latin-1", "delim": ";", "antet": "auto",
+                 "ordine": "an_saptamana", "camp_an": 0, "camp_sapt": 1, "camp_data": 2,
+                 "data_fmt": ["%Y.%m.%d.", "%Y.%m.%d", "%Y-%m-%d"],
+                 "numere": {"princ": {"pozitii": [-5, -4, -3, -2, -1]}}}
+    },
+    {
+      "joc": "HU_hatos", "nume": "Hatoslottó (Ungaria)", "operator": "Szerencsejáték Zrt. (operator de stat)",
+      "urls": ["https://bet.szerencsejatek.hu/cmsfiles/hatos.csv"],
+      "subjocuri": [["princ", 45, 6]],
+      "start": "1988-01-01", "sfarsit": null,
+      "format": {"tip": "csv", "encoding": "latin-1", "delim": ";", "antet": "auto",
+                 "ordine": "an_saptamana", "camp_an": 0, "camp_sapt": 1, "camp_data": 2,
+                 "data_fmt": ["%Y.%m.%d.", "%Y.%m.%d", "%Y-%m-%d"],
+                 "numere": {"princ": {"pozitii": [-6, -5, -4, -3, -2, -1]}}}
+    },
+    {
+      "joc": "FR_loto", "nume": "Loto (Franța), formula 5/49 + numéro chance 1/10", "operator": "FDJ (La Française des Jeux)",
+      "urls": ["https://media.fdj.fr/static-draws/csv/loto/loto_200810.zip",
+               "https://media.fdj.fr/static-draws/csv/loto/loto_201703.zip",
+               "https://media.fdj.fr/static-draws/csv/loto/loto_201902.zip",
+               "https://media.fdj.fr/static-draws/csv/loto/loto_201911.zip"],
+      "subjocuri": [["princ", 49, 5], ["bila", 10, 1]],
+      "start": "2008-10-06", "sfarsit": null,
+      "format": {"tip": "zip_csv", "encoding": "latin-1", "delim": ";", "antet": true, "ordine": "data",
+                 "col_data": "date_de_tirage", "col_cheie": "annee_numero_de_tirage",
+                 "data_fmt": ["%d/%m/%Y", "%Y%m%d", "%d/%m/%y", "%Y-%m-%d"],
+                 "numere": {"princ": {"coloane": ["boule_1", "boule_2", "boule_3", "boule_4", "boule_5"]},
+                            "bila": {"coloane": ["numero_chance"]}}}
+    },
+    {
+      "joc": "DE_6aus49_sambata", "nume": "LOTTO 6aus49 (Germania), extragerile de sâmbătă",
+      "operator": "WestLotto (Westdeutsche Lotterie GmbH & Co. OHG, societate de stat a landului NRW, membră DLTB)",
+      "urls": ["https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto6aus49.zip"],
+      "subjocuri": [["princ", 49, 6]],
+      "start": "1955-10-09", "sfarsit": null, "numai_ziua_saptamanii": 5,
+      "format": {"tip": "DE_PRIN_AMENDAMENT", "nota": "structura arhivei (membri, antet) necunoscută înainte de descărcare: regula de citire se fixează printr-un amendament de citire după listarea membrilor și a rândului de antet (fără valori); Zusatzzahl și Superzahl se ignoră; numai extragerile din zi de sâmbătă"}
+    },
+    {
+      "joc": "US_powerball", "nume": "Powerball (SUA), formula 5/69 + Powerball 1/26",
+      "operator": "New York State Gaming Commission (portalul de date deschise data.ny.gov, autoritate publică)",
+      "urls": ["https://data.ny.gov/api/views/d6yy-54nr/rows.csv?accessType=DOWNLOAD"],
+      "subjocuri": [["princ", 69, 5], ["bila", 26, 1]],
+      "start": "2015-10-07", "sfarsit": null,
+      "format": {"tip": "csv", "encoding": "utf-8", "delim": ",", "antet": true, "ordine": "data",
+                 "col_data": "Draw Date", "data_fmt": ["%m/%d/%Y"],
+                 "numere": {"princ": {"coloana_spatiu": "Winning Numbers", "indici": [0, 1, 2, 3, 4]},
+                            "bila": {"coloana_spatiu": "Winning Numbers", "indici": [5]}}}
+    },
+    {
+      "joc": "US_megamillions", "nume": "Mega Millions (SUA), formula 5/70 + Mega Ball 1/25",
+      "operator": "New York State Gaming Commission (data.ny.gov)",
+      "urls": ["https://data.ny.gov/api/views/5xaw-6ayf/rows.csv?accessType=DOWNLOAD"],
+      "subjocuri": [["princ", 70, 5], ["bila", 25, 1]],
+      "start": "2017-10-31", "sfarsit": "2025-04-04",
+      "format": {"tip": "csv", "encoding": "utf-8", "delim": ",", "antet": true, "ordine": "data",
+                 "col_data": "Draw Date", "data_fmt": ["%m/%d/%Y"],
+                 "numere": {"princ": {"coloana_spatiu": "Winning Numbers", "indici": [0, 1, 2, 3, 4]},
+                            "bila": {"coloane": ["Mega Ball"]}}}
+    }
+  ],
+  "excluse": [
+    {"joc": "UK_lotto", "motiv": "fișierul oficial (draw-history/csv → xml) are 2 425 octeți: numai ultimele extrageri; ≥ 1 000 extrageri imposibil"},
+    {"joc": "UK_thunderball", "motiv": "fișierul oficial (draw-history/csv → xml) are 1 641 octeți: numai ultimele extrageri"},
+    {"joc": "PL_lotto", "motiv": "lotto.pl răspunde 403 clientului; fișier public descărcabil negăsit (API cu cheie); fără ocolire"},
+    {"joc": "IT_superenalotto", "motiv": "superenalotto.it răspunde 403; arhiva este HTML pe ani, nu fișier descărcabil"},
+    {"joc": "ES_primitiva", "motiv": "SELAE nu publică fișier descărcabil al istoricului (numai consultare HTML); agregatoarele sunt interzise"},
+    {"joc": "ES_bonoloto", "motiv": "idem La Primitiva"},
+    {"joc": "CA_649", "motiv": "fișierul oficial BCLC (playnow.com/.../649.zip) este blocat în România de ONJN (răspuns cu certificatul autosemnat ONJN, 213.177.28.90); fără ocolirea blocării; OLG, Loto-Québec, WCLC: fără legături spre fișiere de date"},
+    {"joc": "FR_loto_1976_2008", "motiv": "formula veche 6/49 (loto_197605.zip): în afara perioadei stabile 5/49 + 1/10, exclusă după dată"}
+  ],
+  "positive_claims_allowed": false
+}

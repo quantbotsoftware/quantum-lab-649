@@ -1,0 +1,129 @@
+{
+ "protocol": "TU4-S33 (revenirea la kernelul 7.0.11, criteriul Q7S de paritate completă, rezoluția prospectivă S31_01)",
+ "session": "S33",
+ "user_request": "Mesajul 85 (2026-10-29T19:13:27Z)",
+ "sealed_utc": "2026-10-29T19:18:14Z",
+ "documents": {
+  "tu4/PROTOCOL_QUANTUM_S33.md": {
+   "sha256": "1e786f38f30e13e984bc5bf8f67a8bbe3b903a87005a11e7a97af6eb46ff45f5",
+   "bytes": 9726
+  }
+ },
+ "code_files_present": [],
+ "code_files_planned": [
+  "tu4/s33/verifica_s33.py"
+ ],
+ "source_modification_allowed": [],
+ "frozen_hashes": {
+  "tu4/rezultate/S31/INCIDENT_S31_01.json": "6e98ed5bef6e6649c0f438cacaeddbbf5d477d268f3b086a96a81e7d01440e14",
+  "tu4/rezultate/S31/NOTA_COMPLETARE_S31.md": "0ad610b0219b9c36f7d51bde09e37f6927bc6f0133b607b2674d446db22a76a1",
+  "tu4/rezultate/S31/M2_VERIFICARE_20261029T184558Z.json": "d019c097340b249a0b84c601416345cec126f3400ebabc204ba63a885bda3562",
+  "tu4/rezultate/S25/Q7L_VERIFICARE_20261029T184906Z.json": "1cb9a9237d8a9ce72b2d22a5a85af162fb5047c216f65de942812b45351f4221",
+  "tu4/rezultate/S25/V0L_VERIFICARE_20261029T184906Z.json": "4af346d9a1c9c95fd46d8d3f7e555d142cc2e4ba8441187d048a357517367274",
+  "tu4/PROTOCOL_QUANTUM_S32.md": "392ef089aa53597036fdc2b62803de33e977fa39fec61752867b76b52dfb9cfc",
+  "tu4/SIGILIU_TU4_S25.json": "195bf91f9c897ee59300b981212db650dbffc110bd9da994a4a9fbd3c284ef1f",
+  "tu4/SIGILIU_TU4_S31.json": "d8e8cfe06b5e0398e617170e7d183e648ce592714bbd85122a671a256a3f73b7",
+  "tu4/rezultate/S29/FISA_DUMINICA_S29.json": "2b597a222d50189064397bbb0a1e035fe01d7c57f945b7a2887c2e315376b10f",
+  "tu4/s27/sonda_s27.py": "697e1e4c37d1c022ae7870f6993bf6f421f53db947b588de52c13a4a97c8f151",
+  "loto_romania/cohorta.py": "8a70951bdb8920ff93f30982a61c1f868e37ff99c1c249145640e8d3c4b092a5",
+  "rust_core/target/release/rust-singularity-core": "c20fdcd2f7f237578d1f0ea85c05f9bf6b32a888d228e4443b6756dd1d43fd9e",
+  "tu4/s25/verifica_s25.py": "7a8c9b55644fb8292a238f7e6c1165a55f9be34c0592809045a40466b49028f4",
+  "tu4/rezultate/S25/primul_pas_S26.sh": "0caf616d8f45ee8d79f9287a84ac74f54c3ec3ad39f5907ebc4e87faaf146106",
+  "tu4/rezultate/S24/primul_pas_S25.sh": "1e7f883c1af9ec7794de2cba214cc128425977f152cd2ea1ab24aa89e7ae83aa",
+  "tu4/rezultate/S32/diag_gpu_v1.py": "8805d814f0d12cf784439d4d8509765adb55e3d3947477fa4616fec827680dfa",
+  "tu4/s19_paritate_ref.py": "d2e6a75876bae98175a2d73f3a871ad99d201b4be7a08ede378d9ae52da28e2a",
+  "tu4/s24/verifica_s24.py": "bf4b7a9b1e6a334458ea563f117950773b7bbdc539c50c7cf1d42ab4cecea0a0",
+  "tu4/rezultate/S23/verifica_s23.py": "4be4704e0ef4d63d8609c56e8bbbaecbff1c2e6ec973315d3309a150cc08799c",
+  "tu4/s24/raport_decontare_s24.py": "a9391fcc34f174a503e61da17922e5fdde1682004c1a0c004ef5e2464a173d7d",
+  "tu4/rezultate/S22/MANIFEST_RUST_CORE_20261028T032900Z.json": "6b10f7213b3088e4680f3f1c05802a347921ce8e79817d42ee378dda9ac8f49d"
+ },
+ "rust_sources_mode": "0444 (27/27)",
+ "incidents_before": [
+  "EM_01",
+  "FR_01",
+  "S19_01",
+  "S20_01",
+  "S23_01",
+  "S23_02",
+  "S23_03",
+  "S24_01",
+  "SM1_01"
+ ],
+ "incident_S31_01_status_before": "S31_FAIL formal (INCIDENT_S31_01, neschimbat)",
+ "environment_observed": {
+  "uname_r": "7.0.11-76070011-generic",
+  "boot_utc": "2026-10-29T19:08:31Z",
+  "proc_cmdline_initrd": "initrd.img-previous",
+  "timezone_system": "Europe/Bucharest",
+  "live_version_dir": "versiuni/976072ca8299",
+  "live_updated_utc": "2026-10-29T19:11:52Z"
+ },
+ "criteria": {
+  "Q7S": {
+   "K": [
+    "K1",
+    "K2",
+    "K3"
+   ],
+   "L": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "L10",
+    "L11",
+    "L12",
+    "L13"
+   ],
+   "P": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "I": [
+    "I1",
+    "I2",
+    "I3"
+   ],
+   "informativ": [
+    "P5"
+   ],
+   "pass": "toate verificările K/L/P/I trec"
+  },
+  "paritate_completa": "verdict_B2_B7 PASS, n_pass == n_checks, n_checks reprodus de binarul c20fdcd2 pe aceeași referință (aceeași versiune LIVE), toate grupele PASS; 587 numai informativ",
+  "Q7L_anticipat": "FAIL formal numai pe paritate_587 (V0L: paritate + incidente moștenit) = anticipat, nu incident"
+ },
+ "parity_reference_counts_informative": {
+  "S31_B0_6e09af13961a": 587,
+  "S31_70b3e7630ef6": 552
+ },
+ "sunday_rule": {
+  "window_utc": [
+   "2026-11-01T13:36:00Z",
+   "2026-11-01T13:57:59Z"
+  ],
+  "strict": true,
+  "laptop_local_now": "15:36–15:57 EET",
+  "C1": "Q7S PASS pe logul primului pas din fereastră",
+  "fisa": "FISA_DUMINICA_S29 neschimbată"
+ },
+ "forbidden_windows": [
+  "[:58,:04)",
+  "[:28,:34)",
+  "±15 min față de 08:20/12:20/15:20 Europe/Bucharest"
+ ],
+ "new_files_allowed": [
+  "tu4/s33/verifica_s33.py",
+  "tu4/rezultate/S33/*",
+  "tu4/rezultate/S25/primul_pas_S26_<UTC>.log",
+  "scrierile uzuale ale primului pas și ale verifica_s25.py q7l"
+ ],
+ "sudo": false,
+ "positive_claims_allowed": false
+}

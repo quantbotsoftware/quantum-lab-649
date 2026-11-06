@@ -1,0 +1,21 @@
+{
+  "protocol": "PL649-P1",
+  "file": "PREINREGISTRARE_PL649.md",
+  "sha256": "779a108ed9cab8946110e5f048dedd4535cc5e40bdcaae9ea40df0abbfc8c617",
+  "bytes": 21769,
+  "sealed_at_utc": "2026-10-26T12:50:47.542061+00:00",
+  "statement": "Sigilat înainte de orice cod PL649 și de orice calcul PL649 (real, sintetic sau construit). Singurele calcule anterioare: evaluarea formulelor închise ale martorilor Q5/Q6 (jurnal/preprotocol/, fără model și fără date).",
+  "preprotocol_files": {
+    "calculator_constante.py": "55f61995e63ccaa83ea34a465301d1e1ef91efa68f78c2ff440d0fea39ab3863",
+    "constante_preprotocol.json": "acaa3e5e80868b9edb3115608a7f3751d0f67ac5d71be4ccff952430bb3afb85"
+  },
+  "dir_listing_at_seal": [
+    "PREINREGISTRARE_PL649.md",
+    "jurnal/preprotocol/calculator_constante.py",
+    "jurnal/preprotocol/constante_preprotocol.json"
+  ],
+  "engine_py_unchanged_sha256": "1da9be4e05bcefe401c299b6e6cd0ca7e4d6057939756057822cb43c951cb2ae",
+  "parser_py_unchanged_sha256": "219e5d2085a72e960583830a6acd009e376f01079381ad0e09824fd200ee8968",
+  "dl_track_frozen_revision": "20261025T165403Z",
+  "positive_claims_allowed": false
+}

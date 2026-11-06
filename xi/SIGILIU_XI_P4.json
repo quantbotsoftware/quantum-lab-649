@@ -1,0 +1,20 @@
+{
+  "faza": "P4",
+  "protocol": "xi/PROTOCOL_XI_P4.md",
+  "protocol_sha256": "8d56aeafdb602befb9c91ac644a744e6b1d449774168d82fdc4ebd804fe66af3",
+  "plan_sha256": "a675289e736f6754e3ca14593e89f4c58be3297f0a3f27b05af927124d302bd1",
+  "amendament_v12_01_sha256": "7db003c5b920bddd3fd9d8e86d405ba80deb60519f4f8190545ee3f2bf13e9fe",
+  "db_ro_sha256": "9942abfc25282a715cba70e4f6d17a885a467eaf5fe0440838dc28114003c078",
+  "dev_strain_sha256": {
+    "HU_otos": "b6024d3ad27d4dc6b09b411b5da680d3a4e16a8fa453222618fa40d30a7de557",
+    "FR_loto": "eec4e4d3751804a029f89e92ee108047776c724dc5b9592ba0f0d9eefeb9e636",
+    "US_powerball": "cd5aa83ad627c296117bfaf5df0451b10343983abc1e154b38a5351b85985e40",
+    "HU_hatos": "951d6eaf19fd434dbbc8d9af95dec2b2340e3e648fae061c289138e95dbfd784"
+  },
+  "sealed_utc": "2026-11-01T14:39:25Z",
+  "cod_p4_prezent": [],
+  "rezultate_p4_prezente": [],
+  "rezerve_citite": false,
+  "note": "Protocol XI-P4 sigilat inainte de orice cod P4, orice calcul sintetic sau real P4 si fara acces la rezerva.json ori sigilat/.",
+  "positive_claims_allowed": false
+}

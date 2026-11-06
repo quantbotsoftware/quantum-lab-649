@@ -1,0 +1,16 @@
+{
+  "faza": "HR",
+  "protocol": "xi/PROTOCOL_XI_HR.md",
+  "protocol_sha256": "985c89bf980fcfcee5a07c3bbc1499f96f987cf8a2322e9988064bb1781d0769",
+  "plan_v11_sha256": "2fb304f4169074f1fba032e90fa9561fc7b72e8561b9b14d1ba5ae4c522bfc88",
+  "protocol_xi_f_sha256": "ba74568f40fa62303bef59bbd7c23d46b527ec53e00297c59f71670a0b7d3220",
+  "protocol_xi_h_sha256": "2c8da0a659c9f05c899ff445cb471f96f6c8ed2b8091a92ef02746d0234b06e9",
+  "app_py_sha256": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47",
+  "pagina_strategii_sha256": "9d297ae93280406553110e792f72dd63a1de9ef03214f47a63c8a18ff59ff6eb",
+  "cod_f_sigiliu_sha256": "6e687c30089b2cadd3868c6468235d5d755abfacc3ebfdc759b9c4760c217e65",
+  "sealed_utc": "2026-10-31T21:34:48Z",
+  "cod_hr_prezent": [],
+  "pagina_registru_prezenta": false,
+  "note": "sigilat inainte de orice cod HR",
+  "positive_claims_allowed": false
+}

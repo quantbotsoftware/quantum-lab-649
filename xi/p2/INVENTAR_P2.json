@@ -1,0 +1,462 @@
+[
+  {
+    "joc": "HU_otos",
+    "tip": "HEAD",
+    "url": "https://bet.szerencsejatek.hu/cmsfiles/otos.csv",
+    "utc": "2026-10-31T20:08:12Z",
+    "status": 200,
+    "url_final": "https://bet.szerencsejatek.hu/cmsfiles/otos.csv",
+    "headers": {
+      "Content-Type": "application/octet-stream",
+      "Content-Length": "240429",
+      "Last-Modified": "Fri, 30 Oct 2026 23:10:12 GMT",
+      "ETag": "\"6ae523d5-3ab2d:dtagent10343260715123811T3G6\"",
+      "Date": "Sat, 31 Oct 2026 20:08:12 GMT"
+    }
+  },
+  {
+    "joc": "HU_hatos",
+    "tip": "HEAD",
+    "url": "https://bet.szerencsejatek.hu/cmsfiles/hatos.csv",
+    "utc": "2026-10-31T20:08:12Z",
+    "status": 200,
+    "url_final": "https://bet.szerencsejatek.hu/cmsfiles/hatos.csv",
+    "headers": {
+      "Content-Type": "application/octet-stream",
+      "Content-Length": "185540",
+      "Last-Modified": "Fri, 30 Oct 2026 23:10:32 GMT",
+      "ETag": "\"6ae523e9-2d4c4:dtagent10343260715123811T3G6\"",
+      "Date": "Sat, 31 Oct 2026 20:08:12 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HTML",
+    "url": "https://www.fdj.fr/jeux-de-tirage/loto/historique",
+    "utc": "2026-10-31T20:08:12Z",
+    "status": 200,
+    "url_final": "https://www.fdj.fr/jeux-de-tirage/loto/historique",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Sat, 31 Oct 2026 20:08:13 GMT"
+    },
+    "bytes_citite_neafisate": 775259,
+    "legaturi_date": []
+  },
+  {
+    "joc": "US_powerball",
+    "tip": "HEAD",
+    "url": "https://data.ny.gov/api/views/d6yy-54nr/rows.csv?accessType=DOWNLOAD",
+    "utc": "2026-10-31T20:08:13Z",
+    "status": 200,
+    "url_final": "https://data.ny.gov/api/views/d6yy-54nr/rows.csv?accessType=DOWNLOAD",
+    "headers": {
+      "Content-Type": "text/csv; charset=utf-8",
+      "Content-Length": "0",
+      "Last-Modified": "Thu, 29 Oct 2026 07:38:55 GMT",
+      "ETag": "\"Zm94dHJvdC42MDg0XzM3Nl8yMzI1d1hmUGx2b2RHcnFIRUxoLUlYZjQyNDVNamdr---gzipaAENr50SWjv_iIEPCwjvU2jCjbI--gzip\"",
+      "Date": "Sat, 31 Oct 2026 20:08:15 GMT",
+      "Content-Disposition": "attachment; filename=Lottery_Powerball_Winning_Numbers__Beginning_2010.csv"
+    }
+  },
+  {
+    "joc": "US_megamillions",
+    "tip": "HEAD",
+    "url": "https://data.ny.gov/api/views/5xaw-6ayf/rows.csv?accessType=DOWNLOAD",
+    "utc": "2026-10-31T20:08:15Z",
+    "status": 200,
+    "url_final": "https://data.ny.gov/api/views/5xaw-6ayf/rows.csv?accessType=DOWNLOAD",
+    "headers": {
+      "Content-Type": "text/csv; charset=utf-8",
+      "Content-Length": "0",
+      "Last-Modified": "Sat, 31 Oct 2026 07:33:17 GMT",
+      "ETag": "\"Zm94dHJvdC42MDg2XzM3NV8yMDQ4eDVSeG9Ta0ZBS1kzMFJEbTJLVEFRTDZTbS1V---gzip4lb_JGuuHlyBumcCMNrf-7qz-e8--gzip\"",
+      "Date": "Sat, 31 Oct 2026 20:08:16 GMT",
+      "Content-Disposition": "attachment; filename=Lottery_Mega_Millions_Winning_Numbers__Beginning_2002.csv"
+    }
+  },
+  {
+    "joc": "UK_lotto",
+    "tip": "HEAD",
+    "url": "https://www.national-lottery.co.uk/results/lotto/draw-history/csv",
+    "utc": "2026-10-31T20:08:16Z",
+    "status": 200,
+    "url_final": "https://www.national-lottery.co.uk/results/lotto/draw-history/xml",
+    "headers": {
+      "Content-Type": "application/xml",
+      "Content-Length": "2425",
+      "Date": "Sat, 31 Oct 2026 20:08:01 GMT"
+    }
+  },
+  {
+    "joc": "UK_thunderball",
+    "tip": "HEAD",
+    "url": "https://www.national-lottery.co.uk/results/thunderball/draw-history/csv",
+    "utc": "2026-10-31T20:08:17Z",
+    "status": 200,
+    "url_final": "https://www.national-lottery.co.uk/results/thunderball/draw-history/xml",
+    "headers": {
+      "Content-Type": "application/xml",
+      "Content-Length": "1641",
+      "Date": "Sat, 31 Oct 2026 20:08:03 GMT"
+    }
+  },
+  {
+    "joc": "CA_649",
+    "tip": "HEAD",
+    "url": "https://www.playnow.com/resources/documents/downloadable-numbers/649.zip",
+    "utc": "2026-10-31T20:08:17Z",
+    "eroare": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)>"
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto_201911.zip",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 200,
+    "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_201911.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "124712",
+      "Last-Modified": "Wed, 24 Jul 2024 18:42:13 GMT",
+      "ETag": "\"66a14b05-1e728\"",
+      "Date": "Sat, 31 Oct 2026 20:08:44 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto_201902.zip",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 200,
+    "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_201902.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "14282",
+      "Last-Modified": "Sat, 02 Nov 2019 19:49:20 GMT",
+      "ETag": "\"5dbdddc0-37ca\"",
+      "Date": "Sat, 31 Oct 2026 20:08:44 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto2017.zip",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "146",
+      "Date": "Sat, 31 Oct 2026 20:08:44 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/nouveau_loto.zip",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "146",
+      "Date": "Sat, 31 Oct 2026 20:08:44 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto.zip",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "146",
+      "Date": "Sat, 31 Oct 2026 20:08:44 GMT"
+    }
+  },
+  {
+    "joc": "DE_6aus49",
+    "tip": "HTML",
+    "url": "https://www.lotto.de/lotto-6aus49/lottozahlen",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 200,
+    "url_final": "https://www.lotto.de/lotto-6aus49/lottozahlen",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Sat, 31 Oct 2026 20:08:44 GMT",
+      "Content-Disposition": "inline"
+    },
+    "bytes_citite_neafisate": 19896,
+    "legaturi_date": [
+      "/assets/manifest.json"
+    ]
+  },
+  {
+    "joc": "PL_lotto",
+    "tip": "HTML",
+    "url": "https://www.lotto.pl/lotto/wyniki-i-wygrane",
+    "utc": "2026-10-31T20:08:44Z",
+    "status": 403,
+    "headers": {
+      "Content-Type": "text/html; charset=UTF-8",
+      "Content-Length": "220090",
+      "Date": "Sat, 31 Oct 2026 20:08:45 GMT"
+    }
+  },
+  {
+    "joc": "IT_superenalotto",
+    "tip": "HTML",
+    "url": "https://www.superenalotto.it/archivio-estrazioni",
+    "utc": "2026-10-31T20:08:45Z",
+    "status": 403,
+    "headers": {
+      "Content-Type": "text/html",
+      "Content-Length": "397",
+      "Date": "Sat, 31 Oct 2026 20:08:45 GMT"
+    }
+  },
+  {
+    "joc": "ES_primitiva",
+    "tip": "HTML",
+    "url": "https://www.loteriasyapuestas.es/es/la-primitiva",
+    "utc": "2026-10-31T20:08:45Z",
+    "status": 200,
+    "url_final": "https://www.loteriasyapuestas.es/es/la-primitiva",
+    "headers": {
+      "Content-Type": "text/html;charset=UTF-8",
+      "Content-Length": "3523",
+      "Date": "Sat, 31 Oct 2026 20:08:45 GMT"
+    },
+    "bytes_citite_neafisate": 3515,
+    "legaturi_date": []
+  },
+  {
+    "joc": "ES_bonoloto",
+    "tip": "HTML",
+    "url": "https://www.loteriasyapuestas.es/es/bonoloto",
+    "utc": "2026-10-31T20:08:45Z",
+    "status": 200,
+    "url_final": "https://www.loteriasyapuestas.es/es/bonoloto",
+    "headers": {
+      "Content-Type": "text/html;charset=UTF-8",
+      "Content-Length": "3504",
+      "Date": "Sat, 31 Oct 2026 20:08:45 GMT"
+    },
+    "bytes_citite_neafisate": 3496,
+    "legaturi_date": []
+  },
+  {
+    "joc": "CA_649",
+    "tip": "HTML",
+    "url": "https://www.olg.ca/en/lottery/play-lotto-649-encore/past-results.html",
+    "utc": "2026-10-31T20:08:45Z",
+    "status": 200,
+    "url_final": "https://www.olg.ca/en/lottery/play-lotto-649-encore/past-results.html",
+    "headers": {
+      "Content-Type": "text/html;charset=utf-8",
+      "Last-Modified": "Sat, 31 Oct 2026 20:08:46 GMT",
+      "Date": "Sat, 31 Oct 2026 20:08:46 GMT"
+    },
+    "bytes_citite_neafisate": 522411,
+    "legaturi_date": []
+  },
+  {
+    "joc": "CA_649",
+    "tip": "HTML",
+    "url": "https://loteries.lotoquebec.com/fr/loteries/lotto-6-49",
+    "utc": "2026-10-31T20:08:46Z",
+    "status": 200,
+    "url_final": "https://loteries.lotoquebec.com/fr/loteries/jeu/a-tirage/lotto-6-49",
+    "headers": {
+      "Content-Type": "text/html;charset=utf-8",
+      "Date": "Sat, 31 Oct 2026 20:08:47 GMT"
+    },
+    "bytes_citite_neafisate": 188967,
+    "legaturi_date": []
+  },
+  {
+    "joc": "CA_649",
+    "tip": "HTML",
+    "url": "https://www.wclc.com/winning-numbers/lotto-649-extra.htm",
+    "utc": "2026-10-31T20:08:48Z",
+    "status": 200,
+    "url_final": "https://www.wclc.com/winning-numbers/lotto-649-extra.htm",
+    "headers": {
+      "Content-Type": "text/html;charset=utf-8",
+      "Last-Modified": "Sat, 31 Oct 2026 20:08:48 GMT",
+      "Date": "Sat, 31 Oct 2026 20:08:48 GMT"
+    },
+    "bytes_citite_neafisate": 57740,
+    "legaturi_date": []
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HTML",
+    "url": "https://www.fdj.fr/jeux-de-tirage/loto/historique",
+    "utc": "2026-10-31T20:09:13Z",
+    "status": 200,
+    "url_final": "https://www.fdj.fr/jeux-de-tirage/loto/historique",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Sat, 31 Oct 2026 20:08:13 GMT"
+    },
+    "bytes_citite_neafisate": 775259,
+    "legaturi_date": []
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto_197605.zip",
+    "utc": "2026-10-31T20:09:14Z",
+    "status": 200,
+    "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_197605.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "244408",
+      "Last-Modified": "Wed, 28 Jul 2010 06:53:52 GMT",
+      "ETag": "\"4c4fd400-3bab8\"",
+      "Date": "Sat, 31 Oct 2026 20:09:14 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto_200810.zip",
+    "utc": "2026-10-31T20:09:14Z",
+    "status": 200,
+    "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_200810.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "70520",
+      "Last-Modified": "Mon, 06 Mar 2017 19:11:24 GMT",
+      "ETag": "\"58bdb45c-11378\"",
+      "Date": "Sat, 31 Oct 2026 20:09:14 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto_201703.zip",
+    "utc": "2026-10-31T20:09:14Z",
+    "status": 200,
+    "url_final": "https://media.fdj.fr/static-draws/csv/loto/loto_201703.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "39518",
+      "Last-Modified": "Wed, 27 Feb 2019 12:11:12 GMT",
+      "ETag": "\"5c767e60-9a5e\"",
+      "Date": "Sat, 31 Oct 2026 20:09:14 GMT"
+    }
+  },
+  {
+    "joc": "FR_loto",
+    "tip": "HEAD",
+    "url": "https://media.fdj.fr/static-draws/csv/loto/loto_202407.zip",
+    "utc": "2026-10-31T20:09:14Z",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "146",
+      "Date": "Sat, 31 Oct 2026 20:09:14 GMT"
+    }
+  },
+  {
+    "joc": "DE_6aus49",
+    "tip": "HTML",
+    "url": "https://www.westlotto.de/service/downloads/downloads.html",
+    "utc": "2026-10-31T20:10:31Z",
+    "status": 200,
+    "url_final": "https://www.westlotto.de/service/downloads/downloads.html",
+    "headers": {
+      "Content-Type": "text/html;charset=UTF-8",
+      "ETag": "\"04e9ca3b93e3a993ab2024ec98578ad0e:dtagent10345260810170330RjL1:dtagent10345260810170330RjL1\"",
+      "Date": "Sat, 31 Oct 2026 20:10:32 GMT"
+    },
+    "bytes_citite_neafisate": 91355,
+    "legaturi_date": [
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/die_sieger-chance.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/eurojackpot.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/gluecksspirale.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/keno.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto6aus49.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto_mittwoch.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/plus_5.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/spiel77.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/spiel77_mi.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/super6.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/super6_mi.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/toto_aw.zip",
+      "/westlotto-medien/zahlen-fakten/gewinnzahlendownload/toto_ew.zip"
+    ]
+  },
+  {
+    "joc": "DE_6aus49",
+    "tip": "HTML",
+    "url": "https://www.sachsenlotto.de/portal/zahlen-quoten/gewinnzahlen/download-archiv/gewinnzahlen_download.jsp",
+    "utc": "2026-10-31T20:10:32Z",
+    "status": 200,
+    "url_final": "https://www.sachsenlotto.de/portal/zahlen-quoten/gewinnzahlen/download-archiv/gewinnzahlen_download.jsp",
+    "headers": {
+      "Content-Type": "text/html;charset=UTF-8",
+      "Date": "Sat, 31 Oct 2026 20:10:32 GMT"
+    },
+    "bytes_citite_neafisate": 57871,
+    "legaturi_date": []
+  },
+  {
+    "joc": "DE_6aus49",
+    "tip": "HEAD",
+    "url": "https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto6aus49.zip",
+    "utc": "2026-10-31T20:10:49Z",
+    "status": 200,
+    "url_final": "https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto6aus49.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "1033287",
+      "Last-Modified": "Wed, 02 Sep 2026 07:28:03 GMT",
+      "ETag": "\"6a97d003-fc447\"",
+      "Date": "Sat, 31 Oct 2026 20:10:49 GMT"
+    }
+  },
+  {
+    "joc": "DE_6aus49",
+    "tip": "HEAD",
+    "url": "https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto_mittwoch.zip",
+    "utc": "2026-10-31T20:10:49Z",
+    "status": 200,
+    "url_final": "https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto_mittwoch.zip",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": "148488",
+      "Last-Modified": "Wed, 02 Sep 2026 07:28:03 GMT",
+      "ETag": "\"6a97d003-24408\"",
+      "Date": "Sat, 31 Oct 2026 20:10:49 GMT"
+    }
+  },
+  {
+    "joc": "US_powerball",
+    "tip": "HEAD",
+    "url": "https://data.ny.gov/api/views/d6yy-54nr.json",
+    "utc": "2026-10-31T20:10:49Z",
+    "status": 200,
+    "url_final": "https://data.ny.gov/api/views/d6yy-54nr.json",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "0",
+      "Date": "Sat, 31 Oct 2026 20:10:50 GMT"
+    }
+  },
+  {
+    "joc": "US_megamillions",
+    "tip": "HEAD",
+    "url": "https://data.ny.gov/api/views/5xaw-6ayf.json",
+    "utc": "2026-10-31T20:10:50Z",
+    "status": 200,
+    "url_final": "https://data.ny.gov/api/views/5xaw-6ayf.json",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "0",
+      "Date": "Sat, 31 Oct 2026 20:10:51 GMT"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "treapta": "B",
+  "anexa": "xi/PROTOCOL_XI_P2_ANEXA_SURSE.md",
+  "anexa_sha256": "9095703d9ec03aec99144ecc1bd14da87648f0148d6c2068fcd9fdde3620935c",
+  "surse": "xi/p2/SURSE_P2.json",
+  "surse_sha256": "b770466f3e87f36830c21e40e1ca6bae2d2740efcc72b004f0dd01e257f9538f",
+  "inventar": "xi/p2/INVENTAR_P2.json",
+  "inventar_sha256": "f0599bdb706ae07e0150922e3b272c7ea463bd7e7e62bf68f8a9195bc2c9692e",
+  "inventar_script_sha256": "4fb692f7d9cdd305898653d25539a6eb6a6455d6fb014e43bcf098e5adfd4e17",
+  "protocol_A_sha256": "01ff623543ca73b11cd5b66f5b4ed2ae920e38fba66198ff7348452e49957707",
+  "sigiliu_A_sha256": "fa17ccea5dc20acf80d1323fcc9e15122cd27e886badcba261bfbc5a7eb2fa2d",
+  "sealed_utc": "2026-10-31T20:12:56Z",
+  "fisiere_date_descarcate": [],
+  "cod_analiza_p2_prezent": [],
+  "note": "treapta B sigilata dupa inventar (HEAD/legaturi HTML), inainte de cod de analiza si de orice descarcare de date",
+  "positive_claims_allowed": false
+}

@@ -1,0 +1,21 @@
+{
+ "amendment": "TU4-FR-V01",
+ "file": "tu4/AMENDAMENT_TU4_FR_V01.md",
+ "sha256": "f3686df6229ea9da21a5cb700a67352bd30a6e9393a5559594796a5c94901d70",
+ "protocol_seal": {
+  "file": "tu4/SIGILIU_TU4_FR.json",
+  "sha256": "c1b3a195414db4dae387489a73217b716d47849800d81f12298e108a760627b5"
+ },
+ "incident": {
+  "file": "tu4/incidente/FR_01/INCIDENT_TEHNIC_FR_01.json",
+  "sha256": "a4613348a3c7353a7c23133692aa653fb48baaf2fab742152e31d5aa77ca0569"
+ },
+ "verifier_before_fix_sha256": "e6fac48db9be33918cc34467f427bfb53239b2fa3b511ca61575164ccbe43c53",
+ "results_sha256": "04f1e730a018960cb612e545a742df37df9f5564bc7734885ce98d718a24aae9",
+ "frontiera_sha256": "b93c34aeaba7ab94e25381c0535c5948959b0783d5e9da0d9e007dce9ff0d018",
+ "martori_sha256": "0d3bbf54a0dffcceac4a4cdded901e37bebe924e44d1999ca0ef578fc40952d8",
+ "allowed_change": "numai groups_for in tu4/verifica_fr.py",
+ "extra_verifier_runs": 1,
+ "sealed_utc": "2026-10-27T20:56:00Z",
+ "positive_claims_allowed": false
+}

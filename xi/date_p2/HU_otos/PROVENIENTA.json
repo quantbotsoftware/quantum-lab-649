@@ -1,0 +1,38 @@
+{
+  "joc": "HU_otos",
+  "utc_start": "2026-10-31T20:33:04Z",
+  "fisiere": [
+    {
+      "url": "https://bet.szerencsejatek.hu/cmsfiles/otos.csv",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:05Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://bet.szerencsejatek.hu/cmsfiles/otos.csv",
+      "utc": "2026-10-31T20:33:05Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:04 GMT",
+        "Last-Modified": "Fri, 30 Oct 2026 23:10:36 GMT",
+        "ETag": "\"6ae523ed-3ab2d:dtagent10343260715123811T3G6\"",
+        "Content-Length": "240429",
+        "Content-Type": "application/octet-stream"
+      },
+      "fisier": "date_p2/HU_otos/sigilat/00_otos.csv",
+      "octeti": 240429,
+      "sha256": "31e6171cb0be54aa58767d97bae921ef9c13f92ff470fe293073cce6ce05548e",
+      "structura": {
+        "nume": "00_otos.csv",
+        "octeti": 240429,
+        "sha256": "31e6171cb0be54aa58767d97bae921ef9c13f92ff470fe293073cce6ce05548e",
+        "linii_nevide": 3634,
+        "forma_prima": "ï»¿9999;99;9999.99.99.;9;9 999 999 999 Ft;99;9 999 999 Ft;9999;99 999 Ft;99999;9 999 Ft;99;99;99;99;99",
+        "forma_a_doua": "9999;99;9999.99.99.;9;9 Ft;99;9 999 999 Ft;9999;99 999 Ft;99999;9 999 Ft;99;99;99;99;99",
+        "forma_ultima": "9999;99;;9;9 Ft;9;9 Ft;9;9 Ft;9;9 Ft;99;99;99;99;99"
+      }
+    }
+  ],
+  "utc_sfarsit": "2026-10-31T20:33:05Z"
+}

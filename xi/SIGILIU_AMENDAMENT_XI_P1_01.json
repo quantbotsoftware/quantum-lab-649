@@ -1,0 +1,11 @@
+{
+  "amendament": "xi/AMENDAMENT_XI_P1_01.md",
+  "sha256": "661fbf75b28caf51116dc5dd232567f42697058ab72b3a74e74c13a14211a6a1",
+  "protocol_sha256": "731b6839ecd0d65df003c11466c568e812ddd24e7b7ada6079f921c02407cdd0",
+  "sigiliu_protocol_sha256": "328a71afc9c09679c3e70ce0ba13e06c83690f94b766d9eba4981a456592d7ce",
+  "incident_sha256": "080375f32fa31181a143d5629546cd7afbdd492dbc8f3e2fdc0b8f8f987f23c1",
+  "sealed_utc": "2026-10-31T19:20:02Z",
+  "code_files_present": [],
+  "note": "sigilat inainte de orice cod P1",
+  "positive_claims_allowed": false
+}

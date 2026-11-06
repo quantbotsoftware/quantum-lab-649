@@ -1,0 +1,88 @@
+{
+ "protocol": "TU4-IP",
+ "session": "S11",
+ "documents": {
+  "tu4/PROTOCOL_TU4_IP.md": {
+   "sha256": "dd5b2c51aaaf266610a78efd431b97293e69602fe5768c019bc8c450b33bf2cd",
+   "bytes": 13501
+  },
+  "tu4/PROTOCOL_TU4_IP_H1_MA.md": {
+   "sha256": "86c451e89fb48dedf795c7b11a1abc040346f9f38c6481aea6c76343702d2bd4",
+   "bytes": 3110
+  },
+  "tu4/PROTOCOL_TU4_IP_H2_UZ.md": {
+   "sha256": "3526907cae38f6310588277385d22d906bac70b42a337d1e3149229ce33cd723",
+   "bytes": 3769
+  },
+  "tu4/PROTOCOL_TU4_IP_H3_AD.md": {
+   "sha256": "916546eaa8e95c77bce755d47d5b50a8087cdcf9cf077b0588dca408820fd0bc",
+   "bytes": 3849
+  }
+ },
+ "hypotheses": {
+  "H1_MA": "tu4/PROTOCOL_TU4_IP_H1_MA.md",
+  "H2_UZ": "tu4/PROTOCOL_TU4_IP_H2_UZ.md",
+  "H3_AD": "tu4/PROTOCOL_TU4_IP_H3_AD.md"
+ },
+ "plan": {
+  "file": "tu4/PLAN_SESIUNI_TU4_v2_20261027.md",
+  "sha256": "32533d53c9390172b9a4cea81ae0640a3d19b0d786388a1e7d04c15ac5ac4734"
+ },
+ "amendment_seal": {
+  "file": "tu4/SIGILIU_AMENDAMENT_TU4_FR_01.json",
+  "sha256": "45bbcd0432e9d9ce91668eaf9f19589f2d163eca95631629dc628845f7234be5"
+ },
+ "frozen_hashes": {
+  "tu4/PLAN_SESIUNI_TU4_v2_20261027.md": "32533d53c9390172b9a4cea81ae0640a3d19b0d786388a1e7d04c15ac5ac4734",
+  "tu4/PROTOCOL_TU4_FR.md": "74a86631892caa3049bc72bddfbdc3d8eebae93d85e6bb60adf72c9a274ea0ab",
+  "tu4/SIGILIU_TU4_FR.json": "c1b3a195414db4dae387489a73217b716d47849800d81f12298e108a760627b5",
+  "tu4/AMENDAMENT_TU4_FR_V01.md": "f3686df6229ea9da21a5cb700a67352bd30a6e9393a5559594796a5c94901d70",
+  "tu4/SIGILIU_AMENDAMENT_TU4_FR_V01.json": "d743992e56b85d679abfb04e8c9128774aa2a4a8b394690bef7f7ca24e00bde7",
+  "tu4/AMENDAMENT_TU4_FR_01.md": "a886e8f477fe1c17af74cd25a4b0597981c5a460d45eae3addb04c36dfb459f8",
+  "tu4/SIGILIU_AMENDAMENT_TU4_FR_01.json": "45bbcd0432e9d9ce91668eaf9f19589f2d163eca95631629dc628845f7234be5",
+  "tu4/frontiera.py": "b93c34aeaba7ab94e25381c0535c5948959b0783d5e9da0d9e007dce9ff0d018",
+  "tu4/verifica_fr.py": "1682a0a49bc383f94b405a46c1cf19095091b4e04c837083cf1b5d65847e68c9",
+  "tu4/reclasificare_fr01.py": "1ced226c5c7322cbcd7beffcbc7af5579d583b509af986730250cc0068a8cc9d",
+  "tu4/rezultate/FR/MARTORI_FR.json": "0d3bbf54a0dffcceac4a4cdded901e37bebe924e44d1999ca0ef578fc40952d8",
+  "tu4/rezultate/FR/FR_REZULTATE.json": "04f1e730a018960cb612e545a742df37df9f5564bc7734885ce98d718a24aae9",
+  "tu4/rezultate/FR/VERIFICARE_FR.json": "d5fa973a60cbc4e76fd2344ffd4a24ac78fdbf672d54dbe460da552bc8e7a8b2",
+  "tu4/rezultate/FR/RAPORT_FR.md": "67fde761d874ed64e7d8d3b856203d604b56246011611c8638722f17f46290bc",
+  "tu4/rezultate/FR/RECLASIFICARE_FR01.json": "fe5c8a8d318d7dab926283d43988aedef91fcff72e41dd5e7335c31782537733"
+ },
+ "constants": {
+  "H": 520,
+  "threshold_ln": "ln(900)",
+  "alpha": 0.01,
+  "R": 1000,
+  "seed_base": 2026102711,
+  "rho": "2**(-1/312)",
+  "K": 4,
+  "D_target": {
+   "649": 0.04642096912015248,
+   "540": 0.035248076774104575,
+   "joker_main": 0.0517260340859611,
+   "joker_ball": 0.019984140068430675
+  },
+  "T": {
+   "649": 2595,
+   "540": 2490,
+   "joker": 2202
+  },
+  "power_LCB95_min": 0.8,
+  "fpr_UCB95_max": 0.01,
+  "torch_compile": {
+   "mode": "max-autotune-no-cudagraphs",
+   "fullgraph": true,
+   "requested_mode_invalid": "max-autotune-no-break"
+  },
+  "dtype": "float64",
+  "complex64_lqg_wzw": "not used",
+  "channels_last": "not applicable (non-4D)",
+  "ssd_scratch": "./ssd_data/QL649_S11"
+ },
+ "real_archive_read_in_S11": false,
+ "code_written_before_seal": false,
+ "user_decision": "Mesajul 54",
+ "sealed_utc": "2026-10-27T21:16:29Z",
+ "positive_claims_allowed": false
+}

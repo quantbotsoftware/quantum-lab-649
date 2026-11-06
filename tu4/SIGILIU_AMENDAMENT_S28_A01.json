@@ -1,0 +1,24 @@
+{
+ "amendment": "TU4-S28-A01",
+ "session": "S28",
+ "file": "tu4/AMENDAMENT_S28_A01.md",
+ "sha256": "bf379c8334950b8132864a1f4592faf2fecbee51479f16f5f4b2ef48919793b8",
+ "bytes": 1805,
+ "protocol_seal": {
+  "file": "tu4/SIGILIU_TU4_S28.json",
+  "sha256": "0b4fd79b0323532241504a0b04368d50c8aa754a8bb687d0c5030dc9abb4a138"
+ },
+ "protocol": {
+  "file": "tu4/PROTOCOL_QUANTUM_S28.md",
+  "sha256": "d148062229cf794ca29622bed5ea3a7438f5ab499769ea01f984982f98d9f61f"
+ },
+ "incident": {
+  "file": "tu4/rezultate/S28/INCIDENT_S28_01.json",
+  "sha256": "76471a80c8e0bfd5fffb0d63ec5ed3cdad7bbb240119f42b10971f5fa5ae69f6"
+ },
+ "rule": "P2(4): 9 sloturi (vin/sâm/dum × 06:20Z, 10:20Z, 13:20Z); sub H_BLOCAT primele 8 postponed, ultimul emisie",
+ "code_written_before_seal": false,
+ "verification_run_before_seal": false,
+ "sealed_utc": "2026-10-28T12:53:26Z",
+ "positive_claims_allowed": false
+}

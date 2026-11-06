@@ -1,0 +1,14 @@
+{
+  "amendment": "WU649-P1-A01",
+  "file": "AMENDAMENT_01.md",
+  "sha256": "a5b89c1c2c2ed69342894d964bc7c01a0b49b570accbe0ee0dcb08c5f30a48aa",
+  "bytes": 1767,
+  "protocol_sha256": "e46db3cf550ab912580b87d37b24bb883ea29f37caabcc5019e17fd7f851f961",
+  "sealed_at_utc": "2026-10-25T21:19:57.423035+00:00",
+  "statement": "Sigilat înainte de orice cod WU649 și de orice calcul WU649.",
+  "dir_listing_at_seal": [
+    "AMENDAMENT_01.md",
+    "PREINREGISTRARE_WU649.md",
+    "SIGILIU_PROTOCOL_WU649.json"
+  ]
+}

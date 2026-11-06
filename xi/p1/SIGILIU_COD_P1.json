@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-31T19:29:21Z",
+  "files": {
+    "xi/p1/banca.py": "d7d1cbb48553bc61b26285771d7456c53bc554f77ace26fe889756be624a6770",
+    "xi/p1/verifica_p1.py": "d39f914f6c4bc454a064b0878ab8b48a98d7af50978a549ba3b99cb83af6ef93"
+  },
+  "calificare": "xi/rezultate/P1/calificare/CALIFICARE_P1_20261031T192422Z.json",
+  "calificare_sha256": "a93293a359d18c7175c5b4980288a0b13d0837fdabf55d8856f6e5a3005e2931",
+  "calificare_code_sha256": "d7d1cbb48553bc61b26285771d7456c53bc554f77ace26fe889756be624a6770",
+  "PASS_Q1_Q3": true,
+  "qualified_families": [
+    "STAT",
+    "DRIFT",
+    "GAP",
+    "FERMI"
+  ],
+  "COMB_qualified": true,
+  "protocol_sha256": "731b6839ecd0d65df003c11466c568e812ddd24e7b7ada6079f921c02407cdd0",
+  "amendament_sha256": "661fbf75b28caf51116dc5dd232567f42697058ab72b3a74e74c13a14211a6a1",
+  "baza_reala_citita_inainte": false,
+  "note": "cod sigilat dupa calificarea pe date sintetice, INAINTE de citirea extragerilor reale",
+  "positive_claims_allowed": false
+}

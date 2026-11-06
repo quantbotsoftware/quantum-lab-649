@@ -1,0 +1,28 @@
+{
+  "updated_utc": "2026-11-05T18:31:01Z",
+  "run_id": "20261105T203016967826",
+  "database_sha256": "1d19f498cd45100716884516dadf10be1c2e3c514076b832e6c738f7ca76421e",
+  "version_dir": "versiuni/1d19f498cd45",
+  "manifest_sha256": "de4b447a8e5f4a5573334674dfe2053a3c115dbaad653a0171410b7e4802084d",
+  "games": {
+    "649": {
+      "records": 2600,
+      "last_date": "2026-11-05",
+      "last_key": "649:2026-11-05:2-18-22-29-33-38",
+      "sha256": "7304a2ed1c7cd9fd9185bcf838fc5a9379e9cf6bc77d66e6e71bf1f932edcf59"
+    },
+    "540": {
+      "records": 2493,
+      "last_date": "2026-11-05",
+      "last_key": "540:2026-11-05:4-5-9-17-30-21",
+      "sha256": "5d2de7c2d358f51904c1962af2fc91c55b7a619589b9d599f746e8e518f7ff1f"
+    },
+    "joker": {
+      "records": 2205,
+      "last_date": "2026-11-05",
+      "last_key": "joker:2026-11-05:7-30-34-39-44:J13",
+      "sha256": "05d3bb7e50e7ab3b7468f4a25146188aad318d1e814707d0f4eef677cb0fa48a"
+    }
+  },
+  "previous": "versiuni/9038f533a0d8"
+}

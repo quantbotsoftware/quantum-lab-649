@@ -1,0 +1,136 @@
+{
+ "protocol": "TU4-JU",
+ "session": "S13",
+ "label": "test științific în curs; nu este sfat de joc",
+ "positive_claims_allowed": false,
+ "game": "540",
+ "target_date": "2026-11-01",
+ "status": "DECONTAT",
+ "reason": "înregistrarea regulată unică",
+ "decided_utc": "2026-11-01T18:31:24.306105Z",
+ "test_mode": false,
+ "emission": {
+  "file": "emisii/540/2026-11-01.json",
+  "sha256": "5668f42c621cdc36e9709188d34e6c2e36272c31c6a2ba8d789dc7d95c498b13",
+  "lant_i": 4,
+  "chain_index": 1,
+  "emitted_utc": "2026-10-30T12:15:37.104306Z",
+  "cutoff_utc": "2026-11-01T14:00:00.000000Z",
+  "draw_utc": "2026-11-01T16:30:00.000000Z"
+ },
+ "admissibility": {
+  "A1_cronologie": true,
+  "A2_calendar": true,
+  "A3_metadate": true,
+  "A4_cod": true,
+  "A5_arhiva_anterioara": true,
+  "A6_blocuri": true
+ },
+ "n_regular_records": 1,
+ "archive": {
+  "version_dir": "versiuni/9038f533a0d8",
+  "database_sha256": "9038f533a0d89d0d50052de004eb21be3f5f80cbb8f2cf033dc3967c6b36c0ca",
+  "current_live_sha256": "ef8ac3ecca0f37c538d3a1d62b96260c12df61cea88075ad6240f372330d710d",
+  "manifest_sha256": "c38900c2de2fa186e9325c5f1861472cc1dcb1f4e63ea4abc8f87db93f3f0424",
+  "file": "tu3/date/live/versiuni/9038f533a0d8/extrageri_540.jsonl",
+  "sha256": "16f8d4a4c27dd67c5e11fe9a64daf52282fcda07c07caffdfb766bbd14cadd11",
+  "records": 2492
+ },
+ "record": {
+  "draw_key": "540:2026-11-01:16-23-32-34-38-3",
+  "canonical": {
+   "game": "540",
+   "draw_date": "2026-11-01",
+   "draw_kind": "regular",
+   "numbers": [
+    3,
+    16,
+    23,
+    32,
+    34,
+    38
+   ],
+   "joker": null
+  },
+  "has_source_disagreement": false,
+  "verification": "official_only"
+ },
+ "draw": {
+  "numbers": [
+   3,
+   16,
+   23,
+   32,
+   34,
+   38
+  ],
+  "joker": null
+ },
+ "models": {
+  "H1": {
+   "bet_active_main": false,
+   "bet_active_ball": null,
+   "ln_e_main": 0.0,
+   "ln_e_ball": null,
+   "ln_e": 0.0,
+   "counted": true
+  },
+  "H3": {
+   "bet_active_main": false,
+   "bet_active_ball": null,
+   "ln_e_main": 0.0,
+   "ln_e_ball": null,
+   "ln_e": 0.0,
+   "counted": true
+  }
+ },
+ "streams_before": {
+  "H1_540": {
+   "state": "EXPLORARE",
+   "lnE": 0.0,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  },
+  "H3_540": {
+   "state": "EXPLORARE",
+   "lnE": 0.0,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  }
+ },
+ "streams_after": {
+  "H1_540": {
+   "state": "EXPLORARE",
+   "lnE": 0.0,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  },
+  "H3_540": {
+   "state": "EXPLORARE",
+   "lnE": 0.0,
+   "lnE_conf": 0.0,
+   "conf_start_utc": null,
+   "conf_start_date": null
+  }
+ },
+ "thresholds": {
+  "explore_ln": 6.396929655216146,
+  "confirm_ln": 2.995732273553991,
+  "retire_ln": -10.0,
+  "M": 6
+ },
+ "gpu_mirror": null,
+ "corroboration": {
+  "ssd_journal_mirrored_utc": "2026-10-30T12:15:37.107619Z",
+  "observed_by_judge_before_draw": true
+ },
+ "code": {
+  "judecator_sha256": "8117e8a37c1ee82dbc0a10f8ba0b2506a2d62641cff9216297108e2882df868b",
+  "ju_protocol_sha256": "85dad3122a7dc93facfd28967593cb4eb3d1a594f1d917f5d228a684aa551e99",
+  "ju_seal_sha256": "5dcc0a4252acf9d504b5bbc11e13816595638839628d53349fd9c08082533093",
+  "ju_code_seal_sha256": "d6773b7208628a3d6e71b6ad8325434dd0d441d84be8cbe2f276b6d80141ba6a"
+ }
+}

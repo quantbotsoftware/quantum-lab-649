@@ -1,0 +1,206 @@
+{
+ "protocol": "TU3-DD",
+ "file": "PROTOCOL_TU3_DD.md",
+ "sha256": "450cd685a1ad4bcb14cdf8b4daab744ca25045c4d6611d09d1cfaa51febad165",
+ "bytes": 10200,
+ "frozen_hashes": {
+  "engine.py": "1da9be4e05bcefe401c299b6e6cd0ca7e4d6057939756057822cb43c951cb2ae",
+  "parser.py": "219e5d2085a72e960583830a6acd009e376f01079381ad0e09824fd200ee8968",
+  "validare.py": "01085209db81b14e9c0ef2bc9b7120752cd34b890330e3741e20beede2a89a97",
+  "app.py": "051dd83951a0c11a04eb273b211721e26992e6e9347dfcb2168880c152eb7c93",
+  "porneste_aplicatia.sh": "d8df19ced370c9cae8a74dd2bee5cb227f04f88bf4e6a8aa66d8e464f0c193e0",
+  "tu3/parser_multi.py": "4c4b0f34cdac96e8b590649113d8db4331a1c6cdfa6169bb8b3017bdb92aef2a",
+  "tu3/motor_n.py": "28e8eede1de49070da90291c3734c64a8389551167b0649f396e68bbd98add17",
+  "tu3/motor_joker.py": "95960c26897b9dbbb7468469e1081e3f55683c99964af949b477b2c0c524fedb",
+  "tu3/joker_entanglement.py": "52feb5b575f4c507289091b7504efbe480e49f810de109c3f05b0a8d5b99933e",
+  "tu3/ui_tu3.py": "9fe6c4d391200f5a43f7d8c2f2577e94d4f82e2afb31ac02856d02bc3623c19f",
+  "tu3/arhiva_live.py": "eb5372412906e8e8a801f748ed12bfc85904d87918567a16c505987312ca4858",
+  "tests/test_app.py": "a7b0520ac0db2a41a50efd4a7cbecd2b4d7a3935af027c46881bd26d2e5a5740",
+  "tests/test_app_tu3.py": "20d470968c556f219628b3bacc0f7b3670839b6155812e5cf749040ab350429d",
+  "tu3/PROTOCOL_TU3_P1.md": "694d35455ca7a7a2517cbe6e26a442628ca3b602c81664127f4ade4a0e9b6b04",
+  "tu3/PROTOCOL_TU3_P.md": "ddede39e4a1570e9612a34b2d95e18472ab7b80ff9fd000d83e21d56012f1b4d",
+  "tu3/PROTOCOL_TU3_E40.md": "a979d875dd802625032d71a9f19d58a7be4d5a29a00db4e054e3148b23f97a5b",
+  "tu3/PROTOCOL_TU3_EJ.md": "75e1ff2251faf53033c873f93b3683ebba0e6217d625ba5e0847f7d6ec27b41e",
+  "tu3/PROTOCOL_TU3_UI.md": "1adfc371d15937c316c0dec172a62378f78cf20443406b53cb8684f9ed4c2c29",
+  "tu3/rezultate/J/PUTERE_J.json": "efa7e92163f7a705a27842e56ec46d3303eed1b9ddde067620add30f1264d451",
+  "tu3/rezultate/E40/PUTERE_E40.json": "dbc778862cf3036267a71f74a0e44dfb45780b02f4817f82680162f93db7bc2f",
+  "tu3/rezultate/EJ/PUTERE_EJ.json": "6241f357f5cc000eb262b484bd7a4d3e549ba7be9e1df62db9247f8e30cf1ee5",
+  "run_app.sh": "a8f38cea330a803e55ecaa3fb74fe2886e502bd420575f3a7a72f41b4e1037e5",
+  "run_app_tu3.sh": "e5f6c2c705c394e9dda144e2f33a74c204616f22c20d9355a14ec76b5fa6fc99",
+  "tu3/matrice_init.py": "a8cba0acd614ad3f4519b4c2db2410b7e25c53c4b2fb2a7de43e304e8df60abc",
+  "tu3/validare_tu3.py": "4363ba2e9466eaaa7dbdefaade3956fe2438fca872623825ed36684e951ef4dc",
+  "tests/test_validare_tu3.py": "1fbc0485a74f2e9518785c038ac429e696321c5a83e6e3b962c84d14186ff395",
+  "tu3/PROTOCOL_TU3_VS.md": "7f448d21052083b01b8f77db50aaa3d0c540e1fd1f1e40c71af2ae18ed39e7a1",
+  "tu3/SIGILIU_TU3_VS.json": "bc44906a45a1118f3acb184e847e337f782de7e423a969ac8945ca56fd0a3e64",
+  "tu3/AMENDAMENT_TU3_VS_01.md": "a5ce18ab1202374cabd2b32b9a4bbbc0d0884dd9cae231ca2316c3baaac7a9ca",
+  "tu3/SIGILIU_AMENDAMENT_TU3_VS_01.json": "456ea09b17dc7629ae5d147a2e4f15bce58bfb0e2915b9e7e2032aa72cf651fc"
+ },
+ "frozen_external": {
+  "~/.config/systemd/user/loto-actualizare.service.d/tu3-arhiva-live.conf": "774485cb6478c525ced3e003adb2fd5d786f88fe033894496630cb4c713c7d15"
+ },
+ "current_live_sha256": "20afd0c16dd0406d8134569eae568c9b65a0998f2c4c820e2d7fc7880628c6b0",
+ "istoric_live_sha256": "bf72218d0b2cabbeec8a03aeeb64f6342f54c3adf1ccf8b25d3b6edab2115bea",
+ "versiuni_inventory_at_seal": {
+  "1734f139359e": {
+   "MANIFEST_LIVE.json": [
+    "40e65627d1215a01263a946f1ff81e7412bd253b0c5fc1899f83e0d3fa585377",
+    1564
+   ],
+   "colectare.json": [
+    "2e50bf2cd34522ba274b62fcec9e6a3701b8b2d56a4c04ccc3d1d40819b30c2e",
+    16405
+   ],
+   "decision.json": [
+    "6cb1c0731bd8817b911ed3c900ff93bdaf8de840d07e71974081464e8683deaf",
+    110412
+   ],
+   "extrageri_540.jsonl": [
+    "1fa2dc5c715f6ee270cbc4126811d5dd89225c4304483df3d683326b9485c467",
+    1108495
+   ],
+   "extrageri_649.jsonl": [
+    "aeee6665f91176048f397661f99a544ae5d37131153ea8a7eeb7d7fc82999d25",
+    1159031
+   ],
+   "extrageri_joker.jsonl": [
+    "c23be7a94786d61400cfb5e985720ceeec741de4e503cf50ca2c76363b8b04b0",
+    976487
+   ]
+  },
+  "47d152067dcf": {
+   "MANIFEST_LIVE.json": [
+    "b8e8d756a598848ec3f63d10d76cff9426da1c495bb67f231b79d673a9195abf",
+    1564
+   ],
+   "colectare.json": [
+    "7f6a37cbed3452a38b15a4d3c3d25c369ff8a80b8f5070b1b0855df260158b8d",
+    16405
+   ],
+   "decision.json": [
+    "3a9ce5697ccbd0931859d5fe11454527095dfe8a176e79497509dbee6cc8cfce",
+    110412
+   ],
+   "extrageri_540.jsonl": [
+    "001bc5657757ddc59752e35888ccbefe58bd4db4c529a0135a8cf1fb00720e4b",
+    1108495
+   ],
+   "extrageri_649.jsonl": [
+    "b94a6de026115c31b6584cfa1ac04e67ba280307b47d1d8cd630df4ddb610a04",
+    1159031
+   ],
+   "extrageri_joker.jsonl": [
+    "0ad8f22f74cd416b30914e76ada5c78005b9052849587252c12855ca53b833ee",
+    976487
+   ]
+  },
+  "63c49cd7826d": {
+   "MANIFEST_LIVE.json": [
+    "2bbf472e382fdf6cff6e60021c6aa221f0269f04ca00e5468dbaa0cf9853faef",
+    1564
+   ],
+   "colectare.json": [
+    "c8d37e3033da3a7d38067a709c51a8c9efc04e6208ea6709eb63007c24311f63",
+    16405
+   ],
+   "decision.json": [
+    "6d59cb205535851506d4d9b81c8d2cf60d30c53060b4b161a51842deab7e1c25",
+    110412
+   ],
+   "extrageri_540.jsonl": [
+    "4eead3d6914df4c123d728c786db11f819e36bcae42cfd7af86ed37438a4a033",
+    1108495
+   ],
+   "extrageri_649.jsonl": [
+    "3fd3f51626d47e2c0e04f7e40c73167eff4308b313262aa22ba0d8f39fb10f46",
+    1159031
+   ],
+   "extrageri_joker.jsonl": [
+    "fd72d10b1f3f64f9d710dacaab80a507c189c15e0dcec85d562a98686a98211c",
+    976487
+   ]
+  },
+  "75dac11c7506": {
+   "MANIFEST_LIVE.json": [
+    "daca658fd4a7e9fa7e5a2b43083cdd2673c2614ea01238362053e92362d60d60",
+    1564
+   ],
+   "colectare.json": [
+    "12fc0d628fe431caf6ad752dc55273181309c19e9957f5bfcaf66094d2447b22",
+    16405
+   ],
+   "decision.json": [
+    "c1e67f45c4b7f06458a18bff49e32dcba1dc9129801adaac7e8dbeedac5cf5cb",
+    110412
+   ],
+   "extrageri_540.jsonl": [
+    "59947208882da491e061c22a7869c9c9e2d41c9fc11c192b0d880fd14aa2c44e",
+    1108495
+   ],
+   "extrageri_649.jsonl": [
+    "4901b097ed7a791cd8f5954623ecd14c8ad0db0a8874dcc7975bde5c28c97fa5",
+    1159031
+   ],
+   "extrageri_joker.jsonl": [
+    "19fe80b23af0c8bcd6e053ef4605c4c12491cc26893f6236b0239e8559c0cb2b",
+    976487
+   ]
+  },
+  "c560e0f0affb": {
+   "MANIFEST_LIVE.json": [
+    "13a8e32030527978b6bc0171870a550ce034849b16b16e1972710c09691ffe1d",
+    1564
+   ],
+   "colectare.json": [
+    "b5bd488c6236d98be36cc5d0387e334e986a54b175a1a918981cf0a25307ce19",
+    16427
+   ],
+   "decision.json": [
+    "45aea34d7d894a5e3a2e739d3927590f749bc13065993b1f554b9b7232407c7d",
+    110412
+   ],
+   "extrageri_540.jsonl": [
+    "65a21d854d05bb27672710874fd50786e6dfb49e4218aca8859a3cd92e23912e",
+    1108495
+   ],
+   "extrageri_649.jsonl": [
+    "8c73199b1567692a55beca58b9194ca9b904b064325ff01634836fa35c260224",
+    1159031
+   ],
+   "extrageri_joker.jsonl": [
+    "f02c1f775bf925c2133b86cbe8e28823d2cf7be03427e97814b664fd83402074",
+    976487
+   ]
+  },
+  "f7c149edcdc3": {
+   "MANIFEST_LIVE.json": [
+    "032be685297d20feb23af56a53c20e4184b7be6c746cf2bf0cd759e772ea543f",
+    1564
+   ],
+   "colectare.json": [
+    "e1e2be7522e916241ccc5608cd7c0c6d5d06ccdca5e1ce1c886b7d5851e94962",
+    16405
+   ],
+   "decision.json": [
+    "ce4c5ce98127973982d00fb38084242c578389e196930cba4f4770d93fb285a9",
+    110412
+   ],
+   "extrageri_540.jsonl": [
+    "c45f2af667d29b050f0e587ceff10d95e1a598262e7d7bbf6c68b490ded5244e",
+    1108495
+   ],
+   "extrageri_649.jsonl": [
+    "375ec27f2594ece308ee18ed5893e72aeacaff1888db6b451a4bbb7493f1be68",
+    1159031
+   ],
+   "extrageri_joker.jsonl": [
+    "d799812c0e4c04601efb611b52cfe135bb01a04db3f965ca1b9b4fbb65dbd407",
+    976487
+   ]
+  }
+ },
+ "versiuni_bytes_at_seal": 20234386,
+ "sealed_utc": "2026-10-26T18:44:56Z",
+ "code_files_present": [],
+ "results_present": false,
+ "positive_claims_allowed": false
+}

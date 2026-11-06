@@ -1,0 +1,18 @@
+{
+  "faza": "H",
+  "protocol_sha256": "2c8da0a659c9f05c899ff445cb471f96f6c8ed2b8091a92ef02746d0234b06e9",
+  "sigiliu_protocol_sha256": "0dd8dd236205d4434f89ff1c84f221a2eb2159d52285cd148b562a51514ec365",
+  "cod": {
+    "xi/h/construieste_strategii.py": "3cb04cf9294e5410dc53845dbfc9518ff6c4eecc9d88a21a33a08463c1f025c1",
+    "pages/1_Strategii.py": "9d297ae93280406553110e792f72dd63a1de9ef03214f47a63c8a18ff59ff6eb",
+    "xi/h/verifica_h.py": "70b4cdbab35f50b1a96a6b7c92513aa788090fcba784a7f734b66ba11aeb7871",
+    "xi/h/teste_h.py": "8909700d93aca7a80ac5355ba51411e4a1c980766b600840b167404fa937cb26"
+  },
+  "teste_calificare": {
+    "xi/rezultate/H/teste/TESTE_H_20261031T205605Z.log": "118005a00b0266727b0e2d47b90ba37ef102a23071bfacbfbf309d8143e44a85",
+    "xi/rezultate/H/teste/TESTE_H_20261031T205644Z.log": "118005a00b0266727b0e2d47b90ba37ef102a23071bfacbfbf309d8143e44a85"
+  },
+  "sealed_utc": "2026-10-31T20:56:52Z",
+  "date_h_prezente": false,
+  "positive_claims_allowed": false
+}

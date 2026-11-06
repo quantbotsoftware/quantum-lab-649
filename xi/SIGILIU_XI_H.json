@@ -1,0 +1,12 @@
+{
+  "faza": "H",
+  "protocol": "xi/PROTOCOL_XI_H.md",
+  "protocol_sha256": "2c8da0a659c9f05c899ff445cb471f96f6c8ed2b8091a92ef02746d0234b06e9",
+  "plan_v11_sha256": "2fb304f4169074f1fba032e90fa9561fc7b72e8561b9b14d1ba5ae4c522bfc88",
+  "plan_v12_sha256": "a675289e736f6754e3ca14593e89f4c58be3297f0a3f27b05af927124d302bd1",
+  "app_py_sha256": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47",
+  "sealed_utc": "2026-10-31T20:52:15Z",
+  "cod_h_prezent": [],
+  "note": "sigilat inainte de orice cod H, date H sau modificare a aplicatiei",
+  "positive_claims_allowed": false
+}

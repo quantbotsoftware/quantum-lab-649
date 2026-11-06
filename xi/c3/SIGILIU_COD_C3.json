@@ -1,0 +1,28 @@
+{
+  "code": "xi/c3/portofoliu.py",
+  "sha256": "a1a8b799b96206d17bc6a0a70025d856dbfa91d51ae9a8130e7f3834bdc966db",
+  "protocol_sha256": "7cfa9680d5dbb1fb99f24aa086b9af18c69a7436b8128474be676c717e0399e0",
+  "teste_T1_T6": "xi/rezultate/C3/teste/TESTE_C3_20261031T143704Z.json (pe codul final, TESTE_PASS=True)",
+  "teste_initiale": "xi/rezultate/C3/teste/TESTE_C3_20261031T120621Z.json (inainte de garda per rulare si PARAMS; TESTE_PASS=True)",
+  "calibrare": "xi/rezultate/C3/calibrare/CALIBRARE_C3_20261031T143411Z.json sha256 689280dfe554108873f700f9f375558d7fc63fd9133b5ba47365e8e8a5a43f5c",
+  "params": {
+    "SQA": {
+      "P": 32,
+      "ratio": 0.5
+    },
+    "SA": {
+      "T0": 1.0,
+      "T1": 0.001
+    },
+    "PT": {
+      "Tmax": 3.0
+    }
+  },
+  "sealed_utc": "2026-10-31T14:37:14Z",
+  "note": "cod sigilat inainte de G4 si de productia unica",
+  "positive_claims_allowed": false,
+  "sha256_v1": "479b2b41a89cf637ab6ec619f8c4561e4f3c4e7a40defec12e28ccd8a74e693c",
+  "amendament": "xi/AMENDAMENT_XI_C3_01.md sha256 24385cf0829ee7254fbe5b338534d0632681041ac82183e180fc137a086d27fc",
+  "G4": "xi/rezultate/C3/G4_REZUMAT.json: G4_PASS=True 36/36 (cod v1, functie neatinsa de corectie)",
+  "resealed_utc": "2026-10-31T16:55:17Z"
+}

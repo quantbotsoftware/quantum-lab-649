@@ -1,0 +1,10 @@
+{
+  "protocol": "HSV4-P1",
+  "file": "hs_v4/PROTOCOL_HSV4.md",
+  "sha256": "0cd13393b3b8e43ef203800b9670d1786420c49416881261e0457602f963820b",
+  "bytes": 16589,
+  "sealed_utc": "2026-11-01T23:29:28Z",
+  "code_files_present": [],
+  "results_present": false,
+  "positive_claims_allowed": false
+}

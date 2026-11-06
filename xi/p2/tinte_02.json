@@ -1,0 +1,15 @@
+[
+ {"joc":"FR_loto","tip":"HEAD","url":"https://media.fdj.fr/static-draws/csv/loto/loto_201911.zip"},
+ {"joc":"FR_loto","tip":"HEAD","url":"https://media.fdj.fr/static-draws/csv/loto/loto_201902.zip"},
+ {"joc":"FR_loto","tip":"HEAD","url":"https://media.fdj.fr/static-draws/csv/loto/loto2017.zip"},
+ {"joc":"FR_loto","tip":"HEAD","url":"https://media.fdj.fr/static-draws/csv/loto/nouveau_loto.zip"},
+ {"joc":"FR_loto","tip":"HEAD","url":"https://media.fdj.fr/static-draws/csv/loto/loto.zip"},
+ {"joc":"DE_6aus49","tip":"HTML","url":"https://www.lotto.de/lotto-6aus49/lottozahlen"},
+ {"joc":"PL_lotto","tip":"HTML","url":"https://www.lotto.pl/lotto/wyniki-i-wygrane"},
+ {"joc":"IT_superenalotto","tip":"HTML","url":"https://www.superenalotto.it/archivio-estrazioni"},
+ {"joc":"ES_primitiva","tip":"HTML","url":"https://www.loteriasyapuestas.es/es/la-primitiva"},
+ {"joc":"ES_bonoloto","tip":"HTML","url":"https://www.loteriasyapuestas.es/es/bonoloto"},
+ {"joc":"CA_649","tip":"HTML","url":"https://www.olg.ca/en/lottery/play-lotto-649-encore/past-results.html"},
+ {"joc":"CA_649","tip":"HTML","url":"https://loteries.lotoquebec.com/fr/loteries/lotto-6-49"},
+ {"joc":"CA_649","tip":"HTML","url":"https://www.wclc.com/winning-numbers/lotto-649-extra.htm"}
+]

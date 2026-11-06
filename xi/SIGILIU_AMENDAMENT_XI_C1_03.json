@@ -1,0 +1,19 @@
+{
+  "amendament": "xi/AMENDAMENT_XI_C1_03.md",
+  "sha256": "d5f214e2d8da557951854d7eecb5662b9006057ac0c7b4205125c522386b8337",
+  "protocol_sha256": "63813dcdb8a871ac4fc7d30033f0f74ea807179dd5d3e9c8163a8d11f7c82112",
+  "amendament_01_sha256": "7da3416de7982ca2eee232684e43bfa764957acaaf623d32d1811e62a4925a00",
+  "amendament_02_sha256": "16004727b45469a13f1ffa18851301dcc8892529580763cb5053843f5d1997ef",
+  "cautare_v4_sha256": "c985d75222b2793fd6f6e1deb72bbd94d742a14c227ac597664bc753640a2514",
+  "verifica_design_sha256": "a4ea991cb94ae9132c52f09c21bb94f1fc7f41ce27a31925c89a78d22da3b683",
+  "permutare_sha256": "dc30c3ffd1ae0136a56657e225262dece4a630a21fc57aadd655dd3c46a1e8e8",
+  "c1_evaluare_sha256": "8f555c48494a6de25830bbd645658152f70434e2a5eb8bb3336fed76452a7bf2",
+  "c4_simulator_sha256": "c8ff356aebc1af15011427991c27226d1251e1c4fff6743ec6c5c67992df89f4",
+  "code_files_present": [],
+  "code_files_planned": [
+    "xi/c1/cautare649.py"
+  ],
+  "sealed_utc": "2026-10-30T12:58:03Z",
+  "note": "sigilat inainte de codul nou si de orice calcul 6/49 din sesiunea 20261030",
+  "positive_claims_allowed": false
+}

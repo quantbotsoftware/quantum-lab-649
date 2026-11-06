@@ -1,0 +1,17 @@
+{
+  "faza": "F",
+  "protocol_sha256": "ba74568f40fa62303bef59bbd7c23d46b527ec53e00297c59f71670a0b7d3220",
+  "sigiliu_protocol_sha256": "0fa781e90c5ed94a815ee8f0a69ebe89742c1c6e72de95ab78e038dbb77b0a2c",
+  "cod": {
+    "xi/f/inregistreaza.py": "c4b668a5e605be7ecc3bfb0e8c5ccd18df9f36bbb22f89e99d712c8ee86ba3a9",
+    "xi/f/deconteaza.py": "1fcb6381600c28d12f4e8aeb85d2b214c58d66b81bbfc4965e649b6dde3553d8",
+    "xi/f/verifica_f.py": "0ede0491366c0b6f1563c6d1b4b3432f9486c4bdd7392411560809252350be3f",
+    "xi/f/teste_f.py": "8439704c6cb35e08d2b7c15c9159018644f6694c7f6879dc1737df3eabc112d9"
+  },
+  "teste_calificare": {
+    "xi/rezultate/F/teste/TESTE_F_20261031T210443Z.log": "7d95fa031aa1834d18c7eed9cc2b3ff64ab03ba4963ca99a4858cfaf63107762"
+  },
+  "sealed_utc": "2026-10-31T21:04:55Z",
+  "registru_real_prezent": false,
+  "positive_claims_allowed": false
+}

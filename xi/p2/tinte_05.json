@@ -1,0 +1,6 @@
+[
+ {"joc":"DE_6aus49","tip":"HEAD","url":"https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto6aus49.zip"},
+ {"joc":"DE_6aus49","tip":"HEAD","url":"https://www.westlotto.de/westlotto-medien/zahlen-fakten/gewinnzahlendownload/lotto_mittwoch.zip"},
+ {"joc":"US_powerball","tip":"HEAD","url":"https://data.ny.gov/api/views/d6yy-54nr.json"},
+ {"joc":"US_megamillions","tip":"HEAD","url":"https://data.ny.gov/api/views/5xaw-6ayf.json"}
+]

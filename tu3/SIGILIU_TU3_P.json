@@ -1,0 +1,11 @@
+{
+  "protocol": "TU3-P",
+  "file": "PROTOCOL_TU3_P.md",
+  "sha256": "ddede39e4a1570e9612a34b2d95e18472ab7b80ff9fd000d83e21d56012f1b4d",
+  "bytes": 7847,
+  "parent_protocol_sha256": "694d35455ca7a7a2517cbe6e26a442628ca3b602c81664127f4ade4a0e9b6b04",
+  "engine_sha256": "1da9be4e05bcefe401c299b6e6cd0ca7e4d6057939756057822cb43c951cb2ae",
+  "parser_sha256": "219e5d2085a72e960583830a6acd009e376f01079381ad0e09824fd200ee8968",
+  "sealed_utc": "2026-10-26T16:15:08Z",
+  "code_files_present": []
+}
