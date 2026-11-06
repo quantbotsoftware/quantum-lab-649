@@ -1,0 +1,152 @@
+{
+ "protocol": "TU4-S35 (Q7S v2 pentru C1 de duminică: DL v2 și Q4 v2 în locul criteriilor înghețate DL_RC/Q4)",
+ "session": "S35",
+ "user_request": "Mesajul 107 (autonomie) + cererea 2026-10-29T22:48:41Z (Prioritatea 1)",
+ "sealed_utc": "2026-10-29T22:53:39Z",
+ "documents": {
+  "tu4/PROTOCOL_QUANTUM_S35.md": {
+   "sha256": "5a76b773c3aa31f72c7b3f2df26328541e6d0e652dd14c81be8552c9a3124cbd",
+   "bytes": 6796
+  }
+ },
+ "code_files_present": [],
+ "code_files_planned": [
+  "tu4/s35/verifica_q7s_v2.py",
+  "tu4/s35/c1_duminica.sh"
+ ],
+ "source_modification_allowed": [],
+ "frozen_hashes": {
+  "tu4/s33/verifica_s33.py": "e3719bd3ec48aacc133c0af94a35f9a8b208ca52485c48cd3adbbe03e6a860f7",
+  "tu4/SIGILIU_TU4_S33.json": "5caceda6069e314a3f1f189c59c869620ab3410c20543d1dc434f31a93325ff2",
+  "tu4/s34/verifica_publicarea_v2.py": "7893db937b3ad882a2e450b211a244daa495cee7fffa84c473c10e5c20ee5b69",
+  "tu4/s34/verifica_q4_v2.py": "c958bad76815a9c1be73fb4caf11ea76e1b510ac837b6ddc6688e3a1b453d519",
+  "tu4/PROTOCOL_QUANTUM_S34.md": "483035ae7a47fe96d9b2b2c111368569733601e4150881a28ab45bf0733340aa",
+  "tu4/AMENDAMENT_S34_01.md": "70ce988f71f6d6ccc3995cb831331d3d44472716de75d16f89afee8b20bc12b6",
+  "tu4/SIGILIU_TU4_S25.json": "195bf91f9c897ee59300b981212db650dbffc110bd9da994a4a9fbd3c284ef1f",
+  "tu4/rezultate/S29/FISA_DUMINICA_S29.json": "2b597a222d50189064397bbb0a1e035fe01d7c57f945b7a2887c2e315376b10f",
+  "tu4/s27/sonda_s27.py": "697e1e4c37d1c022ae7870f6993bf6f421f53db947b588de52c13a4a97c8f151",
+  "loto_romania/cohorta.py": "8a70951bdb8920ff93f30982a61c1f868e37ff99c1c249145640e8d3c4b092a5",
+  "rust_core/target/release/rust-singularity-core": "c20fdcd2f7f237578d1f0ea85c05f9bf6b32a888d228e4443b6756dd1d43fd9e",
+  "xi/PLAN_V11_QL_XI.md": "2fb304f4169074f1fba032e90fa9561fc7b72e8561b9b14d1ba5ae4c522bfc88",
+  "tu4/rezultate/S31/INCIDENT_S31_01.json": "6e98ed5bef6e6649c0f438cacaeddbbf5d477d268f3b086a96a81e7d01440e14",
+  "tu4/rezultate/S31/NOTA_COMPLETARE_S31.md": "0ad610b0219b9c36f7d51bde09e37f6927bc6f0133b607b2674d446db22a76a1",
+  "tu4/rezultate/S31/M2_VERIFICARE_20261029T184558Z.json": "d019c097340b249a0b84c601416345cec126f3400ebabc204ba63a885bda3562",
+  "tu4/rezultate/S25/Q7L_VERIFICARE_20261029T184906Z.json": "1cb9a9237d8a9ce72b2d22a5a85af162fb5047c216f65de942812b45351f4221",
+  "tu4/rezultate/S25/V0L_VERIFICARE_20261029T184906Z.json": "4af346d9a1c9c95fd46d8d3f7e555d142cc2e4ba8441187d048a357517367274",
+  "tu4/PROTOCOL_QUANTUM_S32.md": "392ef089aa53597036fdc2b62803de33e977fa39fec61752867b76b52dfb9cfc",
+  "tu4/SIGILIU_TU4_S31.json": "d8e8cfe06b5e0398e617170e7d183e648ce592714bbd85122a671a256a3f73b7",
+  "tu4/s25/verifica_s25.py": "7a8c9b55644fb8292a238f7e6c1165a55f9be34c0592809045a40466b49028f4",
+  "tu4/rezultate/S25/primul_pas_S26.sh": "0caf616d8f45ee8d79f9287a84ac74f54c3ec3ad39f5907ebc4e87faaf146106",
+  "tu4/rezultate/S24/primul_pas_S25.sh": "1e7f883c1af9ec7794de2cba214cc128425977f152cd2ea1ab24aa89e7ae83aa",
+  "tu4/rezultate/S32/diag_gpu_v1.py": "8805d814f0d12cf784439d4d8509765adb55e3d3947477fa4616fec827680dfa",
+  "tu4/s19_paritate_ref.py": "d2e6a75876bae98175a2d73f3a871ad99d201b4be7a08ede378d9ae52da28e2a",
+  "tu4/s24/verifica_s24.py": "bf4b7a9b1e6a334458ea563f117950773b7bbdc539c50c7cf1d42ab4cecea0a0",
+  "tu4/rezultate/S23/verifica_s23.py": "4be4704e0ef4d63d8609c56e8bbbaecbff1c2e6ec973315d3309a150cc08799c",
+  "tu4/s24/raport_decontare_s24.py": "a9391fcc34f174a503e61da17922e5fdde1682004c1a0c004ef5e2464a173d7d",
+  "tu4/rezultate/S22/MANIFEST_RUST_CORE_20261028T032900Z.json": "6b10f7213b3088e4680f3f1c05802a347921ce8e79817d42ee378dda9ac8f49d",
+  "tu4/PROTOCOL_QUANTUM_S33.md": "1e786f38f30e13e984bc5bf8f67a8bbe3b903a87005a11e7a97af6eb46ff45f5",
+  "documentatie/continuitate_20261025T165403Z/verifica_publicarea.py": "feea0560325546439f6295c3ee01d47ca4a47a0def663399a12169b44e23d63f",
+  "documentatie/continuitate_20261025T165403Z/manifest.json": "d2aeb239603f4f1212df93f9e40a3ae042f524d61f9be03653affe28c03c6ee3",
+  "next_candidate/quantum_limit/prospectiv.py": "5f45b37067c91abe6f82d740dcadee9506b05bb2ddd9ee8557f3d19a09bd3d0b",
+  "tu4/SIGILIU_TU4_S34.json": "5f3905d90b4eb6e7fe627020342b3860272805e921e578dd8b430e69eee55ed0"
+ },
+ "incidents_before": [
+  "EM_01",
+  "FR_01",
+  "S19_01",
+  "S20_01",
+  "S23_01",
+  "S23_02",
+  "S23_03",
+  "S24_01",
+  "SM1_01"
+ ],
+ "environment_observed": {
+  "uname_r": "7.0.11-76070011-generic",
+  "live_version_dir": "versiuni/9942abfc2528",
+  "live_updated_utc": "2026-10-29T19:30:58Z",
+  "timezone_system": "Europe/Bucharest"
+ },
+ "criteria": {
+  "pastrate_identic": [
+   "K1",
+   "K2",
+   "K3",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "L8",
+   "L9",
+   "L12",
+   "P1",
+   "P2",
+   "P3",
+   "P4",
+   "I1",
+   "I2",
+   "I3"
+  ],
+  "inlocuite": {
+   "L1": "L1v2",
+   "L10": "L10v2",
+   "L11": [
+    "L11v2a",
+    "L11v2b"
+   ],
+   "L13": [
+    "L13v2a",
+    "L13v2b"
+   ]
+  },
+  "noi": [
+   "I4",
+   "I5"
+  ],
+  "numai_c1": [
+   "W1",
+   "W2"
+  ],
+  "Q4_CUNOSCUT": "^FAIL Q4 (prima_invocatie_ssd_montat|prima_invocatie_finished)( |$)",
+  "DL_V2": {
+   "sha256": "7893db937b3ad882a2e450b211a244daa495cee7fffa84c473c10e5c20ee5b69",
+   "n": 19
+  },
+  "Q4_V2": {
+   "sha256": "c958bad76815a9c1be73fb4caf11ea76e1b510ac837b6ddc6688e3a1b453d519",
+   "n": 6
+  },
+  "pass": "toate verificările numărate trec (c1: 29; repetiție: 27)"
+ },
+ "sunday_rule": {
+  "window_utc": [
+   "2026-11-01T13:36:00Z",
+   "2026-11-01T13:57:59Z"
+  ],
+  "strict": true,
+  "start_guard_utc": [
+   "2026-11-01T13:36:00Z",
+   "2026-11-01T13:46:00Z"
+  ],
+  "C1": "Q7S2 PASS în mod c1 (W1, W2)",
+  "fisa": "FISA_DUMINICA_S29 neschimbată"
+ },
+ "rehearsal": "exact o rulare c1_duminica.sh --repetitie înainte de duminică",
+ "forbidden_windows": [
+  "[:58,:04)",
+  "[:28,:34)",
+  "±15 min față de 06:20/10:20/13:20Z"
+ ],
+ "new_files_allowed": [
+  "tu4/s35/*",
+  "tu4/rezultate/S35/*",
+  "tu4/rezultate/S25/primul_pas_S26_<UTC>.log",
+  "tu4/rezultate/S34/DL_V2_VERIFICARE_<UTC>.json",
+  "tu4/rezultate/S34/Q4V2_VERIFICARE_<UTC>.json",
+  "scrierile uzuale ale primului pas și ale verifica_s25.py q7l"
+ ],
+ "sudo": false,
+ "positive_claims_allowed": false
+}

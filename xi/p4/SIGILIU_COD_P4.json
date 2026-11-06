@@ -1,0 +1,21 @@
+{
+  "faza": "P4",
+  "sealed_utc": "2026-11-01T14:50:07Z",
+  "protocol": "xi/PROTOCOL_XI_P4.md",
+  "protocol_sha256": "8d56aeafdb602befb9c91ac644a744e6b1d449774168d82fdc4ebd804fe66af3",
+  "sigiliu_protocol_sha256": "f2a23e175bfd4d97f022bb34ccc989bc400413db9c673c48079c0c8524e2796b",
+  "calificare_file": "xi/rezultate/P4/calificare/CALIFICARE_P4_20261101T144910Z.json",
+  "calificare_sha256": "cf877176adb180c67a646187d885fe3061c6343d004e2bbed0fad07188c493a9",
+  "qualified_families": [
+    "VEC",
+    "BLOC"
+  ],
+  "COMB_qualified": true,
+  "files": {
+    "xi/p4/p4.py": "d4882228467c92ef6ba70e16be66b3efbd3d24dbab730d983c4c3c0aa5e00067",
+    "xi/p4/verifica_p4.py": "8d31e3a512331cd3322c0765f0df096ef7611ca6e3f37012ff6820dac44a852a"
+  },
+  "date_reale_citite_inainte_de_sigilare": false,
+  "rezerve_citite": false,
+  "positive_claims_allowed": false
+}

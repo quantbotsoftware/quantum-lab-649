@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=Quantum Lab 649
+GenericName=Combinatorial Observatory 6/49 (Classical HPC)
+Comment=Starts Quantum Lab 649 Streamlit Observatory (classical computation, does NOT predict numbers)
+Exec=@REPO_DIR@/porneste_aplicatia_tu3.sh
+Path=@REPO_DIR@
+Icon=@REPO_DIR@/assets/quantum_lab_649.svg
+Terminal=false
+Categories=Science;Math;
+Keywords=combinatorics;649;spectral;streamlit;
+StartupNotify=false
+Actions=Stop;
+
+[Desktop Action Stop]
+Name=Stop Quantum Lab 649 Server
+Exec=@REPO_DIR@/porneste_aplicatia_tu3.sh --stop

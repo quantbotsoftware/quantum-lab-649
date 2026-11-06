@@ -1,0 +1,14 @@
+{
+  "amendament": "tu4/AMENDAMENT_S35_01.md",
+  "sha256": "3cc67d36f470dbe99d781fa8658570324eeefa34d6c3455fe7c84f1f7fcaf8c0",
+  "incident": "tu4/rezultate/S35/INCIDENT_S35_01.json",
+  "incident_sha256": "77a2e800c34efa7ed750fec3dd9dceea6c04ea9d67df6ad86b8eb823e2f264df",
+  "protocol_sha256": "5a76b773c3aa31f72c7b3f2df26328541e6d0e652dd14c81be8552c9a3124cbd",
+  "seal_S35_sha256": "7a74d65c602518797724ccb96698bda0f83ef504a29b07443c2476c79a6b799d",
+  "repetitie_1_sha256": "c653cabcfbbe0a42e791efa6f80de0a9e073dd9a3019ab638d3ae8ab7f679799",
+  "genereaza_v2_sha256": "7297ffd10ad2b35b631d6b3007f01014ee3534a103d8d9c9c9cd04c4cf1a3e94",
+  "genereaza_v1_sha256_tinta": "8273c198a24dc31e5cea098914aa2b12103970da53fb54ccdefff4a9a3f8a4f8",
+  "sealed_utc": "2026-10-29T23:07:57Z",
+  "note": "sigilat inainte de restaurare si de a doua repetitie",
+  "positive_claims_allowed": false
+}

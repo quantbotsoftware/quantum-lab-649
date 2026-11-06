@@ -1,0 +1,23 @@
+{
+  "amendament": "SM1-A01 (executantul pașilor sudo = agentul; parola numai prin stdin, nescrisă în fișiere)",
+  "user_request": "Mesajul 71 (2026-10-28T10:41:08Z)",
+  "sealed_utc": "2026-10-28T10:42:08Z",
+  "documents": {
+    "tu4/AMENDAMENT_SM1_A01.md": {
+      "sha256": "3b843dd4288758919c9500fad7b177593deaa38e968fb103327ec2eb2440a722",
+      "bytes": 2523
+    }
+  },
+  "base_seal": {
+    "tu4/SIGILIU_TU4_SM1.json": "20581eee82d937404a1011c5f496eddc99a7f1dc078ee4e1d92fd0558306b2b9",
+    "tu4/PROTOCOL_MONTARE_SSD_SM1.md": "4eb531598fe719818d6816c389f4fded228f6eb0dc53db5a3cecb7126025544b"
+  },
+  "code_files_present": [],
+  "system_modification_started": false,
+  "pre_hashes": {
+    "/etc/fstab": "1ace1eac1c8d14a1aa121f1e74a083cd9da2109f661ca2a7e2272fd678608c1c"
+  },
+  "criteria_changed": false,
+  "password_written_to_files": false,
+  "positive_claims_allowed": false
+}

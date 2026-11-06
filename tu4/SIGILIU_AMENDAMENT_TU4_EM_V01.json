@@ -1,0 +1,67 @@
+{
+ "amendment": "TU4-EM-V01",
+ "session": "S15 FIN4",
+ "file": "tu4/AMENDAMENT_TU4_EM_V01.md",
+ "sha256": "f2e55d46ac15cbe35a646c6f5d6eafe01a0cb9ded819599f0a2f0debceeafa81",
+ "bytes": 8454,
+ "incident": {
+  "file": "tu4/incidente/EM_01/INCIDENT_TEHNIC_EM_01.json",
+  "sha256": "78f82989c317e44ac607dccf7eac2ea71ccae5afbad0a9902f5eb23a8acbace5"
+ },
+ "protocol_seal": {
+  "file": "tu4/SIGILIU_TU4_EM.json",
+  "sha256": "82459f48458ef2ee248784929ea2c4c18ae60469b0084e4a7345910a7b5c53c7"
+ },
+ "code_seal": {
+  "file": "tu4/SIGILIU_TU4_EM_COD.json",
+  "sha256": "6e4ebf9b2693807dd1926e5862d251cd27bef0e2b1d0d4d041def6628e322a15"
+ },
+ "original_verifier_sha256": "1bada90e6e852fed2569cef12caa6b53ca38c98809b09551fe2f6b962426dc52",
+ "decision": "verificator NOU tu4/verifica_em_v01.py; tu4/verifica_em.py NEATINS (inghetat prin sha simplu in EM_COD/JU/UI, comparat direct de verifica_ju.py V1, verifica_ui_s14.py S2, verifica_em.py V1)",
+ "allowed_change": "numai sursa octetilor la V2 (amprenta de continut + reconstructie independenta a versiunilor compactate TU3-DD); V0/V1/V3-V9 identice",
+ "not_changed": [
+  "tu4/verifica_em.py",
+  "tu4/judecator.py",
+  "tu4/emite.py",
+  "tu3/dedup_live.py",
+  "emisii",
+  "LANT",
+  "SSD",
+  "systemd",
+  "tu3/ui_tu3.py",
+  "app.py"
+ ],
+ "frozen_hashes": {
+  "tu4/verifica_em.py": "1bada90e6e852fed2569cef12caa6b53ca38c98809b09551fe2f6b962426dc52",
+  "tu3/dedup_live.py": "33c212a8e6d90754f399b4c7c51faeb547210056226b181cbd54eb3b567544ff",
+  "tu4/emite.py": "3c43f0f2da4f59a32b9903fa39b147701dbd18fcff97b76c63e37d5c3200ce69",
+  "tu4/judecator.py": "8117e8a37c1ee82dbc0a10f8ba0b2506a2d62641cff9216297108e2882df868b",
+  "tu4/PROTOCOL_TU4_EM.md": "146078ef2a752bf9d9f9a99766074fdea99ec3fbf57a2087b0ce7374c7248047",
+  "tu4/SIGILIU_TU4_EM.json": "82459f48458ef2ee248784929ea2c4c18ae60469b0084e4a7345910a7b5c53c7",
+  "tu4/SIGILIU_TU4_EM_COD.json": "6e4ebf9b2693807dd1926e5862d251cd27bef0e2b1d0d4d041def6628e322a15",
+  "tu4/SIGILIU_TU4_JU.json": "5dcc0a4252acf9d504b5bbc11e13816595638839628d53349fd9c08082533093",
+  "tu4/SIGILIU_TU4_JU_COD.json": "d6773b7208628a3d6e71b6ad8325434dd0d441d84be8cbe2f276b6d80141ba6a",
+  "tu4/SIGILIU_TU4_UI.json": "1df67cd8193b0fc1e677c910a10c3b9ff63463f4568963e69d4512a7054288d8",
+  "tu4/verifica_ju.py": "242163945ceb2a46b009b6c3ee16e95aad0e9a856af60d25276d62fa631bd513",
+  "tu4/rezultate/UI/verifica_ui_s14.py": "008edaff72d1fac9b6b681192561155e80654227546e0f03f4166e9cb6ab916a",
+  "tu4/tribunal/LANT.jsonl": "51aa92ce799b5be7dc2202b178b3890106121967d27dee25691aa26ed4f1b916",
+  "tu4/tribunal/emisii/649/2026-10-29.json": "e2fe385ecad12ac85cb870f9301ee64eee4ac1f78696656c32dd4278ddcb1947",
+  "tu4/tribunal/emisii/540/2026-10-29.json": "a15dc8fdbad6c165cf45ce5290790120ecdd0a2e752a370bcbf45869e2e06098",
+  "tu4/tribunal/emisii/joker/2026-10-29.json": "092e3f5c610a7b000e47467d572558d8b6bb45cf94b6b6315333312e64990a74",
+  "tu4/incidente/EM_01/martor_em01.py": "29e484e2a1b2450ebbc5b1bc112dc4d6fe23c55278424234d936c6f05af15388",
+  "tu4/incidente/EM_01/INCIDENT_TEHNIC_EM_01.json": "78f82989c317e44ac607dccf7eac2ea71ccae5afbad0a9902f5eb23a8acbace5",
+  "tu4/rezultate/EM/VERIFICARE_EM_20261027T232443Z.json": "a20f4c1fca016ba826d693e6b14f97185a8b708ee76113d74c1400b6fae3c014",
+  "tu4/tests/test_em.py": "466b8ece552d30e09b12af42a8da1deab252828de3d8b7cb124ce4438ad6c9fb"
+ },
+ "new_files_planned": [
+  "tu4/verifica_em_v01.py",
+  "tu4/tests/test_em_v01.py"
+ ],
+ "code_files_present": [],
+ "results_present": false,
+ "extra_verifier_runs_real": 1,
+ "settlements_at_seal": 0,
+ "user_decision": "Mesajul 58 (S15 FIN4)",
+ "sealed_utc": "2026-10-27T23:29:10Z",
+ "positive_claims_allowed": false
+}

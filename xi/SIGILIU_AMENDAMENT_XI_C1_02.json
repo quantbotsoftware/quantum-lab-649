@@ -1,0 +1,10 @@
+{
+  "amendament": "xi/AMENDAMENT_XI_C1_02.md",
+  "sha256": "16004727b45469a13f1ffa18851301dcc8892529580763cb5053843f5d1997ef",
+  "rezultat_inspectat": "xi/rezultate/C1/permutare/PERMUTARE_J140P.json",
+  "rezultat_sha256": "f6d092563b4d4b23f7613e8e332603ac8e9fff965ca6996a4aee2da11ed90cb8",
+  "permutare_v1_sha256": "c5b565423a2cfd679048f45c8db319eeb33666cfc154565789c278ee71b22f8f",
+  "sealed_utc": "2026-10-29T23:19:20Z",
+  "note": "sigilat inainte de noua permutare",
+  "positive_claims_allowed": false
+}

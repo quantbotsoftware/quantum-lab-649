@@ -1,0 +1,64 @@
+{
+  "generated_from_artifacts": true,
+  "files": {
+    "PREINREGISTRARE_WU649.md": {
+      "sha256": "e46db3cf550ab912580b87d37b24bb883ea29f37caabcc5019e17fd7f851f961",
+      "bytes": 16325
+    },
+    "SIGILIU_PROTOCOL_WU649.json": {
+      "sha256": "55706d8faf26cc41d3936c254d066384d20ed07e2aac672690f3dbe45094457d",
+      "bytes": 439
+    },
+    "AMENDAMENT_01.md": {
+      "sha256": "a5b89c1c2c2ed69342894d964bc7c01a0b49b570accbe0ee0dcb08c5f30a48aa",
+      "bytes": 1767
+    },
+    "SIGILIU_AMENDAMENT_01.json": {
+      "sha256": "5ef3ca2d84a8c0f9d52e47ebc99e17fc07a0687f46fae5bfcbef0c3abe0a8776",
+      "bytes": 508
+    },
+    "wu649.py": {
+      "sha256": "1f0a9bc99dbc74ccbac192ab1b9bac6ce415cee24e2f1d18a41b4e31c3be813b",
+      "bytes": 38074
+    },
+    "verify_wu649.py": {
+      "sha256": "a0fba731b997f5ff2c2710915276e7a1291fca6d5409be1c03247ca4403f79a6",
+      "bytes": 15189
+    },
+    "verify_necalificare_wu649.py": {
+      "sha256": "32ddee67bcb9a6b8da69e47241acaf9338d1435aacad4f45d67589a4a748ded0",
+      "bytes": 6539
+    },
+    "raport_wu649.py": {
+      "sha256": "6a148379fdfb2b994fffa91a8bbe2759576a59cf1882f16cabfb8614abab774b",
+      "bytes": 7373
+    },
+    "tests/test_wu649.py": {
+      "sha256": "f98188a64a367f38c69b7fed807c6eba8737f68adfff2a5735eafe3ee7fe378e",
+      "bytes": 1836
+    },
+    "rezultate/CALIFICARE.json": {
+      "sha256": "324f73487c56a2e2d0bb955f826296a4f1a67d7d1c018f701d81e56c39e407b2",
+      "bytes": 3264
+    },
+    "rezultate/VERIFICARE_NECALIFICARE.json": {
+      "sha256": "54c89742274ef574847a00af0c23a89820556efdb706c8130fc89af44443ac38",
+      "bytes": 3211
+    },
+    "rezultate/cod_calificare/wu649.py": {
+      "sha256": "afc6789db7f412346bf108949e08fac06e647c957a3a79d4f0c1c5405466ad87",
+      "bytes": 37829
+    },
+    "jurnal/calificare.log": {
+      "sha256": "bcaac9487b0f62163920c6a928ee602af793d2d5aeb35a32972a6d0f8b0a8741",
+      "bytes": 2082
+    },
+    "RAPORT_WU649.md": {
+      "sha256": "1162d40d4cb0e8f3011b8538f6ff576b2a941564202e1d6cde9ef5c97dd91f44",
+      "bytes": 8121
+    }
+  },
+  "status": "WU_NOT_QUALIFIED",
+  "passed": 5,
+  "positive_claims_allowed": false
+}

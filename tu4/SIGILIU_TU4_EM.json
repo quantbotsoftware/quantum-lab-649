@@ -1,0 +1,69 @@
+{
+ "protocol": "TU4-EM",
+ "session": "S12",
+ "document": {
+  "file": "tu4/PROTOCOL_TU4_EM.md",
+  "sha256": "146078ef2a752bf9d9f9a99766074fdea99ec3fbf57a2087b0ce7374c7248047",
+  "bytes": 13539
+ },
+ "frozen_hashes": {
+  "tu4/PROTOCOL_TU4_EM.md": "146078ef2a752bf9d9f9a99766074fdea99ec3fbf57a2087b0ce7374c7248047",
+  "tu4/ip_core.py": "ab3e1de93d8e5ae537a8c80599905aaa19cc103602f9b18f4b7f7f6f8a48c302",
+  "tu4/PLAN_SESIUNI_TU4_v2_20261027.md": "32533d53c9390172b9a4cea81ae0640a3d19b0d786388a1e7d04c15ac5ac4734",
+  "tu4/PROTOCOL_TU4_IP.md": "dd5b2c51aaaf266610a78efd431b97293e69602fe5768c019bc8c450b33bf2cd",
+  "tu4/PROTOCOL_TU4_IP_H1_MA.md": "86c451e89fb48dedf795c7b11a1abc040346f9f38c6481aea6c76343702d2bd4",
+  "tu4/PROTOCOL_TU4_IP_H3_AD.md": "916546eaa8e95c77bce755d47d5b50a8087cdcf9cf077b0588dca408820fd0bc",
+  "tu4/SIGILIU_TU4_IP.json": "a725f6f023e904e6c08f9d1702f413e31279c8971d8847c4694c29a09735eafb",
+  "tu4/rezultate/IP/CALIFICARE_IP.json": "23daff348f9b7e247f909594e4d2b92b83066f2cf49b9da0f49fa1d1699b542e",
+  "tu4/rezultate/IP/VERIFICARE_IP.json": "437d2b2039c99386c861c9f84775bf9cab1c3da6fcb639262095c60d04c3a05a",
+  "tu4/rezultate/IP/MARTORI_IP.json": "04cce795327fb3d431bb64c9e264417596b1b9d50c4dda14cd2471707954dea1",
+  "tu4/rezultate/EM/primul_pas_S12.log": "734c799fcbfe26d52634045ad6891b0982f21e14b06ba0d9495a5582190e00c2"
+ },
+ "constants": {
+  "models": [
+   "H1",
+   "H3"
+  ],
+  "games": [
+   "649",
+   "540",
+   "joker"
+  ],
+  "M": 6,
+  "tribunal_threshold": 600,
+  "threshold_ln": "ln(600)",
+  "retire_ln": -10,
+  "draw_weekdays": [
+   3,
+   6
+  ],
+  "timezone": "Europe/Bucharest",
+  "draw_local": "18:30",
+  "cutoff_local": "16:00",
+  "final_window_local": "15:00",
+  "c64_gate": {
+   "lambda_abs": 0.0001,
+   "logw_abs": 1e-05,
+   "logw_rel_of_max": 0.0001
+  },
+  "torch_compile": {
+   "mode": "max-autotune-no-cudagraphs",
+   "fullgraph": true,
+   "dynamic": false
+  },
+  "authority_dtype": "float64",
+  "mirror_dtype": "complex64",
+  "ssd": {
+   "uuid": "5af1b939-865f-4eab-bf45-38983451b704",
+   "mount": "./ssd_data",
+   "dir": "QL649_TU4_EM"
+  },
+  "live_version_seen_before_seal": "14f66edd6282"
+ },
+ "hardware_write_lock": "unavailable (no root; chattr needs CAP_LINUX_IMMUTABLE; sudo needs password)",
+ "real_archive_model_statistics_before_seal": false,
+ "code_written_before_seal": false,
+ "user_decision": "Mesajele 53 și 55",
+ "sealed_utc": "2026-10-27T21:37:15Z",
+ "positive_claims_allowed": false
+}

@@ -1,0 +1,16 @@
+{
+  "treapta": "A",
+  "protocol": "xi/PROTOCOL_XI_P2.md",
+  "protocol_sha256": "01ff623543ca73b11cd5b66f5b4ed2ae920e38fba66198ff7348452e49957707",
+  "plan_sha256": "a675289e736f6754e3ca14593e89f4c58be3297f0a3f27b05af927124d302bd1",
+  "banca_sha256": "d7d1cbb48553bc61b26285771d7456c53bc554f77ace26fe889756be624a6770",
+  "verifica_p1_sha256": "d39f914f6c4bc454a064b0878ab8b48a98d7af50978a549ba3b99cb83af6ef93",
+  "sigiliu_cod_p1_sha256": "ee202d62cfa42164a380312123806bfe38ad910808b0b792efee6369a80eb943",
+  "sealed_utc": "2026-10-31T20:07:39Z",
+  "acces_retea_candidati_inainte": false,
+  "fisiere_date_descarcate": [],
+  "cod_p2_prezent": [],
+  "rezultate_p2_prezente": [],
+  "note": "treapta A sigilata inainte de orice acces de retea la candidati, descarcare, cod sau calcul P2",
+  "positive_claims_allowed": false
+}

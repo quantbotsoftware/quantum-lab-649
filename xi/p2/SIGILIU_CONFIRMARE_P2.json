@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-31T20:39:24Z",
+  "dev_rezultate_sha256": "36c46661076978759587733f3ea7e33f9fba0e6524b4d29c65f1b5fc1df3e866",
+  "dev_pas_sha256": "8410058463909f9f2b80228d6fc7c0c8752e90311c335ff1b4571a64554f53ec",
+  "verificare_dev_sha256": "639dcb71db3ac5d3bf5feb8812bcd74f84642dde460f55eef3645ff6012bf12e",
+  "verificare_verdict": "PASS 199/199",
+  "supravietuitori_bruti": [
+    "GLOBAL:COMB",
+    "GLOBAL:DRIFT",
+    "GLOBAL:GAP",
+    "GLOBAL:STAT",
+    "HU_hatos:COMB",
+    "HU_hatos:DRIFT",
+    "HU_hatos:GAP",
+    "HU_hatos:STAT"
+  ],
+  "anulati": {
+    "GLOBAL:COMB": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "GLOBAL:DRIFT": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "GLOBAL:GAP": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "GLOBAL:STAT": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "HU_hatos:COMB": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "HU_hatos:DRIFT": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "HU_hatos:GAP": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)",
+    "HU_hatos:STAT": "AMENDAMENT_XI_P2_02: artefact de citire HU_hatos (794 rânduri cu 21 câmpuri citite pe ultimele 6)"
+  },
+  "supravietuitori": [],
+  "amendament_02_sha256": "4dda30e90126db9b66e7bd9e8d5b70d1ffdadfa787b7391bbcfb247cd6004349",
+  "incident_02_sha256": "7a3a3485ddef06885f794eb71b532e716f0dad870babf06303414a74f32d1f2a",
+  "diagnostic_sha256": "3e24d9c4a3e31b7f1124263de6bd72cd49d0e55624a7eb23dcce20c5ab6bac58",
+  "jocuri_valide": [
+    "HU_otos",
+    "FR_loto",
+    "US_powerball"
+  ],
+  "jocuri_excluse": {
+    "US_megamillions": "T=776<1000",
+    "DE_6aus49_sambata": "rand invalid dupa amendamentul unic de citire",
+    "HU_hatos": "defect de citire (AMENDAMENT_XI_P2_02)"
+  },
+  "verdict_P2": "P2_NICIUN_SUPRAVIETUITOR_VALID",
+  "rezerva": "SIGILATA si NECITITA pentru toate jocurile",
+  "positive_claims_allowed": false
+}

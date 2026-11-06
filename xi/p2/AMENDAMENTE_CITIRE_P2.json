@@ -1,0 +1,21 @@
+{
+  "amendament": "XI-P2-01 (citire)",
+  "nota": "înlocuiește NUMAI câmpul format al jocurilor de mai jos; jocul, URL-urile, perioada, filtrul de zi, subjocurile, analiza și pragurile rămân cele din SURSE_P2.json",
+  "format": {
+    "HU_otos": {"tip": "csv", "encoding": "utf-8", "delim": ";", "antet": "auto",
+                "ordine": "an_saptamana", "camp_an": 0, "camp_sapt": 1, "camp_data": 2,
+                "data_fmt": ["%Y.%m.%d.", "%Y.%m.%d", "%Y-%m-%d"],
+                "numere": {"princ": {"pozitii": [-5, -4, -3, -2, -1]}}},
+    "HU_hatos": {"tip": "csv", "encoding": "utf-8", "delim": ";", "antet": "auto",
+                 "ordine": "an_saptamana", "camp_an": 0, "camp_sapt": 1, "camp_data": 3,
+                 "data_fmt": ["%Y.%m.%d.", "%Y.%m.%d", "%Y-%m-%d"],
+                 "numere": {"princ": {"pozitii": [-6, -5, -4, -3, -2, -1]}}},
+    "DE_6aus49_sambata": {"tip": "zip_xlsx", "foi": "toate", "antet": false, "ordine": "data", "camp_data_poz": 1,
+                          "data_fmt": ["excel_serial", "%d.%m.%Y", "%d.%m.%y"],
+                          "filtru_rand": {"camp": 1, "regex": "\\d{5}(\\.0+)?|\\d{1,2}\\.\\d{1,2}\\.\\d{2,4}"},
+                          "numere": {"princ": {"variante": [
+                              {"camp": 2, "regex": "MI|SA|Mi|Sa", "pozitii": [3, 4, 5, 6, 7, 8]},
+                              {"pozitii": [2, 3, 4, 5, 6, 7]}]}}}
+  },
+  "positive_claims_allowed": false
+}

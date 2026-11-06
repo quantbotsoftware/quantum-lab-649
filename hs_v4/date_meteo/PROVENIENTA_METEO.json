@@ -1,0 +1,37 @@
+{
+  "protocol": "HSV4-P1",
+  "dataset": "Open-Meteo ERA5 Bucharest 18:00 Europe/Bucharest",
+  "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+  "latitude": 44.43,
+  "longitude": 26.1,
+  "timezone": "Europe/Bucharest",
+  "hour_local": "18:00",
+  "start_date": "1993-08-01",
+  "end_date": "2026-11-02",
+  "total_days": 12147,
+  "era5_18h_days": 12145,
+  "causal_fallback_days": 2,
+  "cache_file": "hs_v4/date_meteo/bucuresti_era5_18h.jsonl",
+  "sha256": "5c1f5196814e3074e599566dd5a94afe42f3696a974cae5a0a7ff614f595befe",
+  "bytes": 2234909,
+  "constants": {
+    "R_dry_air_J_kgK": 287.058,
+    "R_water_vapor_J_kgK": 461.495,
+    "tetens_magnus": "610.94 * exp(17.625 * T_C / (T_C + 243.04))"
+  },
+  "summary_stats": {
+    "rho_air_min_kg_m3": 1.106291,
+    "rho_air_mean_kg_m3": 1.213784,
+    "rho_air_max_kg_m3": 1.401237
+  },
+  "queried_urls": [
+    "https://archive-api.open-meteo.com/v1/archive?latitude=44.43&longitude=26.10&start_date=1993-08-01&end_date=1999-12-30&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=Europe%2FBucharest",
+    "https://archive-api.open-meteo.com/v1/archive?latitude=44.43&longitude=26.10&start_date=2000-01-01&end_date=2006-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=Europe%2FBucharest",
+    "https://archive-api.open-meteo.com/v1/archive?latitude=44.43&longitude=26.10&start_date=2007-01-01&end_date=2013-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=Europe%2FBucharest",
+    "https://archive-api.open-meteo.com/v1/archive?latitude=44.43&longitude=26.10&start_date=2014-01-01&end_date=2020-12-31&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=Europe%2FBucharest",
+    "https://archive-api.open-meteo.com/v1/archive?latitude=44.43&longitude=26.10&start_date=2021-01-01&end_date=2026-11-01&hourly=temperature_2m%2Crelative_humidity_2m%2Csurface_pressure&timezone=Europe%2FBucharest"
+  ],
+  "network_warnings": [],
+  "generated_utc": "2026-11-01T23:32:20Z",
+  "positive_claims_allowed": false
+}

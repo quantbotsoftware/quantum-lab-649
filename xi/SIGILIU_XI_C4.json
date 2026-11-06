@@ -1,0 +1,7 @@
+{
+  "protocol": "xi/PROTOCOL_XI_C4.md",
+  "sha256": "e139bc188c972c6020a13f6363b1a08fc39b87d72dd527d1a7c9c1d14cdcd1c4",
+  "sealed_utc": "2026-10-29T22:30:51Z",
+  "note": "sigilat inainte de codul C4",
+  "positive_claims_allowed": false
+}

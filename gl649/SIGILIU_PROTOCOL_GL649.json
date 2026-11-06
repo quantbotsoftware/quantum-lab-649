@@ -1,0 +1,11 @@
+{
+  "protocol": "GL649-P1",
+  "file": "PREINREGISTRARE_GL649.md",
+  "sha256": "20384825d950c47ff284bacfb234199e0b0d2881d3820010619e7ce6d3ef10ae",
+  "bytes": 18563,
+  "sealed_at_utc": "2026-10-25T21:56:02.749481+00:00",
+  "statement": "Sigilat înainte de orice cod GL649 și de orice calcul GL649 (real, sintetic sau construit); directorul gl649/ conține doar protocolul. Derivările Q5/Q6 sunt analitice, în text.",
+  "dir_listing_at_seal": [
+    "PREINREGISTRARE_GL649.md"
+  ]
+}

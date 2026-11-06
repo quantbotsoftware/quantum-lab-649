@@ -1,0 +1,11 @@
+{
+  "joc": "DE_6aus49_sambata",
+  "utc": "2026-10-31T20:36:36Z",
+  "surse_sha256": "b770466f3e87f36830c21e40e1ca6bae2d2740efcc72b004f0dd01e257f9538f",
+  "amendament_citire_sha256": "9ec708316a6418e4610ce7779d2de4fd0669a64fdb0a58aee4b2380e1a8ab25d",
+  "brut_sha256": [
+    "5ec50db49035e8b8e778094b9f1e5f9a279dba16363fa9cbd6dd3265a2f0ce2e"
+  ],
+  "exclus": true,
+  "motiv": "rând invalid în perioada stabilă: 00_lotto6aus49.zip:LOTTO6aus49_2021.xlsx:xl/worksheets/sheet46.xml: rândul 7 necitibil (ValueError); forma: '9;99999;;99;99;9;9;99;99;99;9;999999999;JP;9999999.9999999999;9;9999999.9999999999;99;999999.9;9999;9999.9;9999;999.9;99999;999;999999;99.9;9999999;99.9'"
+}

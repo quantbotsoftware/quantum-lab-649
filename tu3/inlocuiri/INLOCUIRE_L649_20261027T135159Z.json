@@ -1,0 +1,45 @@
+{
+  "record": "INLOCUIRE_L649",
+  "mechanism": "inlocuiri_tu3/v1",
+  "seal": "tu3/SIGILIU_TU3_L649.json",
+  "seal_sha256": "6c85de842bdcfcbcffcffe5992bc2a74c0112b3d433c8377b76e6164fb774b94",
+  "protocol": "tu3/PROTOCOL_TU3_L649.md",
+  "protocol_sha256": "739c37e858e72922f756035217c9220e4c3149ac639a7933243196c68df7168d",
+  "written_utc": "2026-10-27T13:51:59Z",
+  "replacements": {
+    "app.py": {
+      "from": "051dd83951a0c11a04eb273b211721e26992e6e9347dfcb2168880c152eb7c93",
+      "to": "7c5da1e6075cf2ac797fd43e6040c1567392444b295502a1468e9e164c021a47"
+    },
+    "tu3/ui_tu3.py": {
+      "from": "9fe6c4d391200f5a43f7d8c2f2577e94d4f82e2afb31ac02856d02bc3623c19f",
+      "to": "eb0a1a904450e2eb93de43c432576204f83161d2ac7c2ae302b3236f8b199bce"
+    },
+    "tu3/matrice_init.py": {
+      "from": "a8cba0acd614ad3f4519b4c2db2410b7e25c53c4b2fb2a7de43e304e8df60abc",
+      "to": "e657024205e31fadcaeba5959e3634d87852b16862820d9fd0307dfc6ec727fc"
+    },
+    "tu3/validare_tu3.py": {
+      "from": "4363ba2e9466eaaa7dbdefaade3956fe2438fca872623825ed36684e951ef4dc",
+      "to": "7464b945153a26117768d0a8583a2c1e389b2776a3f63f8f4d267f2eee8a09ad"
+    },
+    "tests/test_app_tu3.py": {
+      "from": "20d470968c556f219628b3bacc0f7b3670839b6155812e5cf749040ab350429d",
+      "to": "ea06ef9f8e5403c813733d2517f3ca733a51b70c93a81714c14123fa5bbeffc8"
+    },
+    "tests/test_validare_tu3.py": {
+      "from": "1fbc0485a74f2e9518785c038ac429e696321c5a83e6e3b962c84d14186ff395",
+      "to": "5023cc26fc8ae10aeb7e09663ce3d04d26fad290abcc5192cf2949230c95cb95"
+    },
+    "tests/test_dedup_live.py": {
+      "from": "2779e6e66cbd3de52bdd5a68de7138c4e7b06cf70acc7c9da1aa1a41203bf7ad",
+      "to": "e0f248133ce9f4d394d794183c60ea5e7eca82db38f3a0e0ff0ec7b3f927946d"
+    },
+    "tests/test_lansator_tu3.py": {
+      "from": "4e5b4fcc068ae03af8c6c042147777f908af1c0d6cc4d26503c0580c0e855c70",
+      "to": "7a6862a2b501b291daa3395582ba1b3922db809b1a4ce0dd3bc2165884a0828b"
+    }
+  },
+  "note": "Înlocuire sigilată (PROTOCOL_TU3_L649 §4). Fișierele vechi rămân în sigiliile lor; această înregistrare fixează sha-urile noi. positive_claims_allowed=false.",
+  "positive_claims_allowed": false
+}
