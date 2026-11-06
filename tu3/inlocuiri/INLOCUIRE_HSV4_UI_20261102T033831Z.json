@@ -1,0 +1,21 @@
+{
+  "record": "INLOCUIRE_HSV4_UI",
+  "mechanism": "inlocuiri_tu3/v1",
+  "seal": "hs_v4/SIGILIU_HSV4_UI.json",
+  "seal_sha256": "3fe51b494aca530f16c1d773cbd446954127818ff6d3ee4de0270f46af6aa151",
+  "protocol": "hs_v4/PROTOCOL_HSV4_UI.md",
+  "protocol_sha256": "dc0ae3e70273d478d450a5e86f41e096f1caf5a681b860d819c39cfba1bee4a3",
+  "written_utc": "2026-11-02T03:38:31Z",
+  "replacements": {
+    "tu3/ui_tu3.py": {
+      "from": "e702b243988c36109d016c3d99187270a90afb086c2dfabc3e1dfedeaeac1946",
+      "to": "9cb08ab8cbbdd626d0498567c96df9198d1b1f36483ed1a97990b697736c565a"
+    },
+    "tests/test_scor_real.py": {
+      "from": "d4f7821cffdb1a8796d8a884d2121ea747c1ca360d7979a9ff0e4bc40ba552fa",
+      "to": "63749bce6a4b3f51634e309e8d12133fc61b634a8bfdabcffde2dde9c48e66a7"
+    }
+  },
+  "note": "Înlocuire sigilată (PROTOCOL_TU3_L649 §4). Fișierele vechi rămân în sigiliile lor; această înregistrare fixează sha-urile noi. positive_claims_allowed=false.",
+  "positive_claims_allowed": false
+}

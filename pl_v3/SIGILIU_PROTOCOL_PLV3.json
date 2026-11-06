@@ -1,0 +1,10 @@
+{
+  "protocol": "PLV3-P1",
+  "file": "pl_v3/PROTOCOL_PLV3.md",
+  "sha256": "3ce6aa2738fc38dd41aa9f48a9112613ee59d8ae20662c9d159a9ef9d367d84b",
+  "bytes": 7460,
+  "sealed_utc": "2026-11-01T19:02:45Z",
+  "code_files_present": [],
+  "results_present": false,
+  "positive_claims_allowed": false
+}

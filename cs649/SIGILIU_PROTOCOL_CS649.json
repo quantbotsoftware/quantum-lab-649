@@ -1,0 +1,11 @@
+{
+  "protocol": "CS649-P1",
+  "file": "PREINREGISTRARE_CS649.md",
+  "sha256": "d9c453e4228e9ea49f2430f79c76ec31d52ab66d2bf48bc950bd96a066be1fcf",
+  "bytes": 26894,
+  "sealed_at_utc": "2026-10-26T10:35:02.161871+00:00",
+  "statement": "Sigilat înainte de orice cod CS649 și de orice calcul CS649 (real, sintetic sau construit); directorul cs649/ conține doar protocolul. Derivarea C, constantele exacte ale martorilor Q5/Q6 și estimarea de putere §2.1 sunt analitice/aritmetice, din formule închise, fără model și fără date (calculele de mână în scratch-ul agentului, în afara proiectului).",
+  "dir_listing_at_seal": [
+    "PREINREGISTRARE_CS649.md"
+  ]
+}

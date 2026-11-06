@@ -1,0 +1,11 @@
+{
+  "protocol": "SE649-P1",
+  "file": "PREINREGISTRARE_SE649.md",
+  "sha256": "eaf1fe5089b58b915af1769990d474646a585750cad9851ea95f18caaf396de8",
+  "bytes": 21971,
+  "sealed_at_utc": "2026-10-25T22:50:21.380713+00:00",
+  "statement": "Sigilat înainte de orice cod SE649 și de orice calcul SE649 (real, sintetic sau construit); directorul se649/ conține doar protocolul. Derivările Q5/Q6 (Derivarea B) și estimarea de putere §2.1 sunt analitice/de mână, în text.",
+  "dir_listing_at_seal": [
+    "PREINREGISTRARE_SE649.md"
+  ]
+}

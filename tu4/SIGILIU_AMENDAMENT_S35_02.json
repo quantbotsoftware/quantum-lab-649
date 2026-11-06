@@ -1,0 +1,24 @@
+{
+  "amendament": "tu4/AMENDAMENT_S35_02.md",
+  "sha256": "13d7b1f978ee8ea6fbc9c7146d2a0d83f14617134613ed0fe87552385f88d3a1",
+  "incident": "tu4/rezultate/S35/INCIDENT_S35_02.json",
+  "incident_sha256": "fc7125c576852bdfff3bc4917ee921219c0988cb63825344c06197ad02e95e62",
+  "protocol_sha256": "5a76b773c3aa31f72c7b3f2df26328541e6d0e652dd14c81be8552c9a3124cbd",
+  "seal_S35_sha256": "7a74d65c602518797724ccb96698bda0f83ef504a29b07443c2476c79a6b799d",
+  "amendament_S35_01_sha256": "3cc67d36f470dbe99d781fa8658570324eeefa34d6c3455fe7c84f1f7fcaf8c0",
+  "tinte_manifest": {
+    "next_candidate/quantum_limit/__pycache__/ceiling.cpython-312.pyc": "aadb0d827a8d0299fd3c9776bc28686ccf2f06b7f55ab8eb796c6e869afacfa3",
+    "next_candidate/quantum_limit/__pycache__/combinatorics.cpython-312.pyc": "090f6d5e409adc260d20c6de2c7122f1a8b3387064b61cc14c95b07d4c31d700"
+  },
+  "copii_octeti_vii": {
+    "tu4/rezultate/S35/incident_02/ceiling.cpython-312.pyc": "4dc02b648d6c1f7757f293a999e1851d80e320f2d9bf971df824d3ec86636b25",
+    "tu4/rezultate/S35/incident_02/combinatorics.cpython-312.pyc": "574aff941889c866d0bd38bb5fff195435e1ac30148e497d0e3a1f2a96b9d104"
+  },
+  "code_files_present": [],
+  "code_files_planned": [
+    "tu4/rezultate/S35/incident_02/restaureaza_pyc.py"
+  ],
+  "sealed_utc": "2026-10-30T12:53:44Z",
+  "note": "sigilat inainte de reconstructie, restaurare si cod nou",
+  "positive_claims_allowed": false
+}

@@ -1,0 +1,13 @@
+{
+  "faza": "P4",
+  "sealed_utc": "2026-11-01T14:51:06Z",
+  "protocol_sha256": "8d56aeafdb602befb9c91ac644a744e6b1d449774168d82fdc4ebd804fe66af3",
+  "code_seal_sha256": "f2328ee2e29d7bbbe7892d9124a907b94751dc010c330b2a7bf36dbfd061454d",
+  "dev_rezultate_sha256": "7a00a511f3747b206714bc10b55dea2280ee422e2e76181f21e09fd718d8f286",
+  "verificare_dev_sha256": "c950b470d15cd370e43c3fe630167c8f4a708cb4f1cc52078daae6b647d87e8c",
+  "verificare_dev_verdict": "PASS",
+  "candidati_ro": [],
+  "supravietuitori_dev_strain": [],
+  "rezerve_deschise": false,
+  "positive_claims_allowed": false
+}

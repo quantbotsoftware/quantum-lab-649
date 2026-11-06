@@ -1,0 +1,38 @@
+{
+  "joc": "US_powerball",
+  "utc_start": "2026-10-31T20:33:07Z",
+  "fisiere": [
+    {
+      "url": "https://data.ny.gov/api/views/d6yy-54nr/rows.csv?accessType=DOWNLOAD",
+      "incercari": [
+        {
+          "utc": "2026-10-31T20:33:09Z",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "url_final": "https://data.ny.gov/api/views/d6yy-54nr/rows.csv?accessType=DOWNLOAD",
+      "utc": "2026-10-31T20:33:09Z",
+      "headers": {
+        "Date": "Sat, 31 Oct 2026 20:33:08 GMT",
+        "Last-Modified": "Thu, 29 Oct 2026 07:38:55 GMT",
+        "ETag": "W/\"Zm94dHJvdC42MDg0XzM3Nl8yMzI1d1hmUGx2b2RHcnFIRUxoLUlYZjQyNDVNamdr---gzipaAENr50SWjv_iIEPCwjvU2jCjbI--gzip--gzip\"",
+        "Content-Type": "text/csv; charset=utf-8",
+        "Content-Disposition": "attachment; filename=Lottery_Powerball_Winning_Numbers__Beginning_2010.csv"
+      },
+      "fisier": "date_p2/US_powerball/sigilat/00_US_powerball_rows.csv",
+      "octeti": 65540,
+      "sha256": "d3b9ad2df780f5e2dcf8362a8725f0fc91672ef46a3ccb948f91454815d3c620",
+      "structura": {
+        "nume": "00_US_powerball_rows.csv",
+        "octeti": 65540,
+        "sha256": "d3b9ad2df780f5e2dcf8362a8725f0fc91672ef46a3ccb948f91454815d3c620",
+        "linii_nevide": 2019,
+        "forma_prima": "Draw Date,Winning Numbers,Multiplier,double_play_winning_numbers",
+        "forma_a_doua": "99/99/9999,99 99 99 99 99 99,9,99 99 99 99 99 99",
+        "forma_ultima": "99/99/9999,99 99 99 99 99 99,9,99 99 99 99 99 99"
+      }
+    }
+  ],
+  "utc_sfarsit": "2026-10-31T20:33:09Z"
+}

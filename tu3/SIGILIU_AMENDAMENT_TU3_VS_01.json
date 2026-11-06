@@ -1,0 +1,11 @@
+{
+  "amendment": "TU3-VS-01",
+  "file": "AMENDAMENT_TU3_VS_01.md",
+  "sha256": "a5ce18ab1202374cabd2b32b9a4bbbc0d0884dd9cae231ca2316c3baaac7a9ca",
+  "parent_protocol_sha256": "7f448d21052083b01b8f77db50aaa3d0c540e1fd1f1e40c71af2ae18ed39e7a1",
+  "incident_sha256": "e6497a9caeb7ce145ebcd8afdc52114d992385db290144534fcf18889d8e166a",
+  "run_app_sh_at_seal": "1236442e3c7b28df15af6a9378997f0847abc540cdcc1b2135719e68e86c783d",
+  "run_app_tu3_present": false,
+  "sealed_utc": "2026-10-26T18:20:29Z",
+  "positive_claims_allowed": false
+}

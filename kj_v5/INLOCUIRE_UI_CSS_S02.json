@@ -1,0 +1,16 @@
+{
+  "protocol_id": "KJV5-RCV2-S02",
+  "record": "INLOCUIRE_UI_CSS_S02",
+  "seal": "kj_v5/SIGILIU_COD_KJV5.json",
+  "seal_sha256": "c47b2edb6b47d11310770f545f4c9b89d1d0d691c30ff10f6488cebb6e6e8105",
+  "reason": "Cerere utilizator: eliminarea fundalului alb GTK/WebKitGTK din casetele <select> și <input> prin color-scheme: dark + appearance: none + fundal #141e36. Zero modificări în codul matematic Rust sau în rezultatele KJ-V5.",
+  "replacements": {
+    "rust_core_v2/ui/style.css": {
+      "previous_sha256": "9ec0d7e0832b73fc8aed97614794b85f084b9890ec218fe0ca7ffe55b439d065",
+      "new_sha256": "96afd47d18142fd5c1e9be5f9c43bb8e407986c201232e1b2f05e3f2461e42b3",
+      "s01_backup_path": "./ssd_data/RUST_CORE_V2_S01/sursa/ui/style.css"
+    }
+  },
+  "written_utc": "2026-11-03T18:00:09Z",
+  "positive_claims_allowed": false
+}

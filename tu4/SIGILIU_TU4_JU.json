@@ -1,0 +1,89 @@
+{
+ "protocol": "TU4-JU",
+ "session": "S13",
+ "document": {
+  "file": "tu4/PROTOCOL_TU4_JU.md",
+  "sha256": "85dad3122a7dc93facfd28967593cb4eb3d1a594f1d917f5d228a684aa551e99",
+  "bytes": 17719
+ },
+ "frozen_hashes": {
+  "tu4/PROTOCOL_TU4_JU.md": "85dad3122a7dc93facfd28967593cb4eb3d1a594f1d917f5d228a684aa551e99",
+  "tu4/PLAN_SESIUNI_TU4_v2_20261027.md": "32533d53c9390172b9a4cea81ae0640a3d19b0d786388a1e7d04c15ac5ac4734",
+  "tu4/PROTOCOL_TU4_EM.md": "146078ef2a752bf9d9f9a99766074fdea99ec3fbf57a2087b0ce7374c7248047",
+  "tu4/SIGILIU_TU4_EM.json": "82459f48458ef2ee248784929ea2c4c18ae60469b0084e4a7345910a7b5c53c7",
+  "tu4/SIGILIU_TU4_EM_COD.json": "6e4ebf9b2693807dd1926e5862d251cd27bef0e2b1d0d4d041def6628e322a15",
+  "tu4/emite.py": "3c43f0f2da4f59a32b9903fa39b147701dbd18fcff97b76c63e37d5c3200ce69",
+  "tu4/ip_core.py": "ab3e1de93d8e5ae537a8c80599905aaa19cc103602f9b18f4b7f7f6f8a48c302",
+  "tu4/verifica_em.py": "1bada90e6e852fed2569cef12caa6b53ca38c98809b09551fe2f6b962426dc52",
+  "tu4/porneste_emitere.sh": "bb6bb64c44d102ba660780c1600010f7753201861c621c6b50dfd91fba30d1fb",
+  "tu4/systemd/ql649-tu4-emitere.service": "7fc03956fe1957454105333082ef7b5d5ac9cabd065c7e4cacaeed53211f6932",
+  "tu4/systemd/ql649-tu4-emitere.timer": "b3f0f9bf1746bc3ea9b2080a83605e48ef16e2a35bafd4babe7e3f7377bc8a6e",
+  "tu4/tribunal/emisii/649/2026-10-29.json": "e2fe385ecad12ac85cb870f9301ee64eee4ac1f78696656c32dd4278ddcb1947",
+  "tu4/tribunal/emisii/540/2026-10-29.json": "a15dc8fdbad6c165cf45ce5290790120ecdd0a2e752a370bcbf45869e2e06098",
+  "tu4/tribunal/emisii/joker/2026-10-29.json": "092e3f5c610a7b000e47467d572558d8b6bb45cf94b6b6315333312e64990a74",
+  "tu4/rezultate/EM/RAPORT_EM.md": "e72ea6563aaf11b25ee329a71e2195f7930c658080260ab0145c9e6f89e97964",
+  "tu4/rezultate/JU/primul_pas_S13.log": "d4eeaca4d9eec1a83cc57fa4efbee55d135aa130a0353e20b26778629aa1cc2a"
+ },
+ "constants": {
+  "streams": [
+   "H1_649",
+   "H1_540",
+   "H1_joker",
+   "H3_649",
+   "H3_540",
+   "H3_joker"
+  ],
+  "M": 6,
+  "explore_threshold": 600,
+  "explore_ln": "ln(600)",
+  "retire_ln": -10,
+  "confirm_threshold": 20,
+  "confirm_ln": "ln(20)",
+  "void_grace_days": 14,
+  "match_rule": "unique draw_kind=regular record with draw_date=D, no source disagreement; >=2 => VOID; absent/disagreement past draw_utc+14d => VOID",
+  "admissibility": "emitted_utc < cutoff_utc < draw_utc; Thu/Sun 18:30/16:00 Europe/Bucharest; sealed EM code",
+  "gpu_gate_abs": 1e-09,
+  "verifier_tol_abs": 1e-10,
+  "calibration": {
+   "R": 10000,
+   "seed": 2026102713,
+   "H": 520,
+   "N_warm": {
+    "649": 2597,
+    "540": 2490,
+    "joker": 2202
+   },
+   "gates": [
+    "C1 per-stream hits ln600 <= q999 Bin(R,1/600)",
+    "C2 family hits <= q999 Bin(R,0.01)",
+    "C3 per-stream sup>=ln20 <= q999 Bin(R,0.05)",
+    "C4 |mean-1|<=5 sd/sqrt(R)",
+    "C5 GPU=CPU 1e-9"
+   ]
+  },
+  "torch_compile": {
+   "mode": "max-autotune-no-cudagraphs",
+   "fullgraph": true,
+   "dynamic": false
+  },
+  "ssd": {
+   "uuid": "5af1b939-865f-4eab-bf45-38983451b704",
+   "mount": "./ssd_data",
+   "dir": "QL649_TU4_JU",
+   "matrix": "SCORURI_JU.mmap",
+   "row_bytes": 160,
+   "header_bytes": 512
+  },
+  "units": [
+   "ql649-tu4-judecator.service",
+   "loto-actualizare.service.d/tu4-judecator.conf"
+  ]
+ },
+ "emissions_existing_at_seal": 3,
+ "settlements_before_seal": 0,
+ "code_written_before_seal": false,
+ "ram_bypass_claimed": false,
+ "user_decision": "Mesajul 56 (S13 JU)",
+ "sealed_utc": "2026-10-27T21:57:49Z",
+ "positive_claims_allowed": false
+}

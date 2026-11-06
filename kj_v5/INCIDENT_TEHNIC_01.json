@@ -1,0 +1,25 @@
+{
+  "protocol_id": "KJV5-RCV2-P1",
+  "local_utc": "2026-11-03T16:38:50Z",
+  "category": "pre_archive_synthetic_test_harness_construction",
+  "technical_incidents": 1,
+  "stage": "rust_core_v2/src/kjv5/qualify.rs synthetic pre-archive harness (Q2/Q3/Q4) before any archive read",
+  "error": "Three test-harness bugs in qualify.rs only: (1) Q2 aggregated all 110 PSL(2,11) 3-orbits (330 draws/step) into one step, diluting ||Phi(M_1)||_F^2 to 0.098 vs lambda_K2=16.0 (E_S=3.67 while antipodal_err=5.59e-16 and chiral tickets passed); (2) Q3 single-draw 80-cycle had uneven u=4 vs u=0 positions under rho_sh=exp(-1/128), shifting shell_c1 to -0.0104 despite exact empirical mean overlap 1.0 and E_S=1.96e53; (3) Q4 line 754 compared z_packs[m][0] by raw canonical slot instead of matching permuted conditioning draws at multi-draw step s=24 (m_day=2), while max_pi_err=5.55e-17, max_w_err=2.50e-16 and ticket_equivariant_exact=true passed on all 3 games.",
+  "archive_files_read": 0,
+  "historical_targets_computed": 0,
+  "protocol_modified": false,
+  "engine_equations_or_thresholds_modified": false,
+  "untouched_engine_sha256": {
+    "next_candidate/quantum_lab_649/kj_v5/PROTOCOL_KJV5_RUST_V2.md": "1ba5e6ce38e87eeba2542edb85df9f511fbfb3a5e32d9d0efbfc66aa94749201",
+    "rust_core_v2/src/kjv5/koopman_v2.rs": "d926e7c710305789b8cd5401f401e6928542b9d91a6c988e9edcc7bc7d68e39c",
+    "rust_core_v2/src/kjv5/krawtchouk.rs": "4bfb9680e3d858f704b462c299b2d9f2822f7a970e25ab0a92d35497db62668f",
+    "rust_core_v2/src/kjv5/mod.rs": "e8d3d062ea41c9d838aa729dd19e4353efdf640767540056f0c65688e6748d24",
+    "rust_core_v2/src/kjv5/multiplet.rs": "0058088ac056fac33f5b0a64fe21e2cc99803abb2ee2f6515c192fdc0f61cc28",
+    "rust_core_v2/src/kjv5/partition.rs": "a87baa35cb7ef624808fb64db313bc926d306b276af1691e19f6016287dedab3"
+  },
+  "correction": "Update qualify.rs ONLY (preserving all protocol equations, constants and thresholds untouched): (1) Q2 uses the 11-orbit Bose cyclic resolvable 2-design RBIBD(12,4,3) (33 draws/step, ||Phi(M_1)||_F^2 = 0.3526); (2) Q3 uses column-stabilized AG(2,4) parallel-class blocks where every transition t-1->t has exact mean overlap 1.0 and bar_psi_1^(t) == 0 to 1e-16; (3) Q4 matches each conditioning draw u in prev_draws to its exact permuted image in steps_perm.",
+  "archived_files": {
+    "incidente/01/CALIFICARE_Q_KJV5_INCIDENT_01.json": "b4a0a26496d17319a42134eb911679d1cc0bb1d7da2798496e7b007f930b2110",
+    "incidente/01/qualify_v0.rs": "b296645221d4c4c331c7c4376ea5824c6d9a9a8c65f2074cd024eaa0f68be5b6"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "joc": "US_powerball",
+  "utc": "2026-10-31T20:33:26Z",
+  "surse_sha256": "b770466f3e87f36830c21e40e1ca6bae2d2740efcc72b004f0dd01e257f9538f",
+  "amendament_citire_sha256": null,
+  "brut_sha256": [
+    "d3b9ad2df780f5e2dcf8362a8725f0fc91672ef46a3ccb948f91454815d3c620"
+  ],
+  "statistici_citire": {
+    "fisiere": [
+      {
+        "nume": "00_US_powerball_rows.csv",
+        "randuri_date": 2018
+      }
+    ],
+    "randuri_antet": 1,
+    "randuri_inainte_start": 592,
+    "randuri_dupa_sfarsit": 0,
+    "randuri_alta_zi": 0,
+    "duplicate_exacte": 0
+  },
+  "T": 1426,
+  "R": 285,
+  "T_dev": 1141,
+  "dev_sha256": "cd5aa83ad627c296117bfaf5df0451b10343983abc1e154b38a5351b85985e40",
+  "rezerva_sha256": "afc3387713acb021b99cab2d4ea7f847e168c2f57207cfec03a286d8fc1bee0f",
+  "dev_prima_data": "2015-10-07",
+  "dev_ultima_data": "2025-01-01",
+  "rez_prima_data": "2025-01-04",
+  "rez_ultima_data": "2026-10-28"
+}

@@ -1,0 +1,483 @@
+[
+  {
+    "key": "official_2026_10",
+    "status": "downloaded",
+    "bytes": 140956,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/649_si_noroc/rezultate_extragere.html",
+        "method": "POST",
+        "request_sha256": "c98996440a34abf9e7598dee9b329d4ab04d1f1b6267a0c68cb8f67813984845",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:17.413002+00:00",
+          "monotonic_ns": 16533339486876,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/649_si_noroc/rezultate_extragere.html",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:15 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "b1b7e4a6c471c9842fdde60b6f4670d4195e689e07113bd05256844d75955619",
+        "bytes": 140956,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:17.737373+00:00",
+          "monotonic_ns": 16533663857271,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "official_540_2026_10",
+    "status": "downloaded",
+    "bytes": 132616,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/540_si_super_noroc/rezultate_extrageri.html",
+        "method": "POST",
+        "request_sha256": "c98996440a34abf9e7598dee9b329d4ab04d1f1b6267a0c68cb8f67813984845",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:17.413501+00:00",
+          "monotonic_ns": 16533339983554,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/540_si_super_noroc/rezultate_extrageri.html",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:15 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "321c90fc48c7a8051d66263f083dc187b08a6ef08b9eca8121d46fb2d9d1b463",
+        "bytes": 132616,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:17.780862+00:00",
+          "monotonic_ns": 16533707346544,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "official_joker_2026_10",
+    "status": "downloaded",
+    "bytes": 142901,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/joker_si_noroc_plus/rezultate_extrageri.html",
+        "method": "POST",
+        "request_sha256": "c98996440a34abf9e7598dee9b329d4ab04d1f1b6267a0c68cb8f67813984845",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:18.094584+00:00",
+          "monotonic_ns": 16534021068888,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/joker_si_noroc_plus/rezultate_extrageri.html",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:15 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "6e9bd39e448d1133aecf034d96c1cf6afb864ce96fa5b3d5ddad47a79b20b45a",
+        "bytes": 142901,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:18.419125+00:00",
+          "monotonic_ns": 16534345609832,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "official_2026_11",
+    "status": "downloaded",
+    "bytes": 93575,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/649_si_noroc/rezultate_extragere.html",
+        "method": "POST",
+        "request_sha256": "cdcdf6ab305af03256c011683076f0482db89c2533cd8a03c87f6a53405a998f",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:18.136486+00:00",
+          "monotonic_ns": 16534062970498,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/649_si_noroc/rezultate_extragere.html",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:15 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "0ea50d5740ec33314ff353b59e49335f13d1d1b7d0454ad1f7a27a69051e7a37",
+        "bytes": 93575,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:18.433489+00:00",
+          "monotonic_ns": 16534359971698,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "official_540_2026_11",
+    "status": "downloaded",
+    "bytes": 90485,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/540_si_super_noroc/rezultate_extrageri.html",
+        "method": "POST",
+        "request_sha256": "cdcdf6ab305af03256c011683076f0482db89c2533cd8a03c87f6a53405a998f",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:18.774786+00:00",
+          "monotonic_ns": 16534701269883,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/540_si_super_noroc/rezultate_extrageri.html",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:16 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "05f887208e010724b00669eefedb9cbe08a3cc932dde37cbf99a3ee6da2b4b48",
+        "bytes": 90485,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:19.080638+00:00",
+          "monotonic_ns": 16535007122882,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "official_joker_2026_11",
+    "status": "downloaded",
+    "bytes": 92628,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/joker_si_noroc_plus/rezultate_extrageri.html",
+        "method": "POST",
+        "request_sha256": "cdcdf6ab305af03256c011683076f0482db89c2533cd8a03c87f6a53405a998f",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:18.787603+00:00",
+          "monotonic_ns": 16534714083451,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto.ro/loto-new/newLotoSiteNexioFinalVersion/web/app2.php/jocuri/joker_si_noroc_plus/rezultate_extrageri.html",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:16 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "3cf0058e218b588cb517b4638fe0aff8e8b4695f0ff48bd69f1db55be30e6a21",
+        "bytes": 92628,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:19.092576+00:00",
+          "monotonic_ns": 16535019057638,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "secondary_6",
+    "status": "downloaded",
+    "bytes": 161237,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto49.ro/arhiva-loto49.php",
+        "method": "GET",
+        "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:19.434924+00:00",
+          "monotonic_ns": 16535361409502,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto49.ro/arhiva-loto49.php",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:18 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "9534384c9aa98884c32860d96ca07c3f53b4bc5bca6749ec12d67ca2a45859d3",
+        "bytes": 161237,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:19.502803+00:00",
+          "monotonic_ns": 16535429287510,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "secondary_540_0",
+    "status": "failed",
+    "error": "Tabelul secundar nu a fost găsit.",
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto49.ro/arhiva-superloto.php",
+        "method": "GET",
+        "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:19.446663+00:00",
+          "monotonic_ns": 16535373145506,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto49.ro/arhiva-superloto.php",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:18 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "568273343c0b7b96d13769956d4df7c0696f7b95ffc48bfdbf737a1346abf7d9",
+        "bytes": 305361,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:19.520612+00:00",
+          "monotonic_ns": 16535447094967,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      },
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto49.ro/arhiva-superloto.php",
+        "method": "GET",
+        "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:21.521330+00:00",
+          "monotonic_ns": 16537447817328,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto49.ro/arhiva-superloto.php",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:20 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "568273343c0b7b96d13769956d4df7c0696f7b95ffc48bfdbf737a1346abf7d9",
+        "bytes": 305361,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:21.603923+00:00",
+          "monotonic_ns": 16537530406270,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      },
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto49.ro/arhiva-superloto.php",
+        "method": "GET",
+        "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:25.604471+00:00",
+          "monotonic_ns": 16541530955010,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto49.ro/arhiva-superloto.php",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:24 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "568273343c0b7b96d13769956d4df7c0696f7b95ffc48bfdbf737a1346abf7d9",
+        "bytes": 305361,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:25.684046+00:00",
+          "monotonic_ns": 16541610530249,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  },
+  {
+    "key": "secondary_joker_0",
+    "status": "downloaded",
+    "bytes": 289023,
+    "http_attempts": [
+      {
+        "schema": "http-evidence-v1",
+        "requested_url": "https://www.loto49.ro/arhiva-joker.php",
+        "method": "GET",
+        "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "request_headers": {
+          "User-Agent": "LotoLocalResearch/2.1 (personal historical archive)",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "start": {
+          "utc": "2026-11-05T18:30:19.860865+00:00",
+          "monotonic_ns": 16535787351774,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        },
+        "final_url": "https://www.loto49.ro/arhiva-joker.php",
+        "status": 200,
+        "headers": {
+          "date": [
+            "Thu, 05 Nov 2026 18:30:19 GMT"
+          ],
+          "age": [],
+          "etag": [],
+          "last-modified": [],
+          "cache-control": [
+            "no-cache"
+          ],
+          "via": [],
+          "warning": []
+        },
+        "sha256": "3adadffc4a1faa3df1838cffd7b5a81816771b32a406dc1071cfa526fa637e72",
+        "bytes": 289023,
+        "error": null,
+        "end": {
+          "utc": "2026-11-05T18:30:19.955648+00:00",
+          "monotonic_ns": 16535882133721,
+          "boot_id": "45708f1d-f42b-4419-b361-6d2ab2a8e6dd"
+        }
+      }
+    ]
+  }
+]

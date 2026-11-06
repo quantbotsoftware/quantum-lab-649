@@ -1,0 +1,30 @@
+{
+ "protocol": "TU4-JU",
+ "session": "S13",
+ "kind": "code_seal",
+ "protocol_seal": {
+  "file": "tu4/SIGILIU_TU4_JU.json",
+  "sha256": "5dcc0a4252acf9d504b5bbc11e13816595638839628d53349fd9c08082533093"
+ },
+ "files": {
+  "tu4/judecator.py": "8117e8a37c1ee82dbc0a10f8ba0b2506a2d62641cff9216297108e2882df868b",
+  "tu4/calibrare_ju.py": "f8651572a1147b50e12f192d84f589eab0a3ac344853595304aa98c27ac80746",
+  "tu4/verifica_ju.py": "242163945ceb2a46b009b6c3ee16e95aad0e9a856af60d25276d62fa631bd513",
+  "tu4/porneste_judecator.sh": "c01603ad782d9b7b821e3d4a6bc0028c1c8830de8ce2bd1a1e221e2cea9584df",
+  "tu4/systemd/ql649-tu4-judecator.service": "95cbff1f8b6fa98f542f3950135310ef216bc68eac657c6937295e90146301dd",
+  "tu4/systemd/tu4-judecator.conf": "6129403fcf66d67e6994fc31df5a4caa66750456e2f7f5c616f2766a575dde1b",
+  "tu4/tests/test_ju.py": "e05846fed253ebd8cffd4ddcbe96d85f3cf8f429c3df18641b8b8f96e80fffc4"
+ },
+ "ip_core_sha256": "ab3e1de93d8e5ae537a8c80599905aaa19cc103602f9b18f4b7f7f6f8a48c302",
+ "emite_sha256": "3c43f0f2da4f59a32b9903fa39b147701dbd18fcff97b76c63e37d5c3200ce69",
+ "tests": {
+  "command": ".venv/bin/python -B -m pytest -q -p no:cacheprovider tu4/tests/",
+  "result": "33 passed, 14 warnings in 7.54s (test_ju.py: 13 passed la prima rulare)"
+ },
+ "gpu_mirror_probe": "rădăcină sintetică: 4 nuclee compiled:max-autotune-no-cudagraphs:fullgraph pe cuda, |Δ| ≤ 3.6e-15",
+ "defects_found_before_seal": "niciunul (testele au trecut la prima rulare; o simplificare a ramurii V8 «matrice lipsă» din verificator înainte de prima rulare)",
+ "real_settlements_before_seal": 0,
+ "calibration_before_seal": false,
+ "sealed_utc": "2026-10-27T22:06:35Z",
+ "positive_claims_allowed": false
+}

@@ -1,0 +1,10 @@
+{
+  "protocol": "xi/PROTOCOL_XI_C2.md",
+  "sha256": "85bf9fef2bf960a8f4643c0303abb0e8e9cb9dc30cafb8fc366feeec49503fbc",
+  "sealed_utc": "2026-10-30T16:02:24Z",
+  "database_sha256": "9942abfc25282a715cba70e4f6d17a885a467eaf5fe0440838dc28114003c078",
+  "code_files_present": [],
+  "code_files_planned": ["xi/c2/backtest_c2.py"],
+  "note": "sigilat inainte de codul C2 si de orice calcul pe extragerile tinta",
+  "positive_claims_allowed": false
+}
