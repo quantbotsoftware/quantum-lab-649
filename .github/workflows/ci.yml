@@ -1,0 +1,51 @@
+name: CI
+
+# Runs the public-subset test suite on CPU-only PyTorch. The remaining tests in tests/ depend on
+# private seal/reserve files that are intentionally not shipped (see README → "Not shipped / on request").
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    name: pytest (public subset) · Python ${{ matrix.python }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install dependencies (CPU-only torch wheel, then requirements.txt)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch>=2.4"
+          python -m pip install -r requirements.txt
+      - name: Byte-compile every shipped module
+        run: python -m compileall -q .
+      - name: pytest (engine · parser · validation · gl649 · app smoke)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python -m pytest -q -p no:cacheprovider \
+            gl649/tests/test_gl649.py \
+            tests/test_app.py \
+            tests/test_engine.py \
+            tests/test_parser.py \
+            tests/test_validare.py

@@ -1,8 +1,8 @@
 {
   "app": "quantum-lab-649",
   "name": "Quantum Lab 649",
-  "version": "1.0.6",
-  "suite_version": "1.0.6",
+  "version": "1.0.7",
+  "suite_version": "1.0.7",
   "released_at": "2026-11-06",
   "license": "MIT",
   "as_is_no_warranty": true,

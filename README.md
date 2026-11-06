@@ -1,5 +1,7 @@
 # Quantum Lab 649 — Classical Combinatorial & Spectral Observatory (Python + PyTorch + Streamlit)
 
+[![CI](https://github.com/quantbotsoftware/quantum-lab-649/actions/workflows/ci.yml/badge.svg)](https://github.com/quantbotsoftware/quantum-lab-649/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23992530.svg)](https://doi.org/10.5281/zenodo.23992530) [![Hub](https://img.shields.io/badge/hub-bot--tradingsoftware.com-0a7)](https://bot-tradingsoftware.com/)
+
 ![License: MIT](https://img.shields.io/badge/license-MIT-10b981) ![Claims: None](https://img.shields.io/badge/positive__claims__allowed-false-ef4444) [![Donations: Good Samaritans](https://img.shields.io/badge/donations-good%20samaritans-ec4899)](https://ko-fi.com/quantbotsoftware)
 
 > ⚠️ **STRICTLY AS-IS · CLASSICAL COMPUTATION ONLY · DOES NOT PREDICT WINNING NUMBERS (`positive_claims_allowed = false`):**
@@ -87,3 +89,10 @@ care rămâne înghețată.
 - Fișierele sursă ale pictogramei: `assets/quantum_lab_649.svg`, `assets/quantum-lab-649.desktop` (instalat în
   `~/.local/share/applications/` și `~/Desktop/`; dacă se mută repo-ul, se actualizează căile din `.desktop`).
 
+
+
+## ✅ Continuous Integration
+
+Every push to `main` byte-compiles every module and runs the **public-subset pytest suite (40 tests: engine, parser, validation, gl649, app smoke) on Python 3.11 and 3.12** with CPU-only PyTorch. The remaining tests in `tests/` need the private seal/reserve files that are intentionally not shipped (see *Not shipped / on request*) and are therefore not run in CI — we would rather show 40 real green tests than 190 fake ones.
+
+Workflow: [`.github/workflows/ci.yml`](.github/workflows/ci.yml) · runs: [https://github.com/quantbotsoftware/quantum-lab-649/actions](https://github.com/quantbotsoftware/quantum-lab-649/actions). No secrets, no broker or network calls, no telemetry — fork it and the same checks run for you.
